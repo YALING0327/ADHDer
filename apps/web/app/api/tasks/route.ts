@@ -1,16 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@adhder/db/src/client";
-import { getSession } from "@/app/lib/auth";
+import { getSession, getSessionFromRequest } from "@/app/lib/auth";
+import { CORS_HEADERS } from "@/app/lib/cors";
 
-export async function GET() {
-  const session = getSession();
+export async function GET(req: NextRequest) {
+  const session = getSessionFromRequest(req) || getSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   const tasks = await prisma.task.findMany({ where: { uid: session.uid }, orderBy: { createdAt: "desc" } });
-  return NextResponse.json({ tasks });
+  return new NextResponse(JSON.stringify({ tasks }), { headers: CORS_HEADERS });
 }
 
 export async function POST(req: NextRequest) {
-  const session = getSession();
+  const session = getSessionFromRequest(req) || getSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   const { title, type, due } = await req.json();
   if (!title || (type !== "free" && type !== "ddl")) {
@@ -19,7 +20,11 @@ export async function POST(req: NextRequest) {
   const task = await prisma.task.create({
     data: { uid: session.uid, title, type, due: due ? new Date(due) : undefined },
   });
-  return NextResponse.json({ task });
+  return new NextResponse(JSON.stringify({ task }), { headers: CORS_HEADERS });
+}
+
+export async function OPTIONS() {
+  return new NextResponse(null, { headers: CORS_HEADERS });
 }
 
 

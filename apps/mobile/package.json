@@ -21,6 +21,7 @@
     "react-native-screens": "^3.32.0",
     "expo-haptics": "~13.0.1",
     "expo-av": "~14.0.5",
+    "@react-native-async-storage/async-storage": "^1.23.1",
     "@adhder/sdk": "workspace:*"
   },
   "devDependencies": {

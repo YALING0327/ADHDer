@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@adhder/db/src/client";
-import { getSession } from "@/app/lib/auth";
+import { getSession, getSessionFromRequest } from "@/app/lib/auth";
 
 export async function POST(req: NextRequest) {
-  const session = getSession();
+  const session = getSessionFromRequest(req) || getSession();
   const { name, data } = await req.json();
   if (!name) return NextResponse.json({ error: "invalid" }, { status: 400 });
   const item = await prisma.event.create({ data: { uid: session?.uid ?? null, name, data } });

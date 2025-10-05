@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@adhder/db/src/client";
 import jwt from "jsonwebtoken";
+import { CORS_HEADERS } from "@/app/lib/cors";
 
 const JWT_SECRET = process.env.JWT_SECRET || "dev-secret";
 
@@ -22,9 +23,13 @@ export async function POST(req: NextRequest) {
   }
 
   const token = jwt.sign({ uid: user.id, email: user.email }, JWT_SECRET, { expiresIn: "30d" });
-  const res = NextResponse.json({ ok: true });
+  const res = new NextResponse(JSON.stringify({ ok: true, token }), { headers: CORS_HEADERS });
   res.cookies.set({ name: "auth", value: token, httpOnly: true, secure: true, sameSite: "lax", path: "/" });
   return res;
+}
+
+export async function OPTIONS() {
+  return new NextResponse(null, { headers: CORS_HEADERS });
 }
 
 

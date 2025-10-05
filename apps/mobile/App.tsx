@@ -1,9 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import React, { useMemo, useRef } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeAreaView, Text, View, PanResponder, GestureResponderEvent, PanResponderGestureState } from 'react-native';
 import * as Haptics from 'expo-haptics';
+import LoginScreen from './screens/LoginScreen';
+import { getToken } from './src/auth';
+import { api } from './src/api';
 
 function HomeScreen() {
   return (
@@ -107,16 +110,23 @@ function SleepScreen() {
 const Tab = createBottomTabNavigator();
 
 export default function App() {
+  const [isAuthed, setAuthed] = useState<boolean | null>(null);
+  useEffect(() => { (async () => { const t = await getToken(); setAuthed(!!t); })(); }, []);
+  if (isAuthed === null) return null;
   return (
     <NavigationContainer>
-      <Tab.Navigator screenOptions={{ headerShown: false }}>
-        <Tab.Screen name="首页" component={HomeScreen} />
-        <Tab.Screen name="待办" component={TasksScreen} />
-        <Tab.Screen name="专注" component={FocusScreen} />
-        <Tab.Screen name="佛珠" component={FidgetScreen} />
-        <Tab.Screen name="想法" component={IdeasScreen} />
-        <Tab.Screen name="助眠" component={SleepScreen} />
-      </Tab.Navigator>
+      {isAuthed ? (
+        <Tab.Navigator screenOptions={{ headerShown: false }}>
+          <Tab.Screen name="首页" component={HomeScreen} />
+          <Tab.Screen name="待办" component={TasksScreen} />
+          <Tab.Screen name="专注" component={FocusScreen} />
+          <Tab.Screen name="佛珠" component={FidgetScreen} />
+          <Tab.Screen name="想法" component={IdeasScreen} />
+          <Tab.Screen name="助眠" component={SleepScreen} />
+        </Tab.Navigator>
+      ) : (
+        <LoginScreen onLoggedIn={() => setAuthed(true)} />
+      )}
       <StatusBar style="auto" />
     </NavigationContainer>
   );
