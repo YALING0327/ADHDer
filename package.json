@@ -1,0 +1,28 @@
+{
+  "name": "adhder",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ADHDer monorepo (web: Next.js, mobile: Expo, db: Neon via Prisma)",
+  "packageManager": "pnpm@9.11.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "lint": "pnpm -r lint",
+    "format": "prettier -w .",
+    "typecheck": "pnpm -r typecheck",
+    "db:generate": "pnpm --filter @adhder/db prisma generate",
+    "db:push": "pnpm --filter @adhder/db prisma db push",
+    "db:migrate": "pnpm --filter @adhder/db prisma migrate dev",
+    "postinstall": "pnpm db:generate"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
+
+
