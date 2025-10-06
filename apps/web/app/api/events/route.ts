@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@adhder/db/src/client";
-import { getSession, getSessionFromRequest } from "@/app/lib/auth";
+import { prisma } from "../../../../../packages/db/src/client";
+import { getSession, getSessionFromRequest } from "../../lib/auth";
 
 export async function POST(req: NextRequest) {
   const session = getSessionFromRequest(req) || getSession();

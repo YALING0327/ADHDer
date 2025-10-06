@@ -16,6 +16,7 @@ model User {
   focus     FocusSession[]
   sleep     SleepSession[]
   rewards   Reward[]
+  events    Event[]
 }
 
 model Task {

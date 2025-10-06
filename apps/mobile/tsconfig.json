@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "types": ["react", "react-native"],
+    "types": [],
     "noEmit": true
   },
   "include": ["**/*.ts", "**/*.tsx"],

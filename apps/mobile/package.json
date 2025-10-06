@@ -22,11 +22,15 @@
     "expo-haptics": "~13.0.1",
     "expo-av": "~14.0.5",
     "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo-media-library": "~16.0.3",
+    "expo-file-system": "~16.0.6",
     "@adhder/sdk": "workspace:*"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "@types/react": "^18.3.5",
+    "@types/react-native": "^0.73.0"
   }
 }
 

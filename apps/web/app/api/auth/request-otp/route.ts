@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@adhder/db/src/client";
+import { prisma } from "../../../../../packages/db/src/client";
 import { Resend } from "resend";
 import { CORS_HEADERS } from "@/app/lib/cors";
 
