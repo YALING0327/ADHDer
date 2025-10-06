@@ -6,7 +6,8 @@ const JWT_SECRET = process.env.JWT_SECRET || "dev-secret";
 
 export interface Session {
   uid: string;
-  email: string;
+  email?: string;
+  phone?: string;
 }
 
 export function getSession(): Session | null {

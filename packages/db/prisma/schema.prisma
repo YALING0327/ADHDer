@@ -9,7 +9,8 @@ datasource db {
 
 model User {
   id        String   @id @default(cuid())
-  email     String   @unique
+  email     String?  @unique
+  phone     String?  @unique
   createdAt DateTime @default(now())
   tasks     Task[]
   ideas     Idea[]
@@ -17,6 +18,11 @@ model User {
   sleep     SleepSession[]
   rewards   Reward[]
   events    Event[]
+  emailOtps EmailOtp[]
+  phoneOtps PhoneOtp[]
+  
+  @@index([email])
+  @@index([phone])
 }
 
 model Task {
@@ -101,7 +107,21 @@ model EmailOtp {
   expiresAt  DateTime
   consumedAt DateTime?
   createdAt  DateTime @default(now())
+  user       User?    @relation(fields: [userId], references: [id])
+  userId     String?
   @@index([email])
+}
+
+model PhoneOtp {
+  id         String   @id @default(cuid())
+  phone      String
+  code       String
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime @default(now())
+  user       User?    @relation(fields: [userId], references: [id])
+  userId     String?
+  @@index([phone])
 }
 
 model Event {
