@@ -23,6 +23,9 @@ function TasksScreen() {
   const [items, setItems] = useState<any[]>([]);
   const [title, setTitle] = useState('');
   const [creating, setCreating] = useState(false);
+  const [taskType, setTaskType] = useState<'free' | 'ddl'>('free');
+  const [dueDate, setDueDate] = useState('');
+  const [showDatePicker, setShowDatePicker] = useState(false);
 
   const load = async () => {
     try { const res = await api.listTasks(); setItems(res.tasks || []); } catch {}
@@ -32,19 +35,76 @@ function TasksScreen() {
   const create = async () => {
     if (!title.trim()) return;
     setCreating(true);
-    try { await api.createTask(title.trim(), 'free'); setTitle(''); load(); } finally { setCreating(false); }
+    try { 
+      const due = taskType === 'ddl' && dueDate ? new Date(dueDate).toISOString() : undefined;
+      await api.createTask(title.trim(), taskType, due); 
+      setTitle(''); 
+      setDueDate('');
+      load(); 
+    } finally { setCreating(false); }
+  };
+
+  const formatDate = (dateStr: string) => {
+    if (!dateStr) return '';
+    const date = new Date(dateStr);
+    return `${date.getMonth() + 1}/${date.getDate()} ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`;
   };
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
       <View style={{ padding: 24 }}>
         <Text style={{ fontSize: 28, fontWeight: '600', marginBottom: 12 }}>待办</Text>
-        <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center' }}>
-          <TextInput value={title} onChangeText={setTitle} placeholder="输入任务标题" style={{ flex: 1, borderWidth: 1, borderColor: '#ddd', borderRadius: 8, padding: 10 }} />
+        
+        {/* Task Type Selector */}
+        <View style={{ flexDirection: 'row', marginBottom: 12, gap: 8 }}>
+          <TouchableOpacity 
+            onPress={() => setTaskType('free')} 
+            style={{ 
+              paddingVertical: 8, 
+              paddingHorizontal: 16, 
+              borderRadius: 20, 
+              backgroundColor: taskType === 'free' ? '#4b8' : '#f0f0f0' 
+            }}
+          >
+            <Text style={{ color: taskType === 'free' ? '#fff' : '#666' }}>自由任务</Text>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            onPress={() => setTaskType('ddl')} 
+            style={{ 
+              paddingVertical: 8, 
+              paddingHorizontal: 16, 
+              borderRadius: 20, 
+              backgroundColor: taskType === 'ddl' ? '#4b8' : '#f0f0f0' 
+            }}
+          >
+            <Text style={{ color: taskType === 'ddl' ? '#fff' : '#666' }}>DDL任务</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center', marginBottom: 8 }}>
+          <TextInput 
+            value={title} 
+            onChangeText={setTitle} 
+            placeholder="输入任务标题" 
+            style={{ flex: 1, borderWidth: 1, borderColor: '#ddd', borderRadius: 8, padding: 10 }} 
+          />
           <TouchableOpacity onPress={create} disabled={creating} style={{ backgroundColor: '#4b8', paddingVertical: 10, paddingHorizontal: 14, borderRadius: 8 }}>
             <Text style={{ color: '#fff' }}>{creating ? '添加中' : '添加'}</Text>
           </TouchableOpacity>
         </View>
+
+        {/* DDL Date Input */}
+        {taskType === 'ddl' && (
+          <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center' }}>
+            <Text style={{ fontSize: 14, color: '#666' }}>到期时间:</Text>
+            <TextInput 
+              value={dueDate} 
+              onChangeText={setDueDate} 
+              placeholder="YYYY-MM-DDTHH:mm" 
+              style={{ flex: 1, borderWidth: 1, borderColor: '#ddd', borderRadius: 8, padding: 10, fontSize: 14 }} 
+            />
+          </View>
+        )}
       </View>
       <FlatList
         data={items}
@@ -52,8 +112,27 @@ function TasksScreen() {
         contentContainerStyle={{ paddingHorizontal: 24, paddingBottom: 40 }}
         renderItem={({ item }) => (
           <View style={{ paddingVertical: 12, borderBottomWidth: 1, borderColor: '#eee' }}>
-            <Text style={{ fontSize: 16 }}>{item.title}</Text>
-            <Text style={{ fontSize: 12, color: '#666' }}>{item.type}</Text>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+              <View style={{ flex: 1 }}>
+                <Text style={{ fontSize: 16 }}>{item.title}</Text>
+                <Text style={{ fontSize: 12, color: '#666' }}>
+                  {item.type === 'ddl' ? 'DDL任务' : '自由任务'}
+                  {item.due && ` • 到期: ${formatDate(item.due)}`}
+                </Text>
+              </View>
+              {item.type === 'ddl' && item.due && (
+                <View style={{ 
+                  paddingHorizontal: 8, 
+                  paddingVertical: 4, 
+                  borderRadius: 12, 
+                  backgroundColor: new Date(item.due) < new Date() ? '#ff6b6b' : '#4b8' 
+                }}>
+                  <Text style={{ fontSize: 10, color: '#fff' }}>
+                    {new Date(item.due) < new Date() ? '已过期' : '进行中'}
+                  </Text>
+                </View>
+              )}
+            </View>
           </View>
         )}
         ListEmptyComponent={<Text style={{ paddingHorizontal: 24, color: '#666' }}>暂无任务</Text>}
@@ -231,6 +310,31 @@ function IdeasScreen() {
   );
 }
 
+function SearchScreen() {
+  const [q, setQ] = useState('');
+  const [res, setRes] = useState<{tasks:any[]; ideas:any[]}>({ tasks: [], ideas: [] });
+  const [loading, setLoading] = useState(false);
+  const onChange = async (text: string) => {
+    setQ(text);
+    if (!text.trim()) { setRes({ tasks: [], ideas: [] }); return; }
+    setLoading(true);
+    try { const r = await api.search(text.trim()); setRes(r); } catch {} finally { setLoading(false); }
+  };
+  return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
+      <View style={{ padding: 24, gap: 12 }}>
+        <Text style={{ fontSize: 28, fontWeight: '600' }}>搜索</Text>
+        <TextInput value={q} onChangeText={onChange} placeholder="搜索任务/想法…" style={{ borderWidth: 1, borderColor: '#ddd', borderRadius: 8, padding: 10 }} />
+        {loading ? <Text>搜索中…</Text> : null}
+        <Text style={{ fontSize: 16, fontWeight: '600' }}>任务</Text>
+        {res.tasks.map((t) => (<Text key={t.id}>• {t.title}</Text>))}
+        <Text style={{ fontSize: 16, fontWeight: '600', marginTop: 8 }}>想法</Text>
+        {res.ideas.map((i) => (<Text key={i.id}>• {i.text}</Text>))}
+      </View>
+    </SafeAreaView>
+  );
+}
+
 import { Audio } from 'expo-av';
 import * as MediaLibrary from 'expo-media-library';
 import * as FileSystem from 'expo-file-system';
@@ -343,6 +447,7 @@ export default function App() {
           <Tab.Screen name="专注" component={FocusScreen} />
           <Tab.Screen name="佛珠" component={FidgetScreen} />
           <Tab.Screen name="想法" component={IdeasScreen} />
+        <Tab.Screen name="搜索" component={SearchScreen} />
         <Tab.Screen name="助眠" component={SleepScreen} />
         <Tab.Screen name="壁纸" component={WallpaperScreen} />
         <Tab.Screen name="政策" component={LegalScreen} />

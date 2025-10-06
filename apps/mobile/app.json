@@ -20,6 +20,19 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
     "web": {
       "bundler": "metro"
     }
