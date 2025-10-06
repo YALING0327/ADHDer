@@ -90,12 +90,9 @@ importers:
 
   apps/web:
     dependencies:
-      '@adhder/db':
-        specifier: workspace:*
-        version: link:../../packages/db
-      '@adhder/sdk':
-        specifier: workspace:*
-        version: link:../../packages/sdk
+      '@prisma/client':
+        specifier: ^5.22.0
+        version: 5.22.0(prisma@5.22.0)
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
@@ -124,6 +121,9 @@ importers:
       eslint-config-next:
         specifier: 14.2.5
         version: 14.2.5(eslint@8.57.1)(typescript@5.9.3)
+      prisma:
+        specifier: ^5.22.0
+        version: 5.22.0
       typescript:
         specifier: ^5.6.2
         version: 5.9.3
