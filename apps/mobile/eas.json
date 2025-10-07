@@ -16,7 +16,7 @@
         "simulator": true
       },
       "env": {
-        "EXPO_PUBLIC_API_BASE": "https://your-api-domain.vercel.app"
+        "EXPO_PUBLIC_API_BASE": "https://adhder.onrender.com"
       }
     },
     "production": {
@@ -28,7 +28,7 @@
         "autoIncrement": true
       },
       "env": {
-        "EXPO_PUBLIC_API_BASE": "https://your-api-domain.vercel.app"
+        "EXPO_PUBLIC_API_BASE": "https://adhder.onrender.com"
       }
     }
   },
