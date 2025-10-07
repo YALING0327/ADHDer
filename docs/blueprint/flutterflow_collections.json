@@ -1,0 +1,60 @@
+{
+  "collections": [
+    {"name": "UserProfile", "fields": [
+      {"name": "role", "type": "enum", "values": ["adult","student","parent"]},
+      {"name": "goals", "type": "array", "items": "string"},
+      {"name": "parentLink", "type": "string", "optional": true}
+    ]},
+    {"name": "Task", "fields": [
+      {"name": "type", "type": "enum", "values": ["deadline","freetime"]},
+      {"name": "title", "type": "string"},
+      {"name": "dueAt", "type": "timestamp", "optional": true},
+      {"name": "priority", "type": "number", "optional": true},
+      {"name": "subtasks", "type": "array", "items": "string"},
+      {"name": "status", "type": "string"}
+    ]},
+    {"name": "FocusSession", "fields": [
+      {"name": "startAt", "type": "timestamp"},
+      {"name": "duration", "type": "number"},
+      {"name": "status", "type": "string"},
+      {"name": "taskId", "type": "string", "optional": true},
+      {"name": "interruptions", "type": "array", "items": "string"}
+    ]},
+    {"name": "Idea", "fields": [
+      {"name": "text", "type": "string"},
+      {"name": "tags", "type": "array", "items": "string"},
+      {"name": "createdAt", "type": "timestamp"},
+      {"name": "pinned", "type": "boolean", "optional": true}
+    ]},
+    {"name": "SleepScene", "fields": [
+      {"name": "name", "type": "string"},
+      {"name": "durationPreset", "type": "array", "items": "number"}
+    ]},
+    {"name": "MoodLog", "fields": [
+      {"name": "mood", "type": "number"},
+      {"name": "note", "type": "string", "optional": true},
+      {"name": "abc.A", "type": "string", "optional": true},
+      {"name": "abc.B", "type": "string", "optional": true},
+      {"name": "abc.C", "type": "string", "optional": true},
+      {"name": "createdAt", "type": "timestamp"}
+    ]},
+    {"name": "PsychoEduCard", "fields": [
+      {"name": "topic", "type": "string"},
+      {"name": "audience", "type": "enum", "values": ["adult","parent"]},
+      {"name": "bullets", "type": "array", "items": "string", "length": 3},
+      {"name": "read", "type": "boolean", "optional": true}
+    ]},
+    {"name": "TrainingPlan", "fields": [
+      {"name": "title", "type": "string"},
+      {"name": "steps", "type": "array", "items": "string"},
+      {"name": "todayStepIndex", "type": "number"}
+    ]},
+    {"name": "PointsLedger", "fields": [
+      {"name": "delta", "type": "number"},
+      {"name": "reason", "type": "string"},
+      {"name": "createdAt", "type": "timestamp"}
+    ]}
+  ]
+}
+
+

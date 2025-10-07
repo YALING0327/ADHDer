@@ -1,0 +1,84 @@
+{
+  "$schema": "https://design-tokens.org/schemas/1.0/schema.json",
+  "$description": "ADHDer design tokens for Figma/Style Dictionary. Naming: {category}/{role}/{scale}",
+  "color": {
+    "brand": {
+      "500": { "$value": "#6B7CFF" },
+      "600": { "$value": "#5A6BE6" }
+    },
+    "bg": {
+      "primary.light": { "$value": "#FFFFFF" },
+      "primary.dark": { "$value": "#0F1115" }
+    },
+    "surface": {
+      "100": { "$value": "#171A21" }
+    },
+    "state": {
+      "success": { "$value": "#3CCB7F" },
+      "warning": { "$value": "#FFB020" },
+      "danger":  { "$value": "#FF5A67" }
+    },
+    "text": {
+      "primary.light": { "$value": "#1A1C20" },
+      "primary.dark":  { "$value": "#FFFFFF" },
+      "secondary":     { "$value": "rgba(26,28,32,0.7)" }
+    }
+  },
+  "type": {
+    "font": {
+      "brand": { "$value": "Inter, SF Pro, system-ui" }
+    },
+    "size": {
+      "h1": { "$value": "24px" },
+      "h2": { "$value": "20px" },
+      "body": { "$value": "16px" },
+      "caption": { "$value": "13px" }
+    },
+    "line": {
+      "h1": { "$value": "32px" },
+      "h2": { "$value": "28px" },
+      "body": { "$value": "24px" },
+      "caption": { "$value": "18px" }
+    },
+    "weight": {
+      "regular": { "$value": 400 },
+      "semibold": { "$value": 600 },
+      "bold": { "$value": 700 }
+    }
+  },
+  "space": {
+    "4":   { "$value": "4px" },
+    "8":   { "$value": "8px" },
+    "12":  { "$value": "12px" },
+    "16":  { "$value": "16px" },
+    "20":  { "$value": "20px" },
+    "24":  { "$value": "24px" },
+    "32":  { "$value": "32px" },
+    "40":  { "$value": "40px" },
+    "touch": { "$value": "48px" }
+  },
+  "radius": {
+    "s":  { "$value": "8px" },
+    "m":  { "$value": "12px" },
+    "l":  { "$value": "16px" },
+    "xl": { "$value": "24px" }
+  },
+  "elevation": {
+    "1": { "$value": "0 2px 8px rgba(0,0,0,0.12)" },
+    "2": { "$value": "0 8px 24px rgba(0,0,0,0.2)" },
+    "3": { "$value": "0 12px 24px rgba(0,0,0,0.24)" }
+  },
+  "motion": {
+    "duration": {
+      "fast": { "$value": "200ms" },
+      "mid":  { "$value": "250ms" },
+      "slow": { "$value": "300ms" }
+    },
+    "curve": {
+      "standard":   { "$value": "cubic-bezier(0.2, 0, 0, 1)" },
+      "emphasized": { "$value": "cubic-bezier(0.2, 0, 0, 1.2)" }
+    }
+  }
+}
+
+

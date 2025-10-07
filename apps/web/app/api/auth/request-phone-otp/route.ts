@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "../../../lib/prisma";
+import { prisma } from "../../../../lib/prisma";
 import { CORS_HEADERS } from "../../../lib/cors";
 
 // 这里使用阿里云短信服务的最低配置

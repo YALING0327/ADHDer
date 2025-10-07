@@ -6,8 +6,12 @@ node_modules
 .env
 .env.*.local
 
-# Avoid picking up external local repo
-mobile
+# Avoid picking up external local repo (was old path), keep ignoring legacy 'mobile' at repo root only
+/mobile
+
+# Do NOT ignore apps/mobile (monorepo path)
+!apps/mobile/
+!apps/mobile/**
 
 # Builds
 .vercel
