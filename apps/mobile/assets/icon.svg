@@ -1,0 +1,18 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="512" cy="512" r="512" fill="#4B8BFF"/>
+  
+  <!-- Brain/ADHD symbol -->
+  <path d="M300 400C300 350 340 310 390 310C440 310 480 350 480 400C480 450 440 490 390 490C340 490 300 450 300 400Z" fill="white"/>
+  <path d="M544 400C544 350 584 310 634 310C684 310 724 350 724 400C724 450 684 490 634 490C584 490 544 450 544 400Z" fill="white"/>
+  
+  <!-- Connection lines -->
+  <path d="M480 400L544 400" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Focus symbol -->
+  <circle cx="512" cy="600" r="60" fill="white"/>
+  <circle cx="512" cy="600" r="30" fill="#4B8BFF"/>
+  
+  <!-- ADHD text -->
+  <text x="512" y="750" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="120" font-weight="bold">ADHD</text>
+</svg>

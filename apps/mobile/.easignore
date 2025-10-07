@@ -1,0 +1,12 @@
+# Ignore monorepo parent directories
+../../node_modules
+../../packages
+../../apps/web
+../../railway-deploy
+../../docs
+../../scripts
+../../.git
+
+# Keep only mobile app files
+!.
+
