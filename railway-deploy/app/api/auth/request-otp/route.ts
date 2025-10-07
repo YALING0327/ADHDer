@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "../../../lib/prisma";
+import { prisma } from "../../lib/prisma";
 import { Resend } from "resend";
-import { CORS_HEADERS } from "../../../lib/cors";
+import { CORS_HEADERS } from "../../lib/cors";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
