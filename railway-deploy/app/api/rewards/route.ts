@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "../../../lib/prisma";
-import { getSession, getSessionFromRequest } from "../../../lib/auth";
+import { prisma } from "../../../../lib/prisma";
+import { getSession, getSessionFromRequest } from "../../../../lib/auth";
 import { CORS_HEADERS } from "../../lib/cors";
 
 export async function GET(req: NextRequest) {
