@@ -7,7 +7,7 @@ export const CORS_HEADERS: Record<string, string> = {
   "Access-Control-Allow-Credentials": "true",
 };
 
-export function withCors(res: NextResponse) {
+export function withCors(res: Response) {
   for (const [k, v] of Object.entries(CORS_HEADERS)) res.headers.set(k, v);
   return res;
 }
