@@ -3,7 +3,8 @@ import { prisma } from "../../../lib/prisma";
 import { Resend } from "resend";
 import { CORS_HEADERS } from "../../../lib/cors";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy init to avoid build-time errors when RESEND_API_KEY is not set in CI
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 export async function POST(req: NextRequest) {
   const { email } = await req.json();
@@ -15,7 +16,7 @@ export async function POST(req: NextRequest) {
   const expiresAt = new Date(Date.now() + 10 * 60 * 1000);
   await prisma.emailOtp.create({ data: { email: email.toLowerCase(), code, expiresAt } });
 
-  if (!process.env.RESEND_API_KEY) {
+  if (!process.env.RESEND_API_KEY || !resend) {
     return new NextResponse(JSON.stringify({ ok: true, code }), { status: 200, headers: CORS_HEADERS });
   }
 
