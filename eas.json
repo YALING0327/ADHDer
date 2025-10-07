@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "workingDirectory": "apps/mobile",
+      "env": {
+        "EXPO_PUBLIC_API_BASE": "https://adhder.onrender.com"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "workingDirectory": "apps/mobile",
+      "env": {
+        "EXPO_PUBLIC_API_BASE": "https://adhder.onrender.com"
+      }
+    },
+    "production": {
+      "workingDirectory": "apps/mobile",
+      "env": {
+        "EXPO_PUBLIC_API_BASE": "https://adhder.onrender.com"
+      }
+    }
+  }
+}
+
