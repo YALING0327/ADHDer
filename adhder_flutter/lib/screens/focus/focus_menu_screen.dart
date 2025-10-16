@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../config/theme.dart';
 import 'pomodoro_screen.dart';
+import 'noodle_focus_screen.dart';
 
 /// 专注模式选择页面
 class FocusMenuScreen extends StatelessWidget {
@@ -63,8 +64,11 @@ class FocusMenuScreen extends StatelessWidget {
               color: AppTheme.warningColor,
               badge: '趣味',
               onTap: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('专注面条功能开发中...')),
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const NoodleFocusScreen(),
+                  ),
                 );
               },
             ),

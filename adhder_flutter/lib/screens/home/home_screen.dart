@@ -5,6 +5,9 @@ import '../../providers/auth_provider.dart';
 import '../tasks/tasks_screen.dart';
 import '../focus/focus_menu_screen.dart';
 import '../profile/profile_screen.dart';
+import '../insights/insights_screen.dart';
+import '../statistics/statistics_screen.dart';
+import '../training/training_menu_screen.dart';
 
 /// 主页 - 底部导航
 class HomeScreen extends StatefulWidget {
@@ -185,25 +188,20 @@ class DashboardScreen extends StatelessWidget {
                   subtitle: '25分钟专注',
                   color: AppTheme.errorColor,
                   onTap: () {
-                    // TODO: 打开番茄钟
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const FocusMenuScreen()),
+                    );
                   },
                 ),
                 _QuickActionCard(
-                  icon: '🍜',
-                  title: '专注面条',
-                  subtitle: '煮一碗面',
-                  color: AppTheme.warningColor,
-                  onTap: () {
-                    // TODO: 打开专注面条
-                  },
-                ),
-                _QuickActionCard(
-                  icon: '📝',
-                  title: '新建任务',
-                  subtitle: '添加待办',
+                  icon: '💧',
+                  title: '贮水',
+                  subtitle: '灵感存储',
                   color: AppTheme.infoColor,
                   onTap: () {
-                    // TODO: 打开任务创建
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const InsightsScreen()),
+                    );
                   },
                 ),
                 _QuickActionCard(
@@ -212,7 +210,20 @@ class DashboardScreen extends StatelessWidget {
                   subtitle: '玩游戏提升',
                   color: AppTheme.successColor,
                   onTap: () {
-                    // TODO: 打开训练游戏
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const TrainingMenuScreen()),
+                    );
+                  },
+                ),
+                _QuickActionCard(
+                  icon: '📊',
+                  title: '数据统计',
+                  subtitle: '查看进步',
+                  color: AppTheme.primaryColor,
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const StatisticsScreen()),
+                    );
                   },
                 ),
               ],
