@@ -46,7 +46,7 @@ class AppTheme {
     fontFamily: 'PingFang',
     
     // 卡片主题
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 2,
       shadowColor: shadowColor,
       shape: RoundedRectangleBorder(
