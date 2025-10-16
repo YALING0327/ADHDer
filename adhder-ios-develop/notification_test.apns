@@ -1,9 +1,0 @@
-{
-    "Simulator Target Bundle": "com.adhderapp.ios.adhder",
-    "aps": {
-        "alert": {
-            "body": "This is a test",
-            "title": "Blablabal"
-        }
-    }
-}

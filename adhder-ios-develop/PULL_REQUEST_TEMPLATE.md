@@ -1,3 +1,0 @@
-
-
-my Adhder User-ID: 

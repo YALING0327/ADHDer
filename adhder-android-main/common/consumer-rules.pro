@@ -1,6 +1,0 @@
--dontwarn com.caverock.androidsvg.SVG
--dontwarn com.caverock.androidsvg.SVGParseException
--dontwarn pl.droidsonroids.gif.GifDrawable
--dontwarn java.lang.invoke.StringConcatFactory
--keep class com.adhderapp.common.adhder.** { *; }
--keep class com.adhderapp.shared.adhder.** { *; }

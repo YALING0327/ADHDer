@@ -1,2 +1,0 @@
-json_key_file("fastlane/secret-key.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
-package_name("com.adhderapp.android.adhder") # e.g. com.krausefx.app

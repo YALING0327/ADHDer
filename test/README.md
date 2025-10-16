@@ -1,1 +1,0 @@
-For information about writing and running tests, see [Using Your Local Install to Modify Adhder's Website and API](https://adhder.fandom.com/wiki/Using_Your_Local_Install_to_Modify_Adhder's_Website_and_API).

@@ -1,6 +1,0 @@
-New in 3.12.3:
-
-- We improved the clarity around leaving Quests and Parties
-- Fixed a bug that prevented accounts from leaving Quests
-- Fixed a crash caused by improperly formatted Markdown in some languages
-- Various other bug fixes and improvements
