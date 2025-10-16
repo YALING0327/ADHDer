@@ -1,0 +1,340 @@
+package com.adhderapp.android.adhder.ui.adapter.inventory
+
+import android.content.Context
+import android.content.Intent
+import android.content.res.Resources
+import android.graphics.drawable.Drawable
+import android.view.View
+import android.view.ViewGroup
+import androidx.compose.ui.res.painterResource
+import androidx.core.graphics.drawable.toDrawable
+import androidx.fragment.app.DialogFragment
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.adhderapp.android.adhder.R
+import com.adhderapp.android.adhder.databinding.ItemItemBinding
+import com.adhderapp.android.adhder.databinding.ShopAdBinding
+import com.adhderapp.android.adhder.models.BaseMainObject
+import com.adhderapp.android.adhder.models.inventory.Egg
+import com.adhderapp.android.adhder.models.inventory.Food
+import com.adhderapp.android.adhder.models.inventory.HatchingPotion
+import com.adhderapp.android.adhder.models.inventory.Item
+import com.adhderapp.android.adhder.models.inventory.Pet
+import com.adhderapp.android.adhder.models.inventory.QuestContent
+import com.adhderapp.android.adhder.models.inventory.SpecialItem
+import com.adhderapp.android.adhder.models.user.OwnedItem
+import com.adhderapp.android.adhder.models.user.OwnedPet
+import com.adhderapp.android.adhder.models.user.User
+import com.adhderapp.android.adhder.ui.activities.SkillMemberActivity
+import com.adhderapp.android.adhder.ui.activities.SkillTasksActivity
+import com.adhderapp.android.adhder.ui.adapter.BaseRecyclerViewAdapter
+import com.adhderapp.android.adhder.ui.fragments.skills.SkillDialogBottomSheetFragment
+import com.adhderapp.android.adhder.ui.menu.BottomSheetMenu
+import com.adhderapp.android.adhder.ui.menu.BottomSheetMenuItem
+import com.adhderapp.android.adhder.ui.views.AdhderIconsHelper
+import com.adhderapp.android.adhder.ui.views.dialogs.DetailDialog
+import com.adhderapp.common.adhder.extensions.asPainter
+import com.adhderapp.common.adhder.extensions.layoutInflater
+import com.adhderapp.common.adhder.extensions.loadImage
+import com.adhderapp.common.adhder.extensions.localizedCapitalizeWithSpaces
+import com.adhderapp.common.adhder.helpers.setMarkdown
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+class ItemRecyclerAdapter(val context: Context) :
+    BaseRecyclerViewAdapter<BaseMainObject, ViewHolder>() {
+    var user: User? = null
+    var isHatching: Boolean = false
+    var isFeeding: Boolean = false
+    var hatchingItem: Item? = null
+    var feedingPet: Pet? = null
+    var fragment: DialogFragment? = null
+    var itemType = ""
+    var itemText = ""
+    private var existingPets: List<Pet>? = null
+    private var ownedPets: Map<String, OwnedPet>? = null
+    var items: Map<String, Item>? = null
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
+
+    var onSellItem: ((Item, OwnedItem) -> Unit)? = null
+    var onQuestInvitation: ((QuestContent) -> Unit)? = null
+    var onOpenMysteryItem: ((Item) -> Unit)? = null
+    var onStartHatching: ((Item) -> Unit)? = null
+    var onHatchPet: ((HatchingPotion, Egg) -> Unit)? = null
+    var onFeedPet: ((Food) -> Unit)? = null
+    var onCreateNewParty: (() -> Unit)? = null
+    var onUseSpecialItem: ((SpecialItem) -> Unit)? = null
+    var onOpenShop: (() -> Unit)? = null
+
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): ViewHolder {
+        return if (viewType == 0) {
+            ItemViewHolder(ItemItemBinding.inflate(context.layoutInflater, parent, false))
+        } else {
+            ShopAdViewHolder(ShopAdBinding.inflate(context.layoutInflater, parent, false))
+        }
+    }
+
+    override fun onBindViewHolder(
+        holder: ViewHolder,
+        position: Int
+    ) {
+        if (position < data.size) {
+            val ownedItem = data[position] as OwnedItem
+            (holder as? ItemViewHolder)?.bind(ownedItem, items?.get(ownedItem.key))
+        } else {
+            val typedHolder = (holder as? ShopAdViewHolder) ?: return
+            if (itemType == "quests") {
+                typedHolder.binding.imageView.setImageResource(R.drawable.icon_quests)
+                typedHolder.binding.titleView.text = context.getString(R.string.quests_footer_title)
+                typedHolder.binding.descriptionView.setMarkdown(context.getString(R.string.quests_footer_description))
+            } else {
+                typedHolder.binding.imageView.setImageResource(R.drawable.icon_shops)
+                typedHolder.binding.titleView.text =
+                    context.getString(R.string.item_footer_title, itemText)
+                typedHolder.binding.descriptionView.setMarkdown(
+                    when (itemType) {
+                        "eggs" -> context.getString(R.string.eggs_footer_description)
+                        "food" -> context.getString(R.string.food_footer_description)
+                        "hatchingPotions" -> context.getString(R.string.hatchingPotions_footer_description)
+                        else -> ""
+                    }
+                )
+            }
+            typedHolder.itemView.setOnClickListener {
+                onOpenShop?.invoke()
+            }
+        }
+    }
+
+    override fun getItemCount(): Int {
+        val actualCount = super.getItemCount()
+        return actualCount + if (itemType == "special" || actualCount == 0 || itemType == "") 0 else 1
+    }
+
+    override fun getItemViewType(position: Int): Int {
+        return if (position < data.size) {
+            0
+        } else {
+            -1
+        }
+    }
+
+    fun setExistingPets(pets: List<Pet>) {
+        existingPets = pets
+        notifyDataSetChanged()
+    }
+
+    fun setOwnedPets(ownedPets: Map<String, OwnedPet>) {
+        this.ownedPets = ownedPets
+        notifyDataSetChanged()
+    }
+
+    inner class ShopAdViewHolder(val binding: ShopAdBinding) : ViewHolder(binding.root)
+
+    inner class ItemViewHolder(val binding: ItemItemBinding) :
+        ViewHolder(binding.root),
+        View.OnClickListener {
+        private var ownedItem: OwnedItem? = null
+        var item: Item? = null
+
+        var resources: Resources = itemView.resources
+
+        private val canHatch: Boolean
+            get() {
+                val petKey: String =
+                    if (item is Egg) {
+                        item?.key + "-" + hatchingItem?.key
+                    } else {
+                        hatchingItem?.key + "-" + item?.key
+                    }
+                val pet = existingPets?.firstOrNull { it.key == petKey && it.type != "special" }
+                return pet != null && (ownedPets?.get(pet.key)?.trained ?: 0) <= 0
+            }
+
+        init {
+            itemView.setOnClickListener(this)
+        }
+
+        fun bind(
+            ownedItem: OwnedItem,
+            item: Item?
+        ) {
+            this.ownedItem = ownedItem
+            this.item = item
+            binding.titleTextView.text =
+                item?.text ?: ownedItem.key?.localizedCapitalizeWithSpaces()
+            binding.ownedTextView.text = ownedItem.numberOwned.toString()
+
+            val disabled =
+                if (isHatching) {
+                    !this.canHatch
+                } else {
+                    false
+                }
+            val imageName =
+                if (item != null) {
+                    getImageName(item = item)
+                } else {
+                    getImageName(ownedItem = ownedItem)
+                }
+            binding.imageView.loadImage(imageName)
+
+            var alpha = 1.0f
+            if (disabled) {
+                alpha = 0.3f
+            }
+            binding.imageView.alpha = alpha
+            binding.titleTextView.alpha = alpha
+            binding.ownedTextView.alpha = alpha
+        }
+
+        private fun getImageName(
+            item: Item? = null,
+            ownedItem: OwnedItem? = null
+        ): String {
+            if (ownedItem != null && ownedItem.itemType == "special") {
+                return "shop_" + ownedItem.key
+            }
+
+            return when (item) {
+                is QuestContent -> {
+                    "inventory_quest_scroll_" + item.key
+                }
+
+                is SpecialItem -> {
+                    // Mystery Item (Inventory Present)
+                    val sdf = SimpleDateFormat("MM", Locale.getDefault())
+                    val month = sdf.format(Date())
+                    "inventory_present_$month"
+                }
+
+                else -> {
+                    val type =
+                        when (item?.type) {
+                            "eggs" -> "Egg"
+                            "food" -> "Food"
+                            "hatchingPotions" -> "HatchingPotion"
+                            else -> ""
+                        }
+                    "Pet_" + type + "_" + item?.key
+                }
+            }
+        }
+
+        override fun onClick(v: View) {
+            val context = context
+            if (!isHatching && !isFeeding) {
+                val menu = BottomSheetMenu(context)
+                menu.setTitle(item?.text)
+                val imageName =
+                    if (item != null) {
+                        getImageName(item = item)
+                    } else {
+                        getImageName(ownedItem = ownedItem)
+                    }
+                menu.setImage(imageName)
+                if (item !is QuestContent && item !is SpecialItem && ownedItem?.itemType != "special") {
+                    menu.addMenuItem(
+                        BottomSheetMenuItem(
+                            resources.getString(R.string.sell_no_price),
+                            true,
+                            "gold",
+                            item?.value?.toDouble() ?: 0.0
+                        )
+                    )
+                }
+                if (item is Egg) {
+                    menu.addMenuItem(BottomSheetMenuItem(resources.getString(R.string.hatch_with_potion)))
+                } else if (item is HatchingPotion) {
+                    menu.addMenuItem(BottomSheetMenuItem(resources.getString(R.string.hatch_egg)))
+                } else if (item is QuestContent) {
+                    menu.addMenuItem(BottomSheetMenuItem(resources.getString(R.string.details)))
+                    if (user?.hasParty == true) {
+                        menu.addMenuItem(BottomSheetMenuItem(resources.getString(R.string.invite_party)))
+                    } else {
+                        menu.addMenuItem(BottomSheetMenuItem(resources.getString(R.string.create_new_party)))
+                    }
+                } else if (item is SpecialItem) {
+                    val specialItem = item as SpecialItem
+                    if (specialItem.isMysteryItem && (ownedItem?.numberOwned ?: 0) > 0) {
+                        menu.addMenuItem(BottomSheetMenuItem(resources.getString(R.string.open)))
+                    }
+                } else if (ownedItem?.itemType == "special") {
+                    if ((ownedItem?.numberOwned ?: 0) > 0) {
+                        if (item == null && ownedItem != null) {
+                            // Special items that are not Mystery Item
+                            val specialItem = SpecialItem()
+                            ownedItem?.key?.let { key ->
+                                specialItem.key = key
+                                specialItem.text = key.localizedCapitalizeWithSpaces()
+                            }
+                            onUseSpecialItem?.invoke(specialItem)
+                        }
+                    }
+                    return
+                }
+                menu.setSelectionRunnable { index ->
+                    item?.let { selectedItem ->
+                        if (!(selectedItem is QuestContent || selectedItem is SpecialItem || ownedItem?.itemType == "special") && index == 0) {
+                            ownedItem?.let { selectedOwnedItem ->
+                                onSellItem?.invoke(
+                                    selectedItem,
+                                    selectedOwnedItem
+                                )
+                            }
+                            return@let
+                        }
+                        when (selectedItem) {
+                            is Egg -> item?.let { onStartHatching?.invoke(it) }
+                            is HatchingPotion -> onStartHatching?.invoke(selectedItem)
+                            is QuestContent -> {
+                                if (index == 0) {
+                                    val dialog = DetailDialog(context)
+                                    dialog.quest = selectedItem
+                                    dialog.show()
+                                } else {
+                                    if (user?.hasParty == true) {
+                                        onQuestInvitation?.invoke(selectedItem)
+                                    } else {
+                                        onCreateNewParty?.invoke()
+                                    }
+                                }
+                            }
+
+                            is SpecialItem ->
+                                if (item?.key == "inventory_present") {
+                                    onOpenMysteryItem?.invoke(selectedItem)
+                                }
+                        }
+                    }
+                }
+                menu.show()
+            } else if (isHatching) {
+                if (!this.canHatch) {
+                    return
+                }
+                item?.let { firstItem ->
+                    if (firstItem is Egg) {
+                        (hatchingItem as? HatchingPotion)?.let { potion ->
+                            onHatchPet?.invoke(potion, firstItem)
+                        }
+                    } else if (firstItem is HatchingPotion) {
+                        (hatchingItem as? Egg)?.let { egg ->
+                            onHatchPet?.invoke(firstItem, egg)
+                        }
+                    }
+                    return@let
+                }
+            } else if (isFeeding) {
+                (item as Food?)?.let { onFeedPet?.invoke(it) }
+                fragment?.dismiss()
+            }
+        }
+    }
+}

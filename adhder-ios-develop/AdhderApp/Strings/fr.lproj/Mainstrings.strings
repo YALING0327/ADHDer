@@ -1,0 +1,1614 @@
+/* (No Comment) */
+"active" = "Actives";
+/* (No Comment) */
+"animal_ears" = "Oreilles d'animaux";
+/* (No Comment) */
+"avatar.background" = "Arrière-plan";
+/* (No Comment) */
+"avatar.bangs" = "Frange";
+/* (No Comment) */
+"avatar.beard" = "Barbe";
+/* (No Comment) */
+"avatar.flower" = "Fleur";
+/* (No Comment) */
+"avatar.glasses" = "Lunettes";
+/* (No Comment) */
+"avatar.hair_style" = "Coiffure";
+/* (No Comment) */
+"avatar.hairColor" = "Couleur des cheveux";
+/* (No Comment) */
+"avatar.head" = "Tête";
+/* (No Comment) */
+"avatar.mustache" = "Moustache";
+/* (No Comment) */
+"avatar.shirt" = "Tenue";
+/* (No Comment) */
+"avatar.skin" = "Couleur de peau";
+/* (No Comment) */
+"avatar.wheelchair" = "Fauteuil roulant";
+/* (No Comment) */
+"cancel" = "Annuler";
+/* (No Comment) */
+"chat" = "Discussion";
+/* (No Comment) */
+"classes.become_a_class" = "Devenez un %@";
+/* (No Comment) */
+"classes.healer" = "Guérisseur";
+/* (No Comment) */
+"classes.healer_description" = "Les Guérisseurs se montrent insensibles aux blessures et ils partagent cette protection avec les autres. Les Quotidiennes manquées et les mauvaises habitudes ne les gênent pas beaucoup et ils ont les moyens de récupérer leur santé après un échec. Jouez en tant que Guérisseur si vous aimez soutenir les membres de votre équipe ou si l'idée de tromper la Mort par votre dur labeur vous inspire !";
+/* (No Comment) */
+"classes.mage" = "Mage";
+/* (No Comment) */
+"classes.mage_description" = "Les mages apprennent vite, gagnant de l'expérience et des niveaux plus rapidement que les autres classes. Ils et elles ont aussi de grandes réserves de mana à disposition pour utiliser leurs capacités spéciales. Jouez un mage si vous appréciez le côté tactique d'Adhder, ou si vous vous réjouissez à l'idée de monter de niveau et de débloquer de nouvelles fonctionnalités !";
+/* (No Comment) */
+"classes.rogue" = "Voleur";
+/* (No Comment) */
+"classes.rogue_description" = "Les Voleurs adorent accumuler les richesses, ils gagnent plus d'or que n'importe qui d'autre et trouvent souvent des objets par hasard. Leur faculté iconique de Furtivité leur permet d'esquiver les conséquences de tâches Quotidiennes manquées. Choisissez le Voleur si les Récompenses et les Succès vous motivent et si vous convoitez le butin et les badges !";
+/* (No Comment) */
+"classes.warrior" = "Guerrier";
+/* (No Comment) */
+"classes.warrior_description" = "Les Guerriers réalisent des «coups critiques» plus nombreux et plus efficaces qui augmentent aléatoirement l'or et l'expérience obtenus ainsi que les chances de trouver du butin en complétant une tâche. Ils infligent aussi des dommages lourds aux boss. Jouez un Guerrier si des récompenses imprévisibles du genre jackpot vous motivent ou si vous voulez distribuer des coups pendant les quêtes !";
+/* (No Comment) */
+"close" = "Fermer";
+/* (No Comment) */
+"confirm" = "Confirmer";
+/* (No Comment) */
+"create" = "Créer";
+/* (No Comment) */
+"daily" = "Quotidienne";
+/* (No Comment) */
+"delete" = "Effacer";
+/* (No Comment) */
+"description" = "Description";
+/* (No Comment) */
+"details" = "Détails";
+/* (No Comment) */
+"difficulty" = "Difficulté";
+/* (No Comment) */
+"discover" = "Découvrir";
+/* (No Comment) */
+"edit" = "Modifier";
+/* (No Comment) */
+"eggs" = "d'œufs";
+/* (No Comment) */
+"equip" = "Équiper";
+/* (No Comment) */
+"equipment.armor" = "Armure";
+/* (No Comment) */
+"equipment.back" = "Accessoire dorsal";
+/* (No Comment) */
+"equipment.battle_gear" = "Tenue de combat";
+/* (No Comment) */
+"equipment.body" = "Accessoire de Corps";
+/* (No Comment) */
+"equipment.costume" = "Costume";
+/* (No Comment) */
+"equipment.costume_explanation" = "Sélectionnez \"Utiliser un costume\" pour équiper votre avatar sans modifier les atrributs de votre tenue de combat ! Cela signifie que vous pouvez habiller votre avatar de n'importe quelle tenue que vous aimez, tout en conservant votre meilleure tenue de combat.";
+/* (No Comment) */
+"equipment.eyewear" = "Lunettes";
+/* (No Comment) */
+"equipment.head" = "Couvre-chef";
+/* (No Comment) */
+"equipment.head_accessory" = "Accessoire de tête";
+/* (No Comment) */
+"equipment.nothing_equipped" = "Aucun équipement utilisé";
+/* (No Comment) */
+"equipment.off_hand" = "Main secondaire";
+/* (No Comment) */
+"equipment.use_costume" = "Utiliser un costume";
+/* (No Comment) */
+"equipment.weapon" = "Arme";
+/* (No Comment) */
+"experience" = "Expérience";
+/* (No Comment) */
+"food" = "de nourriture";
+/* (No Comment) */
+"glasses" = "Lunettes";
+/* (No Comment) */
+"groups.leader_challenges" = "Seul les responsables peuvent créer des défis";
+/* (No Comment) */
+"guilds.leave_challenges" = "Quitter les défis";
+/* (No Comment) */
+"guilds.leave_guild_description" = "Voulez-vous quitter la guilde et conserver ou supprimer les défis ?";
+/* (No Comment) */
+"hatch_egg" = "Utiliser sur l’œuf";
+/* (No Comment) */
+"hatch_potion" = "Faire éclore avec la potion";
+/* (No Comment) */
+"hatching_potions" = "de potions d'éclosion";
+/* (No Comment) */
+"headband" = "Bandeau";
+/* (No Comment) */
+"health" = "Santé";
+/* (No Comment) */
+"inventory.available_until" = "Disponible jusqu’au %@";
+/* (No Comment) */
+"inventory.hatched" = "Vous avez fait éclore un nouveau familier !";
+/* (No Comment) */
+"inventory.no_gems_left" = "Vous avez acheté toutes les gemmes disponibles ce mois-ci. De nouvelles sont remises en circulation les 3 premiers jours de chaque mois. Merci de votre abonnement !";
+/* (No Comment) */
+"inventory.number_gems_left" = "Gemmes mensuelles : %d/%d restantes";
+/* (No Comment) */
+"inventory.wrong_class" = "Seulement disponible pour les %@s. Vous pouvez changer votre classe dans Paramètres.";
+/* (No Comment) */
+"invite_party" = "Inviter l'équipe";
+/* (No Comment) */
+"leader" = "Responsable";
+/* (No Comment) */
+"leave" = "Quitter";
+/* (No Comment) */
+"level_number" = "Niveau %d";
+/* (No Comment) */
+"levelup_description" = "En accomplissant vos tâches, vous avez atteint un niveau supérieur et avez regagné toute votre vie !";
+/* (No Comment) */
+"levelup_share" = "J'ai atteint le niveau %ld à Adhder en améliorant mes habitudes !";
+/* (No Comment) */
+"levelup_title" = "Vous avez atteint le niveau %ld !";
+/* (No Comment) */
+"mana" = "Mana";
+/* (No Comment) */
+"member.last_logged_in" = "Dernière connexion le";
+/* (No Comment) */
+"member.member_since" = "Membre depuis";
+/* (No Comment) */
+"menu.customize_avatar" = "Personnalisez votre avatar";
+/* (No Comment) */
+"menu.help_faq" = "Aide et FAQ";
+/* (No Comment) */
+"menu.inventory" = "Inventaire";
+/* (No Comment) */
+"menu.select_class" = "Sélectionner la Classe";
+/* (No Comment) */
+"menu.shops" = "Boutiques";
+/* (No Comment) */
+"menu.social" = "Social";
+/* (No Comment) */
+"monthly" = "Mensuellement";
+/* (No Comment) */
+"mounts" = "Montures";
+/* (No Comment) */
+"my_challenges" = "Mes défis";
+/* (No Comment) */
+"my_guilds" = "Mes guildes";
+/* (No Comment) */
+"name" = "Nom";
+/* (No Comment) */
+"notes" = "Notes";
+/* (No Comment) */
+"ok" = "D'accord";
+/* (No Comment) */
+"open" = "Ouvrir";
+/* (No Comment) */
+"party.invited_to_quest" = "%@ vous a invité•e à participer à une quête";
+/* (No Comment) */
+"party.quest_number_responded" = "%d/%d membres ont répondu";
+/* (No Comment) */
+"party.quest_participant_count" = "%d participant•e•s";
+/* (No Comment) */
+"pets" = "Familiers";
+/* (No Comment) */
+"purchase_for_gems" = "Acheter pour %d Gemmes";
+/* (No Comment) */
+"quests" = "Quêtes";
+/* (No Comment) */
+"quests.accepted" = "Accepté";
+/* (No Comment) */
+"quests.boss_battle" = "Combat de boss";
+/* (No Comment) */
+"quests.collection_quest" = "Quête de collecte";
+/* (No Comment) */
+"quests.confirm_abort" = "Confirmez-vous vouloir abandonner cette mission ? Elle sera abandonnée pour tous les membres de votre groupe et toute la progression sera perdue. Le responsable de quête reprendra possession du parchemin de quête.";
+/* (No Comment) */
+"quests.confirm_cancel_invitation" = "Confirmez-vous vouloir annuler cette quête ? Toutes les invitations acceptées seront perdues. Le responsable de quête reprendra possession du parchemin de quête.";
+/* (No Comment) */
+"quests.confirm_force_start" = "Êtes-vous sûr•e ? Tous les membres de l’équipe n’ont pas rejoint cette quête ! Les quêtes démarrent automatiquement quand tous les joueurs ont accepé ou refusé l’invitation.";
+/* (No Comment) */
+"quests.invitations_header" = "Invitations";
+/* (No Comment) */
+"quests.participants_header" = "Participants";
+/* (No Comment) */
+"quests.pending" = "En attente";
+/* (No Comment) */
+"quests.rejected" = "Rejetée";
+/* (No Comment) */
+"reset_tips" = "Réinitialiser les tutoriels";
+/* (No Comment) */
+"resetStreak" = "Réinitialiser le combo";
+/* (No Comment) */
+"save" = "Enregistrer";
+/* (No Comment) */
+"search" = "Rechercher";
+/* (No Comment) */
+"sell" = "Vendre pour %d or";
+/* (No Comment) */
+"settings.api" = "API";
+/* (No Comment) */
+"settings.are_you_sure" = "Confirmez-vous ?";
+/* (No Comment) */
+"settings.authentication" = "Authentification";
+/* (No Comment) */
+"settings.change_class" = "Changer de classe";
+/* (No Comment) */
+"settings.change_class_disclaimer" = "Ceci réinitialisera la classe de votre avatar et ses points alloués (que vous récupérerez pour les ré-allouer), et coûtera 3 gemmes.";
+/* (No Comment) */
+"settings.clear_cache" = "Effacer le cache";
+/* (No Comment) */
+"settings.custom_day_start" = "Heure personnalisée de début de journée";
+/* (No Comment) */
+"settings.daily_reminder" = "Rappel quotidien";
+/* (No Comment) */
+"settings.day_start" = "Début de la journée";
+/* (No Comment) */
+"settings.disable_all_notifications" = "Désactiver les notifications Push";
+/* (No Comment) */
+"settings.disable_pm" = "Désactiver les messages privés";
+/* (No Comment) */
+"settings.display_notification_badge" = "Afficher la pastille de notification";
+/* (No Comment) */
+"settings.enable_class_system" = "Activer le système de classe";
+/* (No Comment) */
+"settings.fix_characterValues" = "Corriger les valeurs du personnage";
+/* (No Comment) */
+"settings.log_out" = "Déconnexion";
+/* (No Comment) */
+"settings.maintenance" = "Maintenance";
+/* (No Comment) */
+"settings.notification_badge" = "Pastille de notification";
+/* (No Comment) */
+"settings.profile" = "Profil";
+/* (No Comment) */
+"settings.reload_content" = "Actualiser le contenu";
+/* (No Comment) */
+"settings.reminder" = "Rappel";
+/* (No Comment) */
+"settings.select_class" = "Sélectionner la Classe";
+/* (No Comment) */
+"settings.social" = "Social";
+/* (No Comment) */
+"settings.user" = "Utilisateur";
+/* (No Comment) */
+"share" = "Partager";
+/* (No Comment) */
+"skills.use_skill" = "Vous utilisez %@";
+/* (No Comment) */
+"skills.used_transformation_item" = "Vous avez utilisé %@";
+/* (No Comment) */
+"stable.feed" = "Nourrir";
+/* (No Comment) */
+"stable.premium" = "Potions";
+/* (No Comment) */
+"stable.quest_mounts" = "Montures de quête";
+/* (No Comment) */
+"stable.quest_pets" = "Familiers de quête";
+/* (No Comment) */
+"stable.special_mounts" = "Montures spéciales";
+/* (No Comment) */
+"stable.special_pets" = "Familiers spéciaux";
+/* (No Comment) */
+"stable.standard" = "Standard";
+/* (No Comment) */
+"stats.allocated" = "Alloué(s)";
+/* (No Comment) */
+"stats.battle_gear" = "Tenue de combat";
+/* (No Comment) */
+"stats.buffs" = "Bonus";
+/* (No Comment) */
+"stats.class_bonus" = "Bonus de classe";
+/* (No Comment) */
+"stats.level" = "Niveau";
+/* (No Comment) */
+"stats.no_points_to_allocate" = "0 point à allouer";
+/* (No Comment) */
+"stats.one_point_to_allocate" = "1 point à allouer";
+/* (No Comment) */
+"summary" = "Résumé";
+/* (No Comment) */
+"tags" = "Étiquettes";
+/* (No Comment) */
+"tasks.daily" = "Quotidienne";
+/* (No Comment) */
+"tasks.form.checklist" = "Liste de vérification";
+/* (No Comment) */
+"tasks.form.clear" = "Effacer";
+/* (No Comment) */
+"tasks.form.confirm_delete" = "Confirmez-vous vouloir supprimer cette tâche ?";
+/* (No Comment) */
+"tasks.form.cost" = "Prix";
+/* (No Comment) */
+"tasks.form.difficulty" = "Difficulté";
+/* (No Comment) */
+"tasks.form.easy" = "Facile";
+/* (No Comment) */
+"tasks.form.edit" = "Modifier %@";
+/* (No Comment) */
+"tasks.form.hard" = "Difficile";
+/* (No Comment) */
+"tasks.form.medium" = "Moyen";
+/* (No Comment) */
+"tasks.form.new_checklist_item" = "Nouvelle liste de vérification";
+/* (No Comment) */
+"tasks.form.reminders" = "Rappels";
+/* (No Comment) */
+"tasks.form.repeats" = "Répétition";
+/* (No Comment) */
+"tasks.form.reset_streak" = "Réinitialiser le combo";
+/* (No Comment) */
+"tasks.form.tags" = "Étiquettes";
+/* (No Comment) */
+"tasks.form.trivial" = "Banal";
+/* (No Comment) */
+"tasks.habit" = "Habitude";
+/* (No Comment) */
+"tasks.reward" = "Récompense";
+/* (No Comment) */
+"tasks.todo" = "À faire";
+/* (No Comment) */
+"theme.blue" = "Bleu";
+/* (No Comment) */
+"theme.green" = "Vert";
+/* (No Comment) */
+"theme.red" = "rouge";
+/* (No Comment) */
+"theme.yellow" = "Jaune";
+/* (No Comment) */
+"title" = "Titre";
+/* (No Comment) */
+"unequip" = "Retirer";
+/* (No Comment) */
+"weekly" = "Hebdomadaire";
+/* (No Comment) */
+"yearly" = "Annuellement";
+"back" = "Retour";
+"all" = "Toutes";
+"weak" = "Faibles";
+"strong" = "Fort";
+"due" = "Restantes";
+"dated" = "Datées";
+"done" = "Faites";
+"change" = "Changer";
+"clear" = "Effacer";
+"use" = "Utiliser";
+"titles.settings" = "Paramètres";
+"titles.authentication" = "Authentification";
+"titles.profile" = "Profil";
+"titles.api" = "API";
+"titles.fix_values" = "Corriger les valeurs";
+"titles.select_class" = "Sélectionner une classe";
+"titles.stats" = "Attributs";
+"titles.equipment" = "Équipement";
+"titles.items" = "Objets";
+"titles.faq" = "FAQ";
+"titles.about" = "À propos";
+"titles.news" = "Actualités";
+"titles.pets" = "Familiers";
+"titles.mounts" = "Montures";
+"titles.party" = "Équipe";
+"titles.guilds" = "Guildes";
+"titles.guild" = "Guilde";
+"titles.challenges" = "Défis";
+"titles.shops" = "Boutiques";
+"titles.choose_user" = "Choisir un·e Membre";
+"titles.choose_recipient" = "Choisir le destinataire";
+"titles.feed_pet" = "Nourrir le Familier";
+"titles.guidelines" = "Règles";
+"titles.invite_members" = "Inviter des membres";
+"titles.spells" = "Sorts";
+"stats.points_to_allocate" = "%d points à allouer";
+"stats.auto_allocate_points" = "Attribuer automatiquement les points";
+"stats.distribute_evenly" = "Répartir équitablement";
+"stats.distribute_evenly_help" = "Affecte le même nombre de points à chaque attribut.";
+"stats.distribute_class" = "Répartir selon la classe";
+"stats.distribute_class_help" = "Affecte plus de points aux attributs importants pour votre classe.";
+"stats.distribute_tasks" = "Répartir en fonction des catégories des tâches";
+"stats.distribute_tasks_help" = "Alloue les points en fonction des catégories Force, Intelligence, Constitution et Perception associées aux tâches que vous complétez.";
+"stats.character_build_title" = "Développement du personnage";
+"stats.character_build_text" = "Chaque niveau vous donne un point à assigner à un attribut de votre choix. Vous pouvez le faire manuellement, ou laisser le jeu décider pour vous en utilisant l'une des options d'attribution automatique.";
+"stats.stat_guide" = "Guide des attributs";
+"stats.strength_title" = "Force";
+"stats.intelligence_title" = "Intelligence";
+"stats.intelligence_text" = "Augmente l'expérience reçue des tâches validées. Augmente également votre limite de mana et sa vitesse de régénération dans le temps.";
+"stats.constitution_title" = "Constitution";
+"stats.constitution_text" = "Diminue la quantité de dégâts reçue de vos tâches. Ne diminue pas les dégâts reçus des boss.";
+"stats.perception_title" = "Perception";
+"stats.perception_text" = "Augmente la probabilité de trouver du butin lorsqu'une tâche est validée, la limite de butin quotidienne, le bonus des combos, et la quantité d'or reçue pour les tâches.";
+"controls" = "Contrôles";
+"tasks.habits" = "Habitudes";
+"tasks.dailies" = "Quotidiennes";
+"tasks.rewards" = "Récompenses";
+"tasks.todos" = "À faire";
+"tasks.form.create" = "Nouvelle %@";
+"tasks.form.habit_title_placeholder" = "Quelle habitude voulez-vous entretenir ou perdre ?";
+"tasks.form.dailies_title_placeholder" = "Que voulez-vous faire régulièrement ?";
+"tasks.form.todos_title_placeholder" = "Que voulez-vous réaliser une fois ?";
+"tasks.form.rewards_title_placeholder" = "Comment voulez-vous vous récompenser ?";
+"tasks.form.controls" = "Contrôles";
+"tasks.form.scheduling" = "Planification";
+"tasks.form.new_reminder" = "Nouveau rappel";
+"tasks.form.remind_me" = "Rappelez-moi";
+"tasks.form.start_date" = "Date de début";
+"tasks.form.due_date" = "Date d'échéance";
+"tasks.form.every" = "Chaque";
+"tasks.form.day_of_month" = "Jour du mois";
+"tasks.form.day_of_week" = "Jour de la semaine";
+"tasks.form.accessibility.positive_and_negative_enabled" = "Actions positives et négatives activées.";
+"tasks.form.accessibility.positive_enabled" = "Action positive activée.";
+"tasks.form.accessibility.negative_enabled" = "Action négative activée.";
+"tasks.form.accessibility.enable_positive" = "Activer l'action positive.";
+"tasks.form.accessibility.disable_positive" = "Désactiver l'action positive.";
+"tasks.form.accessibility.enable_negative" = "Activer l'action négative.";
+"tasks.form.accessibility.disable_negative" = "Désactiver l'action négative.";
+"tasks.form.accessibility.task_difficulty" = "La difficulté est %@";
+"tasks.form.accessibility.set_task_difficulty" = "Changer la difficulté à %@";
+"tasks.form.accessibility.enable" = "Activer %@";
+"tasks.form.accessibility.disable" = "Désactiver %@";
+"tasks.work" = "Travail";
+"tasks.exercise" = "Faites des exercices";
+"tasks.health" = "Santé";
+"tasks.school" = "École";
+"tasks.chores" = "Corvées";
+"tasks.creativity" = "Créativité";
+"tasks.add_x" = "Ajouter %@";
+"tasks.repeats.daily" = "quotidiennement";
+"tasks.repeats.weekly" = "hebdomadairement";
+"tasks.repeats.monthly" = "mensuellement";
+"tasks.repeats.yearly" = "annuellement";
+"tasks.repeats.every_day" = "chaque jour";
+"tasks.repeats.weekdays" = "jour de la semaine";
+"tasks.repeats.weekends" = "week-ends";
+"tasks.quality.worst" = "Le pire";
+"tasks.quality.worse" = "Pire";
+"tasks.quality.bad" = "Mauvais";
+"tasks.quality.neutral" = "Neutre";
+"tasks.quality.good" = "Bien";
+"tasks.quality.better" = "Mieux";
+"tasks.quality.best" = "Meilleur";
+"tasks.examples.habit_text" = "Tapez ici pour changer ceci en mauvaise habitude que vous voudriez perdre";
+"tasks.examples.habit_notes" = "Ou la supprimer en glissant sur le coté";
+"tasks.examples.todo_text" = "Rejoindre Adhder (cochez-moi !)";
+"tasks.examples.todo_notes" = "Vous pouvez au choix valider cette tâche à faire, la modifier ou la supprimer.";
+"tasks.examples.reward_text" = "Offrez-vous une récompense";
+"tasks.examples.reward_notes" = "Regardez la télé, jouez à un jeu-vidéo, mangez un bonbon... à vous de voir !";
+"tasks.examples.work_habit" = "Traiter les emails";
+"tasks.examples.work_daily_text" = "Travailler sur la plus importante des tâches du jour";
+"tasks.examples.work_daily_notes" = "Tapez pour définir votre tâche la plus importante";
+"tasks.examples.work_todo_text" = "Travail complété";
+"tasks.examples.work_todo_notes" = "Tapez pour définir le nom de votre projet en cours et choisir une échéance !";
+"tasks.examples.exercise_habit" = "10 minutes de cardio";
+"tasks.examples.exercise_daily_text" = "Routine Quotidienne";
+"tasks.examples.exercise_daily_notes" = "Tapez pour choisir votre planning et définir vos exercices !";
+"tasks.examples.exercise_todo_text" = "Créer un horaire d'entraînement";
+"tasks.examples.exercise_todo_notes" = "Appuyez pour ajouter un rappel !";
+"tasks.examples.health_habit" = "Manger sainement/de la malbouffe";
+"tasks.examples.health_daily_text" = "Utiliser du fil dentaire";
+"tasks.examples.health_daily_notes" = "Sélectionnez pour modifier !";
+"tasks.examples.health_todo_text" = "Réfléchissez à un changement positif";
+"tasks.examples.health_todo_notes" = "Appuyez pour ajouter à la liste de vérification !";
+"tasks.examples.school_habit" = "Étudier / Procrastiner";
+"tasks.examples.school_daily_text" = "Faire ses devoirs";
+"tasks.examples.school_daily_notes" = "Tapez pour définir votre tâche la plus importante";
+"tasks.examples.school_todo_text" = "Finir le devoir de classe";
+"tasks.examples.school_todo_notes" = "Tapez pour définir votre tâche la plus importante";
+"tasks.examples.team_daily_notes" = "Tapez pour définir votre tâche la plus importante";
+"tasks.examples.team_todo_notes" = "Tapez pour définir votre tâche la plus importante";
+"tasks.examples.chores_habit" = "10 min de nettoyage";
+"tasks.examples.chores_daily_text" = "Faire la vaisselle";
+"tasks.examples.chores_daily_notes" = "Tapez pour choisir votre planning !";
+"tasks.examples.chores_todo_text" = "Ranger le bazar";
+"tasks.examples.chores_todo_notes" = "Tapez pour définir l'endroit en bazar !";
+"tasks.examples.creativity_habit" = "Entraînement à de nouvelles techniques créatives";
+"tasks.examples.creativity_daily_text" = "Travailler sur un projet créatif";
+"tasks.examples.creativity_daily_notes" = "Tapez pour définir le nom de votre projet en cours et le planning !";
+"tasks.examples.creativity_todo_text" = "Finir le projet créatif";
+"tasks.examples.creativity_todo_notes" = "Appuyez pour spécifier le nom de votre projet";
+"menu" = "Menu";
+"filter" = "Filtrer";
+"one_filter" = "1 filtre";
+"x_filters" = "%ld filtres";
+"tasks.form.notes_placeholder" = "Inclure les notes pour vous aider";
+"resync" = "Resynchroniser";
+"resync_all" = "Tout resynchroniser";
+"resync_task" = "Resynchroniser cette tâche";
+"skills.unlocks_at" = "Débloqué au niveau %d";
+"skills.cant_cast_on_challenge_tasks" = "Impossible de lancer un sort sur une tâche d'un défi";
+"skills.transformation_items" = "Objets de transformation";
+"last_activity" = "Dernière activité %@";
+"settings.every_day" = "Tous les jours à";
+"settings.preferences" = "Préférences";
+"settings.theme_color" = "Couleur du thème";
+"settings.sound_theme" = "Thème musical";
+"settings.wrong_password" = "Mot de passe incorrect";
+"settings.fix_values_description" = "Si vous avez rencontré un bug ou commis une erreur qui a injustement modifié votre avatar, vous pouvez manuellement corriger les valeurs ici.";
+"settings.change_display_name" = "Changer de Pseudonyme";
+"settings.change_photo_url" = "Changer l'URL de la Photo";
+"settings.danger_zone" = "Zone de Danger";
+"settings.login_methods" = "Méthode de connexion";
+"settings.reset_account" = "Réinitialiser le compte";
+"settings.delete_account" = "Supprimer le compte";
+"settings.delete_account_description" = "Cela va supprimer votre compte définitivement et il ne pourra pas être restauré ! Les gemmes sur votre compte ou celles dépensées ne seront pas remboursées. Si vous confirmez définitivement, tapez votre mot de passe dans le champ de texte ci-dessous.";
+"settings.change_email" = "Changer votre adresse Email";
+"settings.new_email" = "Nouvelle Email";
+"settings.change_username" = "Changer l'Identifiant";
+"settings.new_username" = "Nouvel Identifiant";
+"settings.change_password" = "Changer le mot de passe";
+"settings.new_password" = "Nouveau mot de passe";
+"settings.old_password" = "Ancien mot de passe";
+"settings.local" = "Local";
+"theme.default_theme" = "Défaut";
+"theme.teal" = "Vert-Olive";
+"theme.orange" = "Orange";
+"theme.maroon" = "Maron";
+"guilds.keep_challenges" = "Conserver les Défis";
+"guilds.guild_challenges" = "Défis de guilde";
+"guilds.invite_to_guild" = "Inviter dans la guilde";
+"join" = "Rejoindre";
+"specialItems" = "Objets spéciaux";
+"stable.standard_pets" = "Familiers standard";
+"stable.standard_mounts" = "Montures standard";
+"equipment.equipment" = "Équipement";
+"equipment.auto_equip" = "Équiper automatiquement les nouveaux équipements";
+"equipment.class_equipment" = "Classe d'équipement";
+"avatar.skin_color" = "Couleur de peau";
+"purchase_gems" = "Achetez des gemmes";
+"level" = "Niveau";
+"classes.class_header" = "Classe %@";
+"party.invitation_no_invitername" = "Quelqu'un vous a invité·e à rejoindre son Équipe **%@**";
+"party.invitation_invitername" = "**@%@** vous a invité·e à rejoindre l'Équipe **%@**";
+"party.create_party_title" = "Jouez à Adhder en équipes";
+"party.create_party_button" = "Créer une nouvelle Équipe";
+"party.join_party_title" = "Vous recherchez une Équipe ?";
+"party.party_challenges" = "Défis d’équipe";
+"party.start_quest" = "Commencer une quête";
+"pending_damage" = "Dégâts en attente";
+"quests.started_by" = "Commencé par %@";
+"groups.assign_new_leader" = "Assigner une nouvelle personne responsable";
+"groups.guild_invitation_no_invitername" = "Quelqu'un vous a invité·e à rejoindre la Guilde : **%@**";
+"groups.guild_invitation_invitername" = "**@%@** vous a invité à rejoindre la Guilde : **%@**";
+"inactive" = "Inactif";
+"one_month" = "1 mois";
+"x_months" = "%d mois";
+"unsubscribe_itunes" = "Vous souhaitez modifier ou résilier votre abonnement ? Vous trouverez l'option pour vous désabonner ou le modifier dans les Paramètres de l'application, dans vos souscriptions Apple ID. Tous mois d'abonnement restants seront recrédités sur votre forfait après annulation.";
+"open_itunes" = "Ouvrez les abonnements Apple ID";
+"unsubscribe_website" = "Vous ne souhaitez plus être abonné·e ? Du fait de votre méthode de paiement, vous devrez vous désabonner depuis le site web. Pour cela, appuyez sur le bouton ci-dessous, connectez vous à votre compte, cliquez sur l'icône utilisat·eur·rice en haut à droite, puis allez dans le menu Abonnements. Tous mois d'abonnement restants seront recrédités sur votre forfait après annulation. Vous allez nous manquer !";
+"open_website" = "Ouvrir le site web Adhder";
+"plain_backgrounds" = "Arrière-Plans Standards";
+"size" = "Taille";
+"shirt" = "Tenue";
+"bangs" = "Frange";
+"ponytail" = "Queue de cheval";
+"color" = "Couleurs";
+"flower" = "Fleur";
+"wheelchair" = "Fauteuil roulant";
+"copied_to_clipboard" = "Copié vers le presse-papiers";
+"monday" = "Lundi";
+"tuesday" = "Mardi";
+"wednesday" = "Mercredi";
+"thursday" = "Jeudi";
+"friday" = "Vendredi";
+"saturday" = "Samedi";
+"sunday" = "Dimanche";
+"active_on" = "Actif %@";
+"no_days" = "pas de jours";
+"groups.invite.invitation_type" = "Type d'invitation";
+"userID" = "ID d'utilisateur";
+"api_key" = "Jeton d'API";
+"email" = "Courriel";
+"groups.invite.add_userid" = "Ajouter un ID d'utilisateur";
+"groups.invite.add_email" = "Ajouter un courriel";
+"users_invited" = "L'invitation a été envoyée.";
+"username" = "Nom d'utilisateur";
+"password" = "Mot de passe";
+"username_prompt_title" = "Il est temps de définir votre nom d'utilisateur !";
+"confirm_username" = "Confirmer le nom d'utilisateur";
+"settings.confirm_username_prompt" = "Voulez-vous vraiment confirmer le nom d'utilisateur actuel ?";
+"username_confirmed_toast" = "Votre nom d'utilisateur est confirmé";
+"settings.username_not_confirmed" = "Nom d'utilisateur non confirmé";
+"about.website" = "Site web";
+"about.report_bug" = "Rapporter un bug";
+"about.view_source_code" = "Voir le code source";
+"about.acknowledgements" = "Remerciements";
+"about.version" = "Version";
+"about.export_database" = "Exporter la base de données";
+"about.no_email_title" = "Votre email n'est pas encore enregistré";
+"login.register" = "S'inscrire";
+"login.login" = "Se connecter";
+"login.login_google" = "Se connecter avec Google";
+"login.email_password_link" = "Envoyer un lien pour réinitialiser le mot de passe par e-mail";
+"login.enter_email" = "Entrez l'adresse courriel que vous avez utilisé pour créer votre compte Adhder.";
+"login.reset_password_response" = "Si nous avons votre adresse email dans nos fichiers, un nouveau mot de passe vous a été envoyé.";
+"intro.card1.title" = "Bienvenu à";
+"intro.card1.text" = "Le temps est venu de vous amuser en progressant. Rejoignez plus de 2 millions de personnes qui améliorent leur quotidien, une tâche à la fois.";
+"intro.card2.title" = "Progression dans le jeu";
+"intro.card2.subtitle" = "Développement personnel";
+"intro.card3.title" = "Sociabilisez-vous";
+"intro.card3.subtitle" = "Combattez des monstres";
+"intro.card3.text" = "Gardez le contrôle de vos objectifs avec l'aide de vos amis. Aidez-vous les uns les autres dans la vie et dans les combats au fur et à mesure que vous vous améliorez !";
+"intro.lets_go" = "Commençons !";
+"skip" = "Passer";
+"randomize" = "Au hasard";
+"finish" = "Terminer";
+"next" = "Suivant";
+"mana_points" = "Points de mana";
+"character_level" = "Niveau du personnage";
+"gold" = "Or";
+"day_streaks" = "21 jours d'affilée";
+"aboutText" = "A propos";
+"photo_url" = "URL de la photo";
+"group_by" = "Grouper par";
+"twoHanded" = "À deux mains";
+"body_size" = "Taille du corps";
+"slim" = "Mince";
+"broad" = "Trapu";
+"buy_all" = "Tout acheter";
+"no_benefit" = "Aucun bonus";
+"errors.error" = "Erreur";
+"errors.sync" = "Erreur de synchronisation";
+"errors.sync_message" = "Il y a eu une erreur lors de la synchronisation de quelques changements.";
+"errors.quest_invite_accept" = "Une erreur s’est produite lors de l’acceptation de l’invitation à la quête";
+"errors.quest_invite_reject" = "Une erreur s’est produite lors du refus de l’invitation à la quête";
+"errors.reply" = "Votre message n'a pas pu être envoyé.";
+"errors.request" = "Il y a eu une erreur avec votre requête : %@";
+"days" = "jours";
+"weeks" = "semaines";
+"months" = "mois";
+"years" = "années";
+"leave_challenge_title" = "Quitter le défi ?";
+"leave_challenge_prompt" = "Voulez-vous quitter le défi et conserver ou supprimer les tâches ?";
+"locations.market" = "Marché";
+"locations.quest_shop" = "Boutique de quêtes";
+"locations.seasonal_shop" = "Boutique saisonnière";
+"locations.stable" = "Écurie";
+"NPCs.alex" = "Alex le marchand";
+"NPCs.daniel" = "Daniel le tenancier de l'auberge";
+"NPCs.ian" = "Ian le guide des quêtes";
+"NPCs.seasonalSorceress" = "Sorcière saisonnière";
+"NPCs.matt" = "Matt le maître des bêtes";
+"unlocks_selecting_class" = "Débloqué après avoir sélectionné une classe";
+"unlocks_level_ten" = "Débloqué au niveau 10";
+"copied_message" = "Message copié";
+"write_message" = "Écrire un message";
+"write_to" = "Écrire à %@";
+"resume_damage" = "Réactiver les dommages";
+"pause_damage" = "Suspendre les dégâts";
+"world_boss_intro_header" = "Oh, ne faites pas attention au monstre ci-dessous -- cet endroit est toujours un havre où discuter pendant vos pauses.";
+"tutorials.habits_1" = "D'abord les habitudes. Il peut s'agir d'habitudes positives que vous voulez améliorer ou d'habitudes négatives que vous voulez perdre.";
+"tutorials.habits_2" = "Chaque fois que vous effectuez une habitude positive, appuyez sur + pour obtenir de l'expérience et de l'or !";
+"tutorials.habits_3" = "Si vous faites une erreur et réalisez une mauvaise habitude, utiliser le - réduira la vie de votre avatar, et vous obligera à faire attention.";
+"tutorials.habits_4" = "Essayez ! Vous pouvez explorer les autres types de tâches par la barre de navigation inférieure.";
+"tutorials.dailies_1" = "Utilisez les quotidiennes pour les tâches qui doivent être réalisées suivant un planning régulier.";
+"tutorials.dailies_2" = "Faites attention — si vous en manquez une, votre avatar prendra des dommages durant la nuit. Les surveiller constamment vous apporteront de grandes récompenses !";
+"tutorials.todos_1" = "Utilisez les tâches à faire pour garder trace des tâches que vous ne devez faire qu'une fois.";
+"tutorials.todos_2" = "Si une de vos tâches à faire doit être réalisée à une certaine date, fixez une échéance. On dirait que vous pouvez en valider une — allez-y !";
+"tutorials.rewards_1" = "Achetez un équipement pour votre avatar avec l'or gagné !";
+"tutorials.rewards_2" = "Vous pouvez également créer des récompenses réelles personnalisées, basées sur ce qui vous motive.";
+"tutorials.add_task" = "Appuyez pour ajouter une nouvelle tâche.";
+"tutorials.edit_task" = "Appuyez sur une tâche pour la modifier et pour ajouter des rappels. Glissez vers la gauche pour la supprimer.";
+"tutorials.filter_task" = "Appuyez pour filtrer les tâches.";
+"tutorials.reorder_task" = "Maintenez votre doigt sur une tâche pour la déplacer.";
+"tutorials.inbox" = "C'est ici que vous pouvez lire et répondre à vos messages privés. Vous pouvez également envoyer des messages depuis le profil des autres personnes.";
+"tutorials.stats" = "Tapez le bouton gris pour allouer plusieurs points d'attribut, ou tapez les flèches pour les attribuer un à la fois.";
+"world_boss.pending_strike" = "Coup en cours";
+"world_boss.rage_strike_explanation_button" = "Qu'est-ce qu'une Frappe de rage ?";
+"buffs" = "Bonus";
+"allocated" = "Alloué(s)";
+"gems" = "Gemmes";
+"teleporting_adhder" = "Téléportation à Adhder";
+"subscription" = "Abonnement";
+"remember_check_off_dailies" = "N'oubliez pas de cocher vos tâches Quotidiennes !";
+"complete" = "Accomplies";
+"accept" = "Accepter";
+"reject" = "Rejeter";
+"abort" = "Abandonner";
+"reply" = "Répondre";
+"send" = "Envoyer";
+"reminder" = "Rappel";
+"buy" = "acheter";
+"success" = "victoire";
+"invitations" = "Invitations";
+"accessibility.tap_hide_boss_art" = "Tapez 2 fois pour cacher le boss art";
+"accessibility.reply_to_message" = "Répondre au message";
+"accessibility.copy_message" = "Copier le message";
+"accessibility.delete_message" = "Supprimer le message";
+"accessibility.like_message" = "Aimer le message";
+"accessibility.report_message" = "Signaler le message";
+"accessibility.completed_x" = "Terminé %@";
+"accessibility.double_tap_to_complete" = "Tapez 2 fois pour complèter";
+"accessibility.double_tap_to_edit" = "Double cliquez pour éditer";
+"accessibility.complete_task" = "Tâche accomplie";
+"accessibility.due" = "Restantes";
+"accessibility.completed" = "Accomplies";
+"collect" = "Collecter";
+"mystery_sets" = "Paquets mystères";
+"edit_tag" = "Modifier l'étiquette";
+"create_tag" = "Créer une étiquette";
+"unlockDropsTitle" = "Vous avez débloqué le système de butin !";
+"unlockDropsDescription" = "Vous avez débloqué le système de butin ! Désormais, lorsque vous réalisez une tâche, vous avez une petite chance de trouver un objet, comme un œuf, une potion ou de la nourriture !";
+"subscription_info_1_title" = "Gemmes Gratuites Mensuelles";
+"subscription_info_2_title" = "Sablier Mystique Mensuel";
+"subscription_info_3_title" = "Ensemble d'Équipement Mensuel Limité";
+"subscription_info_3_description" = "Abonnez-vous pour recevoir un ensemble exclusif et de nouveaux objets tous les mois !";
+"subscription_benefits_title" = "Restez motivé·e grâce à toujours plus de récompense en vous abonnant";
+"gem_benefits_title" = "Les gemmes permettent d'acheter des extras amusants pour votre compte, comme :";
+"moderator" = "Modérateur";
+"staff" = "Administration";
+"report_x_violation" = "Signaler @%@ pour infraction ?";
+"not_getting_drops" = "Vous n'obtenez pas le butin désiré ? Rendez-vous au marché pour acheter exactement ce que vous voulez !";
+"streak_achievement_title" = "Vous avez obtenu un succès de combo !";
+"streak_achievement_description" = "Vous avez réalisé vos quotidiennes pendant 21 jours consécutifs ! Félicitations ! Ne vous arrêtez pas sur votre lancée !";
+"next_checkin_prize_1_day" = "Votre prochaine récompense se débloquera dans 1 Connexion";
+"next_checkin_prize_x_days" = "Votre prochaine récompense se débloquera au bout de %d connexions";
+"recipient" = "Destinataire";
+"no_camera" = "Pas de caméra disponible";
+"not_enough_gems" = "Pas assez de Gemmes";
+"not_enough_hourglasses" = "Pas assez de Sabliers";
+"subscribe_for_hourglasses" = "Souscrire à un Sablier";
+"not_enough_gold" = "Pas assez d'or";
+"take_me_back" = "Revenir en arrière";
+"monthly_gem_cap_reached" = "Seuil mensuel de gemmes atteint";
+"your_balance" = "Votre solde :";
+"choose_task" = "Choisir une tâche";
+"shops.other_class_disclaimer" = "Vous pouvez n’acheter que l’équipement pour votre classe actuelle";
+"shops.purchased_all_gear" = "De nouveaux équipements seront déployés durant les Grands Galas. En attendant, il y a %d pièces d'équipement à trouver dans l'Armoire Enchantée !";
+"stats.total" = "Total";
+"tasks.team" = "Équipe";
+"settings.confirm_new_password" = "Confirmer le nouveau mot de passe";
+"avatar.hair" = "Cheveux";
+"delete_tasks" = "Supprimer des tâches";
+"welcome_back" = "Bon retour !";
+"write_a_message" = "Rédiger un message";
+"start_my_day" = "Commencer ma journée";
+"invalid_recipient_title" = "Nom d'utilisateur Adhder non valide";
+"purchased" = "Vous avez acheté %@";
+"titles.skills" = "Compétences";
+"titles.avatar" = "Avatar";
+"titles.gift_subscription" = "Offrir un Abonnement";
+"stats.strength_text" = "Augmente le bonus des coups critiques et leur chance lorsqu'une tâche est validée. Augmente également les dégâts infligés aux boss.";
+"tasks.due_today" = "Aujourd'hui";
+"tasks.due_tomorrow" = "Demain";
+"tasks.due_in_x_days" = "Dans %d jours";
+"tasks.every_x" = "chaque %d %@";
+"tasks.repeats.repeats_every_on" = "Se répète %@ le %@";
+"tasks.repeats.repeats_every" = "Se répète %@";
+"tasks.repeats.monthly_the" = "le %@";
+"tasks.examples.team_habit" = "S'enregistrer avec l'équipe";
+"tasks.examples.team_daily_text" = "Donner des nouvelles à l'équipe";
+"tasks.examples.team_todo_text" = "Projet d'équipe complet";
+"settings.app_icon" = "Icône d'application";
+"settings.server" = "Serveur";
+"settings.change_about_message" = "Changer le message A propos";
+"settings.reset_account_description" = "Vous perdrez tous nos niveaux, Or et Expérience. Toutes vos tâches et leur historique seront supprimés (les tâches liées au Défi apparaîtront toujours). Vous allez perdre tout votre équipement, sauf les objets d'Abonnement et les objets commémoratifs obtenus gratuitement, mais vous pourrez les acheter à nouveau. Vous devrez choisir la classe adaptée pour acheter des équipements spécifiques à celle-ci. Vous conserverez votre classe actuelle, vos Succès, et vos Familiers et Montures. Pour confirmer la réinitialisaton, écrivez votre mot de passe ci-dessous.";
+"settings.api_disclaimer" = "Clé mot de passe pour les développeu·r·se·s et outils tiers";
+"settings.searchable_everywhere" = "Partout";
+"settings.searchable_private_spaces" = "Seulement les espaces privés";
+"settings.mentions" = "Mentions";
+"guilds.leave_guild_title" = "Quitter la guilde ?";
+"guilds.join_guild" = "Rejoindre la guilde";
+"avatar.body" = "Corps";
+"avatar.extras" = "Extras";
+"party.create_party_description" = "Partez en quête avec des amis ou en solitaire. Combattez des monstres, créez des défis et aidez vous à vous rendre responsable dans l'équipe.";
+"party.join_party_description" = "Vous souhaitez rejoindre une Équipe mais vous ne connaissez aucun·e·s autres joueu·r·se·s ? Faites savoir aux responsables d'Équipe que vous souhaitez une invitation !";
+"party.party_description" = "Description de l'équipe";
+"groups.members" = "Membres";
+"groups.invite_member" = "Invitez un membre";
+"quests.reward_experience" = "%d points d'expérience";
+"quests.reward_gold" = "%d or";
+"quests.rage_attack" = "Attaque rageuse : %@";
+"open_app_store" = "Ouvrir la page de l'App Store";
+"tap_to_show" = "Tapez pour révéler";
+"groups.invite.add_username" = "Ajouter un nom d'utilisateur";
+"display_name" = "Pseudonyme";
+"repeat_password" = "Répétez le mot de passe";
+"username_prompt_body" = "Votre pseudonyme n'a pas changé, mais votre ancien nom de connexion sera maintenant votre identifiant pour les invitations, les @mentions et les discussions.";
+"username_prompt_wiki" = "Si vous voulez en apprendre plus sur ce changement, #<wk>visitez notre wiki.#";
+"username_prompt_disclaimer" = "Les identifiants doivent se conformer à nos #<ts>Termes et conditions# et nos #<cg>Règles de vie en communauté#. Si vous n'avez pas défini un identifant de connexion précédemment, votre identifiant a été auto-généré.";
+"settings.confirm_username_description" = "Confirmer votre identifiant le rendra publique pour les invitations, les @mentions et les discussions. Vous pouvez changer votre identifiant quand vous le voulez dans les paramètres.";
+"settings.display_name_length_error" = "Votre pseudonyme doit contenir entre 1 et 30 caractères.";
+"settings.searchable_username" = "Suggérer mon identifiant";
+"about.send_feedback" = "Envoyer un avis";
+"about.leave_review" = "Laisser un avis";
+"about.love_open_source" = "Le web aime les logiciels open-source.";
+"about.no_email_message" = "Oups, on dirait que vous n'avez pas encore défini votre email sur ce téléphone. Configurez un compte dans l'application mail d'iOS pour utiliser cette option, ou écrivez nous directement à %@";
+"damage_paused" = "Dégâts en pause";
+"login.password_confirm_error" = "Le mot de passe et la confirmation de mot de passe doivent correspondre.";
+"login.authentication_error" = "Il y a eu une erreur d'authentification. Réessayez plus tard";
+"login.email_username" = "Email / Identifiant";
+"login.forgot_password" = "Mot de passe oublié";
+"groups.error_name_required" = "Le nom ne doit pas être vide.";
+"gift_recipient_title" = "Envoyer un cadeau";
+"gift_recipient_subtitle" = "Entrez l'@identifiant de bénéficiaire";
+"continue" = "Continuer";
+"gift_confirmation_title" = "Votre cadeau a été envoyé !";
+"gift_confirmation_body_g1g1" = "Vous avez envoyé à %@ un abonnement de %@ mois et le même abonnement vous a été accordé pour notre promotion Un en cadeau, un reçu !";
+"gift_confirmation_body" = "Vous avez envoyé à %@ un abonnement de %@ mois.";
+"gift_subscription_prompt" = "Choisissez l'abonnement dont vous voudriez faire cadeau ci-dessous ! Cet achat ne sera pas renouvelé automatiquement.";
+"gem_cap" = "Débloque %d Gemmes par mois à acheter avec de l'Or";
+"hourglass_count" = "+ %d sabliers mystiques";
+"intro.welcome_prompt" = "Comment devrions-nous vous appeler ?";
+"intro.avatar_setup_speechbubble" = "Vous devez être nouve·au·lle ici. Je suis Justin, je serai votre guide dans Adhder.\n\nAlors, à quoi souhaitez-vous ressembler ? Pas d'inquiétude, vous pourrez en changer plus tard.";
+"intro.task_setup_speechbubble" = "Quelle classe ! Maintenant, choisissez les différentes choses sur lesquelles vous souhaiteriez travailler pour que nous puissions créer des tâches ensemble.\n\nNous irons voir votre tableau des tâches après cela !";
+"intro.card2.text" = "Déverrouillez les fonctionnalités en validant vos tâches. Gagnez des armures, des familiers et gagnez des récompenses pour vos réussites.";
+"never" = "Jamais";
+"keep_tasks" = "Garder les tâches";
+"whats_world_boss" = "Qu'est ce qu'un boss mondial ?";
+"tutorials.spells" = "Les compétences sont des capacités spéciales qui ont des effets puissants ! Tapez une compétence pour l'utiliser. Cela vous coûtera du mana (la barre bleue), que vous gagnez chaque jour et en complétant vos tâches. Lisez la FAQ dans le menu pour plus d'informations !";
+"faint.title" = "Vous êtes à court de point de santé !";
+"faint.dont_despair" = "Ne désespérez pas !";
+"faint.button" = "Récupérez des points de santé et réessayez";
+"agree_guidelines_prompt" = "J'accepte de suivre les règles";
+"rage_meter" = "Barre de Rage";
+"world_boss.world_boss" = "Boss Mondial";
+"world_boss.action_prompt" = "Combattez le boss pour obtenir une récompense spéciale et sauver Adhder de la terreur de %@ !";
+"world_boss.description" = "Un boss mondial est un événement spécial où toute la communauté travaille ensemble pour combattre avec ses tâches un puissant monstre !";
+"world_boss.first_bullet" = "Réalisez vos tâches pour infliger des dégâts au boss";
+"world_boss.second_bullet" = "Le boss ne vous infligera pas de dégâts pour les tâches non réalisées, mais sa barre de rage augmentera. Si la barre se remplit, le boss attaquera l'un des marchands !";
+"world_boss.third_bullet" = "Vous pouvez continuer à faire vos quêtes de boss habituelles, vos dégâts s'appliqueront aux deux";
+"world_boss.fourth_bullet" = "Visitez la taverne pour voir l'avancée du combat et la barre de rage";
+"world_boss.rage_strike_warning" = "Soyez prudent.e...\nUne fois sa barre de rage remplie, le boss mondial attaquera et s'en prendra à l'un.e de nos ami.es marchand.es. Continuez à accomplir vos Quotidiennes pour tenter de l'en empêcher !";
+"world_boss.rage_strike_damaged" = "%@ a le coeur brisé !\nNotre cher %@ fut dévasté lorsque %@ brisa le %@. Vite, occupez-vous de vos tâches pour vaincre le monstre et aider à reconstruire !";
+"world_boss.rage_strike_explanation" = "Il peut y avoir jusqu'à 3 attaques de rage\nLa barre se remplit lorsque les habitants d'Adhder manquent leurs Quotidiennes. Lorsque la jauge sera remplie, la Décoeurageante libèrera son Brisement de cœur sur l'un.e des marchand.es d'Adhder, alors assurez-vous d'accomplir vos tâches !";
+"checkin_yesterdays_dalies" = "Cochez les Quotidiennes accomplies hier :";
+"force_start" = "Démarrage forcé";
+"leave_challenge" = "Quitter le défi";
+"join_challenge" = "Participer au défi";
+"publish_challenge" = "Publier le défi";
+"view_participant_progress" = "Voir le progrès des participant.es";
+"end_challenge" = "Terminer le défi";
+"subscription_info_1_description" = "Obtenez jusqu'à 50 Gemmes au Marché que vous pourrez acquérir avec de l'Or pour pouvoir acheter des Quêtes, des éléments de Personnalisation, des Familiers, et plus encore !";
+"subscription_info_2_description" = "Ne ratez aucun objet avec 1 Sablier Mystique par mois à dépenser dans la Boutique des Voyageu·r·se·s Temporel·le·s !";
+"subscription_gift_explanation" = "Vous souhaitez donner les bénéfices de l'abonnement à quelqu'un d'autre ?";
+"subscription_gift_button" = "Offrez un abonnement";
+"subscription_support_developers" = "L'abonnement aide notre petite équipe et nous aide à faire fonctionner Adhder";
+"subscribe" = "S'abonner";
+"send_gift" = "Offrir";
+"gift_one_get_one_title" = "Offrez-en un, recevez-en un";
+"gift_one_get_one_description" = "Offrez un abonnement maintenant pour recevoir le même abonnement gratuitement !";
+"gems_support_developers" = "Acheter des gemmes soutient notre petite équipe et permet à Adhder de fonctionner";
+"buy_for_x" = "Acheter pour %@";
+"earned_achievement_share" = "J'ai gagné un nouveau succès dans Adhder !";
+"invalid_recipient_message" = "Vous devez spécifier un nom d'utilisateur Adhder valide comme récipiendaire.";
+"filter_by_tags" = "Filtrer par étiquette";
+"world_boss.title" = "%@ attaque !";
+"world_boss.rage_strike_title" = "%@ a subi une attaque !";
+"accessibility.world_boss_pending_damage" = "%@, Boss mondial, dégâts en cours : %@";
+"accessibility.score_habit_up" = "Marquer l'habitude positive";
+"accessibility.score_habit_down" = "Marquer l'habitude négative";
+"accessibility.not_completed_x" = "Non terminé %@";
+"accessibility.not_due" = "Sans échéance";
+"accessibility.not_completed" = "Non accomplies";
+"accessibility.collapse_checklist" = "Réduire la liste";
+"accessibility.expand_checklist" = "Agrandir la liste";
+"great" = "Super";
+"buy_reward" = "Vous avez acheté '%@' pour %@ pièces d'or";
+"empty.todos.title" = "Voici vos tâches à faire";
+"organize_by" = "Organiser par";
+"achievements.quests" = "Quêtes accomplies";
+"achievements.special" = "Succès exceptionnels";
+"achievements.seasonal" = "Succès saisonniers";
+"achievements.basic" = "Succès de base";
+"empty.notifications.description" = "Les fées de la notification vous font un tonnerre d'applaudissements ! Bien joué !";
+"empty.notifications.title" = "Vous êtes à jour !";
+"empty.rewards.description" = "Les récompenses sont une bonne façon d'utiliser Adhder et de compléter vos tâches. Essayez d'en ajouter quelques une aujourd'hui !";
+"empty.rewards.title" = "Voici vos récompenses";
+"empty.todos.description" = "Les tâches à faire on besoin de n'être validées qu'une seule fois. Ajoutez des listes de vérification à vos tâches pour augmenter leur valeur.";
+"empty.dailies.description" = "Les quotidiennes se répètent de façon régulière. Choisissez la planification qui marche pour vous !";
+"empty.dailies.title" = "Voici vos quotidiennes";
+"empty.habits.description" = "Les habitudes n'ont pas une planification rigide. Vous pouvez les valider plusieurs fois par jour.";
+"empty.habits.title" = "Voici vos habitudes";
+"notifications.dismiss_all" = "Tout effacer";
+"notifications.quest_invite" = "Vous avez été invité à la quête **%@**";
+"notifications.private_guild_invite" = "Vous avez reçu une invitation de la guilde privée **%@**";
+"notifications.public_guild_invite" = "Vous avez reçu une invitation de la guilde publique **%@**";
+"notifications.party_invite" = "Vous avez reçu une invitation pour l'équipe **%@**";
+"notifications.unread_party_message" = "Votre équipe, **%@**, a de nouveaux messages.";
+"notifications.unread_guild_message" = "**%@** a de nouveaux messages.";
+"notifications.new_mystery_item" = "Vous avez de nouveaux **objets mystère**";
+"notifications.new_bailey" = "Nouvelles informations de Bailey !";
+"notifications.unallocated_stat_points" = "Vous avez **%d points d'attributs non attribués**";
+"defeat" = "Défaire";
+"decline" = "Refuser";
+"never_lower_case" = "jamais";
+"login.login_apple" = "Se connecter avec Apple";
+"about.whats_new" = "Voir les nouveautés";
+"about.new_version" = "Mise à jour disponible : %@";
+"party.leave_party_description" = "Quitter votre Équipe ne supprimera pas les Défis d'Équipe auxquels vous participez.";
+"party.leave_party_title" = "Êtes-vous sûr·e de vouloir quitter l'Équipe ?";
+"stable.type" = "Type";
+"stable.color" = "Couleur";
+"stable.wacky_mounts" = "Montures farfelues";
+"stable.wacky_pets" = "Familiers farfelus";
+"guilds.left_guild" = "Vous avez quitté la guilde";
+"guilds.joined_guild" = "Vous avez rejoint la guilde";
+"theme.alwaysDark" = "Toujours sombre";
+"theme.alwaysLight" = "Toujours clair";
+"theme.followSystem" = "Utiliser le paramètre système";
+"theme.dark" = "Sombre";
+"theme.light" = "Clair";
+"settings.push_notifications.important_announcement" = "Annonces importantes";
+"settings.push_notifications.invited_quest" = "Invitation à une quête";
+//"settings.push_notifications.banned_group" = "Kicked from Group";
+"settings.push_notifications.quest_begun" = "Votre quête a commencé";
+"settings.push_notifications.invited_guid" = "Invitation dans une guilde";
+"settings.push_notifications.invited_party" = "Invitation dans une équipe";
+"settings.push_notifications.gifted_subscription" = "Abonnement offert";
+"settings.push_notifications.gifted_gems" = "Gemmes offertes";
+"settings.push_notifications.won_challenge" = "Vous avez gagné un défi !";
+"settings.push_notifications.received_pm" = "Message Privé Reçu";
+"settings.push_notifications.title" = "Notifications push";
+"settings.language" = "Langage";
+"settings.theme_mode" = "Type de thème";
+"titles.achievements" = "Succès";
+"titles.notifications" = "Notifications";
+"titles.messages" = "Messages";
+"party.remove_from_party" = "Exclure l·e·a Membre";
+"party.remove_member_title" = "Êtes-vous sûr·e de vouloir exclure %@ de l'Équipe ?";
+"task_history" = "Historique de la tâche (très expérimental)";
+"remove" = "Supprimer";
+"transfer" = "Transférer";
+"transfer_ownership" = "Transférer la responsabilité";
+"party.transfer_ownership_title" = "Transférer la responsabilité ?";
+"settings.push_notifications.mention_unjoined_guild" = "@mentions dans des guildes";
+"settings.push_notifications.mention_joined_guild" = "@mentions dans vos guildes";
+"settings.push_notifications.mention_party" = "@mentions dans l'équipe";
+"settings.push_notifications.party_activity" = "Activité de l'équipe";
+"party.transfer_ownership_description" = "Cela fera de %@ le nouveau responsable de l'équipe";
+"subscribe_for_task_history" = "Vous voulez plus que deux semaines de données ?";
+"subscription_promo_description" = "Abonnez-vous pour acheter des gemmes avec de l'or,obtenir des objets mystères tous les mois, augmenter le taux de butin et plus encore !";
+"subscription_promo_title" = "Besoin de gemmes ?";
+"renew_subscription_gifted_description" = "Vous souhaitez continuer à recevoir des avantages d'abonnement ? Vous pouvez souscrire à un abonnement récurrent dans la menu des abonnements de vos paramètres Apple ID.";
+"renew_subscription_description" = "Vous souhaitez continuer à recevoir des avantages d'abonnement ? Vous pouvez vous réabonner depuis le menu des souscriptions de vos paramètres Apple ID.";
+"cancel_subscription" = "Annuler l'abonnement";
+"cancelled" = "Annulé";
+"not_recurring" = "Ne se renouvelle pas";
+"ending_on" = "Les avantages se terminent le %@";
+"renew_subscription" = "Renouvellement l'abonnement";
+"resubscribe" = "Se réabonner";
+"subscription_duration" = "Récurrent, tous les %@";
+"duration_12month" = "12 mois";
+"duration_6month" = "6 mois";
+"duration_3month" = "3 mois";
+"duration_month" = "mois";
+"subscription_options_title" = "Choisissez la durée d'abonnement qui marche pour vous";
+"subscription_benefits_title_subscribed" = "Vous avez ces bonus grâce à votre abonnement";
+"subscription_info_5_description" = "Obtenez un Jackalope Violet Royal, et doublez vos Œufs, Potions d'Éclosion et Nourriture chaque jour pour agrandir votre collection de Familier !";
+"subscription_info_5_title" = "Un Familier Unique et plus de Drop";
+"menu.subscription" = "Abonnement";
+"menu.gems" = "Acheter des gemmes";
+"get_more_adhder" = "Profitez encore plus d'Adhder";
+"sale" = "Vente";
+"gift_one_get_one" = "Un événement \"Offrez un abonnement et recevez un abonnement gratuit\" est en cours !";
+"cancel_subscription_group_plan" = "Vous bénéficiez d'un abonnement gratuit parce que vous appartenez à une équipe ou une guilde qui a une offre de groupe. Cet abonnement se terminera si vous quittez l'équipe ou la guilde, ou si son propriétaire annule l'offre de groupe. Tous les mois d'abonnements dont vous disposiez déjà seront appliqués à la fin de l'offre de groupe.";
+"member_group_plan" = "Membre d'une offre de groupe";
+"group_plan" = "Offre de groupe";
+"titles.pets_and_mounts" = "Familiers & montures";
+"go_shopping" = "Faire des emplettes";
+"purchase_from_time_travelers_shop" = "Vous pouvez acheter cette personnalisation à la boutique des voyageurs temporels";
+"purchase_customization" = "Acheter la personnalisation";
+"time_travel_backgrounds" = "Arrière-Plans Steampunk";
+"more_options" = "Plus d'options";
+"achievements.onboarding" = "Succès de départ";
+"copied_x_to_clipboard" = "%@ a été copié dans le presse-papier";
+"quests.unlock_previous_short" = "Finir la quête %d";
+"quests.unlock_previous" = "Débloqué en finissant la quête %d";
+"quests.unlock_level_short" = "Niveau %d";
+"quests.unlock_level" = "Débloqué en atteignant le niveau %d";
+"quests.unlock_invite_short" = "Inviter des amis";
+"quests.unlock_invite" = "Débloqué en invitant des amis dans votre équipe";
+"settings.email_notifications.subscription_reminders" = "Rappels de souscription";
+"settings.email_notifications.banned_group" = "Sortie d'un groupe";
+"settings.email_notifications.title" = "Emails";
+"settings.disable_all_emails" = "Désactiver tous les emails";
+"tasks.form.accessibility.attribute" = "L'attribut est %@";
+"tasks.form.accessibility.set_attribute" = "Changer l'attribut à %@";
+"accessibility.viewX" = "Voir %@";
+"accessibility.notOwned" = "Non possédé";
+"accessibility.owned" = "Possédé";
+"accessibility.unknown" = "Inconnu";
+"accessibility.unknown_mount" = "Monture inconnue";
+"accessibility.unknown_pet" = "Familier inconnu";
+"accessibility.xofx" = "%d de %d";
+"party.quest_not_participating" = "Vous ne participez pas";
+"edit_challenge_tasks" = "Les tâches de défi ne peuvent être que partiellement modifiées.";
+"new_message" = "Nouveau message";
+"show_details" = "Montrer les détails";
+"quest_completed_title" = "Quête terminée !";
+"settings.delete_account_description_social" = "Cela va définitivement supprimer votre compte, et il ne pourra pas être restauré ! Les gemmes sur votre compte ou celles dépensées ne seront pas remboursées. Si vous confirmez définitivement, tapez DELETE dans le champ ci-dessous.";
+"add" = "Ajouter";
+"settings.add_email_and_password" = "Ajouter une authentification par courriel et mot de passe";
+"empty.inbox.description" = "Commencez à discuter ci-dessous ! Faites preuve de politesse et respectez les règles de vie en communauté.";
+"locations.time_travelers_shop" = "Voyageu·r·se·s Temporel·le·s";
+"errors.user_not_found" = "Utilisateur introuvable.";
+"login.social_login" = "Se connecter avec %@";
+"login.social_register" = "S'inscrire avec %@";
+"login.register_error" = "Il y a eu un problème avec la requête. Vérifiez les données avec attention.";
+"login.email_invalid" = "Veuillez renseigner un email valide.";
+"quest" = "Quête";
+"food_singular" = "Nourriture";
+"hatching_potion" = "Potion d'éclosion";
+"egg" = "œuf";
+"settings.added_local_auth" = "Email et mot de passe ajoutés avec succès";
+"onwards" = "En avant";
+"pin" = "Accrocher";
+"unpin" = "Décrocher";
+"learn_more" = "En savoir plus";
+"insufficient_hourglasses_message_subscriber" = "Vous aurez besoin de plus de sabliers mystiques pour acheter cet objet ! Gardez votre abonnement pour recevoir des sabliers.";
+"insufficient_hourglasses_message" = "Vous aurez besoin de plus de sabliers mystiques pour acheter cet objet ! Les sabliers sont des récompenses pour un abonnement de plusieurs mois consécutifs.";
+"more_gems_message" = "Vous aurez besoin de plus de gemmes pour acheter cet objet !";
+"complete_more_tasks" = "Vous devez réaliser plus de tâches avant de pouvoir vous payer cet objet !";
+"gift_sent_to" = "Vous avez envoyé à %@ :";
+"gift_sent_confirmation" = "Votre cadeau a été envoyé !";
+"gift_gems_explanation_balance" = "Choisissez combien de vos gemmes vous voudriez offrir, ou changez d'onglet pour acheter des gemmes à offrir";
+"gift_gems_explanation_purchase" = "Choisissez combien de gemmes offrir ci-dessous, ou changez d'onglet pour offrir des gemmes de votre propre réserve";
+"gift_gems_disclaimer" = "Adhder ne vous obligera jamais à offrir des gemmes à d'autres personnes. Réclamer des gemmes est une violation de notre guide de vie en communauté qui doit être reportée à admin@adhder.com.";
+"gift_gems_alert_prompt" = "Entrez l'@identifiant de la personne destinataire";
+"gift_gems_alert_title" = "A qui voudriez-vous envoyer votre cadeau ?";
+"gift_gems_prompt" = "Vous voulez offrir un beau butin de gemmes à quelqu'un d'autre ?";
+"purchase_x" = "Acheter %d";
+"excess_x_items_left" = "Vous avez seulement besoin de %d %@s pour faire éclore tous les familiers possibles. Voulez-vous vraiment acheter %d ?";
+"excess_no_items_left" = "Vous avez déjà tout le nécessaire pour tous les familiers %@. Voulez vous vraiment acheter %d %@s ?";
+"excess_items" = "Objets en surplus";
+"fedPetDescription" = "Chaque Familier a une nourriture spécifique qu’il adore ! Expérimentez pour trouver laquelle fera grandir votre Familier le plus rapidement";
+"hatchedPetDescription" = "Il y a tellement de Familiers à collectionner, vous êtes sûr d’avoir des favoris. Si vous les nourrissez, petit Familier pourra peut-être devenir grand…";
+"completedTaskDescription" = "Une tâche peut être une Habitude, une tâche Quotidienne, ou un Liste à Faire. Continuez de les accomplir pour recevoir toutes sortes de récompenses !";
+"createdTaskDescription" = "Continuez ! Si vous avez besoin d’aide pour planifier vos tâches, essayer de réfléchir à ce que vous aimeriez faire à un moment donné de la journée";
+"guildJoinedDescription" = "Vous vous êtes aventuré dans le coté sociale de Adhder en rejoignant une Guilde !";
+"invitedFriendDescription" = "Vous avez invité un ami (ou plusieurs) qui vous ont rejoints dans votre aventure !";
+"invitedFriendTitle" = "Vous avez invité un Ami";
+"challengeJoinedDescription" = "Vous vous êtes testé en vous joignant à un Défi !";
+"challengeJoinedTitle" = "Vous vous êtes joints à un Défi";
+"guildJoinedTitle" = "Vous vous êtes joints à une Guilde";
+"triadBingoDescription" = "Vous avez reçu le succès \"Triade Bingo\", pour avoir collectionné tous les familier, toutes les montures, et avoir trouvé tous les familiers à nouveau !";
+"triadBingoTitle" = "Triade de Bingo";
+"onboardingCompleteDescription" = "Si vous en voulez encore plus, allez voir vos succès et commencez à les collectionner !";
+"partyUpTitle" = "L’équipe fête";
+"partyOnTitle" = "L’équipe continue";
+"partyUpDescription" = "Vous vous êtes associés avec un membre de votre équipe !";
+"beastMasterDescription" = "Vous avez reçu le succès \"Maître des Bêtes\", pour avoir collectionné tous les familiers !";
+"mountMasterDescription" = "Vous avez reçu le succès \"Maître des Montures\", pour avoir collectionné toutes les montures !";
+"mountMasterTitle" = "Maître des Montures";
+"beastMasterTitle" = "Maître des Bêtes";
+"partyOnDescription" = "Votre équipe à grandi jusqu’à 4 membres !";
+"onboardingComplete_achievement_title" = "Vous avez complété vos Tâches d’Intégration !";
+"onboardingCompleteTitle" = "Vous avez reçu 5 succès et 100 pièces d’or pour vos efforts.";
+"view_onboarding_tasks" = "Voir les Tâches d’Intégration";
+"first_drop_title" = "Vous avez trouvé des nouveaux Objets !";
+"go_to_items" = "Allez voir vos Objets";
+"first_drop_explanation2" = "Allez voir vos Objets et essayez de combiner votre nouvel Œuf et Potion d’Éclosion !";
+"first_drop_explanation1" = "Accomplir des tâches vous donne la chance d’obtenir des œufs, des potions d’éclosion, et de la nourriture pour familiers.";
+"purchasedEquipmentDescription" = "L’équipement peut être pratique ou juste élégant. Augmentez vos caractéristiques pour donner toutes sortes d’avantages à votre Avatar";
+"feedPet_description" = "Accomplissez des tâches pour obtenir de la nourriture ! Vous pourrez ainsi nourrir votre Familier";
+"hatch_pet_description" = "Accomplissez des tâches pour obtenir une potion d'éclosion et un Œuf, puis faites éclore votre Familier !";
+"completedTaskTitle" = "Accomplissez une tâche";
+"view_achievements" = "Voir les succès";
+"you_got_achievement" = "Vous avez reçu un succès !";
+"purchasedEquipmentTitle" = "Équipement acheté";
+"complete_task_description" = "Cochez une de vos tâches pour gagner des récompenses";
+"purchase_equipment_description" = "L’équipement est une manière de personnaliser votre avatar et améliorer vos caractéristiques";
+"createdTaskTitle" = "Avez créé votre première tâche";
+"hatchedPetTitle" = "Avez fait éclore un Familier";
+"fedPetTitle" = "Nourrissez un Familier";
+"percent_complete" = "%d%% Complété";
+"create_task_description" = "Ajoutez une tâche que vous voudriez accomplir cette semaine";
+"purchase_equipment_title" = "Achat d'Équipement";
+"complete_to_earn_gold" = "Completez pour gagner 100 pièces d'or !";
+"onboarding_tasks" = "Tâches d'Intégration";
+"adventure_guide_description" = "Validez ces 5 tâches d'intégration et vous gagnerez 5 succès et 100 pièces d'or à la fin !";
+"five_achievements" = "5 succès";
+"hundred_gold" = "100 pièces d'or";
+"feedPet_title" = "Donnez à manger à un familier";
+"hatch_pet_title" = "Faites éclore un familier";
+"complete_task_title" = "Valider une tâche";
+"create_task_title" = "Créer une tâche";
+"gift_subscription" = "Offrir un Abonnement";
+"gift_gems" = "Offrir des gemmes";
+"user_was_unblocked" = "Vous avez débloqué %@.";
+"user_was_blocked" = "Vous avez bloqué %@.";
+"block_description" = "Un·e joueu·r·se bloquée ne peut vous envoyer de messages privés mais vous verrez malgré tout leurs publications.";
+"block_username" = "Bloquer %@ ?";
+"unblock_user" = "Débloquer";
+"block_user" = "Bloquer";
+"block" = "Bloquer";
+"leave_and_delete_task" = "Quitter et supprimer la tâche";
+"delete_challenge_task" = "Supprimer la tâche de défi ?";
+"leave_and_delete_x_tasks" = "Quitter & supprimer %d tâches";
+"delete_challenge_task_description" = "Cette tâche appartient aux %d tâches qui composent le défi “%@”. Vous devez quitter ce défi pour supprimer cette tâche.";
+"delete_x_tasks" = "Supprimer %d tâches";
+"keep_x_tasks" = "Conserver %d tâches";
+"broken_challenge_description" = "Cette tâche est l'une des %d tâches qui composent un défi qui n'existe plus. Que voudriez-vous faire des tâches restantes ?";
+"broken_challenge" = "Défi cassé";
+"update_app_title" = "Mettre à jour l'application";
+"support.bug_fixes_button" = "Obtenir de l'aide";
+"support.suggestions_title" = "Suggestions et commentaires";
+"support.suggestions_button" = "Soumettre des commentaires";
+"common_questions" = "Questions courantes";
+"more_questions_title" = "Vous avez encore une question ?";
+"more_help_button" = "Signaler un bug";
+"support.bug_fixes_description" = "Quelque chose s'est mal passé ? Trouvez des réponses ici ou contacter nous pour de l'aide";
+"support.bug_fixes_title" = "Anomalies & corrections";
+"support.questions_button" = "Lire plus";
+"support.questions_description" = "Nous allons vous expliquer les bases et répondre aux questions les plus courantes pour vous mettre au fait";
+"support.questions_title" = "Questions sur Adhder";
+"backer_tier" = "Palier de support : %d";
+"menu.support" = "Assistance";
+"titles.basics" = "Les bases";
+"titles.hall_of_patrons" = "Panthéon des Sponsors";
+"titles.hall_of_contributors" = "Panthéon des contributeurs";
+"titles.hall_of_heroes" = "Panthéon des héros";
+"support.suggestions_description" = "Vous voulez contribuer à améliorer le jeu ou vous avez une idée ? Racontez nous !";
+"more_questions_text" = "Vous pouvez [nous contacter] (mailto:admin@adhder.com?subject=%%5BiOS%%5D%%20Question) et un·e membre de notre équipe fera le maximum pour vous aider !";
+"game_mechanics" = "Mécanique du jeu";
+"more_help_description" = "Envoyez-nous une description de votre problème et nous reviendrons vers vous !";
+"more_help_title" = "Vous avez besoin d'une aide supplémentaire ?";
+"common_fixes" = "Solutions courantes";
+"known_issues" = "Problèmes connus";
+"clear_cache_title" = "Vider le cache et recharger le contenu";
+"clear_cache_description" = "Pour cela, ouvrez le Menu > Paramètres puis faites défiler vers le bas pour trouver les boutons";
+"manual_sync_description" = "Parfois, l'application ne se synchronise pas automatiquement ou reste bloquée. Actualisez la page ou forcez la fermeture puis rouvrez l'application pour voir si la situation s'améliore";
+"manual_sync_title" = "Synchronisation manuelle et redémarrage forcé";
+"update_app_description" = "Nous corrigeons l'application continuellement ; vérifiez régulièrement l'App Store pour voir si des mises à jour sont disponibles";
+"joined_challenge" = "A rejoint un défi";
+"mystic_hourglasses" = "Sabliers mystiques";
+"currency" = "Monnaie";
+"premium_currency" = "Monnaie premium";
+"mana_description" = "Les points de mana sont débloqués avec le système de classe au niveau 10, et vous permettent d'**utiliser des compétences** au fur et à mesure que vous les apprenez dès le niveau 11. \n \nQuelques ** points de mana sont gagnés** chaque nouveau jour, mais vous pouvez en gagner plus en réalisant des tâches ou en utilisant des compétences de la classe Mage.";
+"gold_description" = "L'or est la **principale forme de monnaie** dans Adhder et vous permet d'acheter de l'équipement, des quêtes, des objets ou même des récompenses personnalisées que vous créez vous-même. \n \n**Gagnez de l'or** en validant vos tâches ou en réalisant des quêtes, ou avec certaines compétences de classe. Un **attribut de perception** plus élevé augmente l'or que vous gagnez. \n \nSi vous vous abonnez à Adhder, vous pourrez même utiliser l'or pour acheter un nombre de gemmes déterminé par la durée de votre abonnement.";
+"experience_points" = "Points d'expérience";
+"health_description" = "Ceci représente la santé de votre avatar. Rater une quotidienne ou réaliser une mauvaise habitude **diminue vos points de vie**. \n \n**Retrouvez des points de vie** en montant de niveau, en utilisant une potion, ou une compétence de classe de régénération. \n \nSi vos **points de vie tombent à 0**, vous perdrez un niveau, tout votre or, et une pièce d'équipement. L'équipement perdu peut être racheté.";
+"health_points" = "Points de vie";
+"leave_and_delete_tasks" = "Quitter et supprimer les tâches";
+"leave_and_keep_tasks" = "Quitter et conserver les tâches";
+"experience_description" = "Les points d'expérience représentent vos progrès et vous permettent de monter en niveau. Vous allez **gagner de l'expérience** surtout en validant des tâches et en réussissant des quêtes, mais il y a également des compétences de classe qui donnent de l'expérience.\n\nLes tâches d'une difficulté élevée, ou les tâches en rouge vous donneront **plus d'expérience**. L'attribut **intelligence** augmente également votre bonus d'expérience.";
+"stat_description" = "Tout le monde à Adhder dispose de quatre attributs qui affectent les différents aspects du jeu.\n\n**Force (FOR)** affecte le taux de coups critiques et augmente les dégâts infligés à un boss de quête. Les guerriers et les voleurs gagne de la force avec leur équipement de classe.\n\n**Constitution (CON)** augmente vos points de vie et vous fait subir moins de dégâts. Les guérisseurs et les guerriers gagnent de la constitution avec leur équipement de classe.\n\n**Intelligence (INT)** augmente la quantité d'expérience que vous gagnez, et vous confère plus de mana. Mes mages et les guérisseurs gagne de l'intelligence avec leur équipement de classe.\n\n**Perception (PER)** augmente l'or que vous gagnez et le taux de butin que vous trouvez. Les voleurs et les mages gagnent de la perception avec leur équipement de classe.\n\nAprès le niveau 10, vous gagnez un point d'attribut à chaque niveau, et vous pourrez l'affecter à n'importe quel attribut. Vous pouvez aussi vous revêtir un équipement qui a d'autres combinaisons d'amélioration d'attribut.";
+"gems_description" = "Les gemmes sont une monnaie achetée avec de l'argent, et qui vous permet d'acheter plus de contenu dans Adhder. C'est la principale source de soutien financier pour l'équipe d'Adhder, avec les abonnements. \n \nTout le contenu acheté avec des gemmes est purement accessoire ou peut être obtenu gratuitement avec le temps. \n \nVous pouvez aussi recevoir des gemmes offertes par d'autres personnes, par des récompenses de défi, en contribuant à Adhder ou en vous abonnant.";
+"stat_allocation" = "Allocation des attributs";
+"subscriber_currency" = "Devise de souscription";
+"hourglasses_description" = "Les Sabliers Mystiques sont une forme de monnaie extrêmement rare que vous ne recevrez qu'en vous abonnant à Adhder. Ils sont utilisables dans la Boutique des Voyageu·r·se·s Temporel·le·s pour acheter des ensembles d'Armures d'Abonnements précédents, des Familiers exclusifs, des Montures, des Arrière-plans animés ou même des Quêtes spéciales ! Ces avantages supplémentaires sont une excellente façon de rester motivé·e tout au long de l'année et de vous récompenser pour tout ce que vous avez accompli.\n\nLes abonné·e·s reçoivent un Sablier Mystique au début de chaque mois pendant lequel ils·elles bénéficient des avantages de l’abonnement, ainsi que plein d'autres avantages. Assurez-vous de consulter nos différentes formules d'abonnement si la marchandise des Voyageu·r·se·s Temporel·le·s vous intrigue !";
+"left_challenge" = "A quitté le défi";
+"gems_promo.info_limitations" = "Cette promotion est limitée à la durée de l'événement. Cet événement démarrera le %@ (12:00 UTC) et se terminera le %@ (00:00 UTC). Cette promotion n'est disponible que si vous achetez des gemmes pour vous-même.";
+"spooky_promo.info_instructions" = "Entre le %@ et le %@, achetez simplement n'importe quel paquet de gemmes comme d'habitude, et votre compte sera crédité du nombre de gemmes promotionnelles. Cela vous fera plus de gemmes à dépenser, partager, ou économiser pour de futurs objets !";
+"spooky_promo.info_prompt" = "La vente de gemmes est de retour pour hanter cette fin de gala d'automne ! C'est votre dernière chance d'obtenir plus de gemmes que jamais, alors faites le plein tant que ça dure !";
+"fall_promo.info_instructions" = "Entre le %@ et le %@, achetez simplement n'importe quel paquet de gemmes comme d'habitude, et votre compte sera crédité du nombre de gemmes promotionnelles. Cela vous fera plus de gemmes à dépenser, partager, ou économiser pour de futurs objets !";
+"fall_promo.info_prompt" = "Le gala d'automne bat son plein, alors nous avons pensé que ce serait le moment idéal pour proposer notre toute première vente de gemmes ! Dès à présent, vous recevrez plus de gemmes qu'auparavant pour chaque achat.";
+"promo_info_limitations_title" = "Limitations";
+"promo_info_instructions_title" = "Comment ça marche";
+"view_gem_bundles" = "Voir les paquets de gemmes";
+"usually_x_gems" = "Généralement %d gemmes";
+"x_to_y" = "%@ à %@";
+"limited_event" = "Événement limité";
+"magic_potion" = "Potion magique";
+"magic_potions" = "Potions magiques";
+"hatch_pet_again" = "Faire éclore le familier à nouveau";
+"unhatched_pet" = "Familier non éclos";
+"hatch" = "Faire éclore";
+"hatch_pet" = "Faire éclore le familier";
+"can_hatch_pet" = "Combinez votre œuf de %@ et votre potion %@ pour faire éclore ce familier !";
+"suggest_pet_hatch_again_missing_both" = "Vous avez besoin d'un %@ et d'une potion %@ pour faire éclore ce familier à nouveau";
+"suggest_pet_hatch_again_missing_potion" = "Vous avez besoin d'une potion %@ pour faire éclore ce familier à nouveau";
+"suggest_pet_hatch_again_missing_egg" = "Vous avez besoin d'un œuf de %@ pour faire éclore ce familier à nouveau";
+"suggest_pet_hatch_missing_both" = "Vous avez besoin d'un %@ et d'une potion %@ pour faire éclore ce familier";
+"suggest_pet_hatch_missing_potion" = "Vous avez besoin d'une potion %@ pour faire éclore ce familier";
+"suggest_pet_hatch_missing_egg" = "Vous avez besoin d'un œuf de %@ pour faire éclore ce familier";
+"use_immediately_disclaimer" = "Cela prendra effet immédiatement après l'achat !";
+"unlocks_selecting_class_prompt" = "Maintenant que vous avez atteint le niveau 10, choisissez une classe !";
+"unlocks_selecting_class_description" = "Les compétences sont débloquées à partir du niveau dix dès lors que vous choisissez une classe";
+"class_system_enable_instructions" = "Vous pouvez activer le système de classe depuis les paramètres de l'application.";
+"class_system_disabled" = "Système de classe désactivé.";
+"could_not_gift_gems" = "Impossible d'offrir les gemmes. Veuillez réessayer plus tard.";
+"end_challenge_description" = "Pour clôturer un défi, connectez-vous sur le site Adhder et utilisez le bouton \"Clore le défi\" à droite dans l'écran du défi.";
+"create_guild_description" = "Pour créer une guilde, connectez-vous sur le site Adhder et utilisez le bouton \"Créer\" sur l'écran \"Mes guildes\".";
+"create_guild" = "Créer une guilde";
+"pet_accessibility_label_mount_owned" = "%@, monture possédée";
+"pet_accessibility_label_raised" = "%@, dressé %d%%";
+"gift_confirmation_body_g1_g1" = "Vous avez envoyé à %@ un abonnement de %@ mois et le même abonnement vous a été accordé pour notre promotion Un en cadeau, un reçu !";
+"gift_one_get_one_data.purchase_banner_title" = "Offrez un abonnement et recevez un abonnement gratuit jusqu'au %@";
+"gift_one_get_one_data.info_limitations" = "Il s'agit d'un événement limité dans le temps, qui démarre le %@ et finit le %@. Cette promotion ne s'applique que si vous offrez un abonnement à quelqu'un d'autre. Si vous ou l·e·a destinataire possède déjà un abonnement, l'abonnement offert ajoutera des mois supplémentaires qui se déclencheront quand l'abonnement en cours sera annulé ou expirera.";
+"gift_one_get_one_data.info_instructions" = "Choisissez \"Offrir un abonnement\", et entrez l'identifiant du compte auquel vous voulez faire un cadeau. Puis choisissez la durée d'abonnement que vous voulez offrir et validez. Vous recevrez automatiquement la même durée d'abonnement que celle que vous venez d'offrir.";
+"gift_one_get_one_data.infoPrompt" = "En l'honneur de la saison des cadeaux, nous reprenons une promotion très spéciale. Désormais, lorsque vous offrez un abonnement à quelqu'un, vous recevrez le même abonnement pour vous même !";
+"gift_one_get_one_event" = "Offrez-en un, recevez-en un";
+"create_challenge_description" = "Pour créer un défi, connectez-vous sur le site Adhder et utilisez le bouton \"Créer\" sur l'écran \"Mes défis\".";
+"create_challenge" = "Créer un défi";
+"achievements.challenges" = "Défis remportés";
+"settings.launch_screen" = "Écran de démarrage";
+"menu.skills" = "Compétences";
+"get_started" = "Commencez";
+"quests.confirm_leave_nostart" = "Êtes-vous sûr de vouloir quitter la quête ? Vous ne pourrez pas participer.";
+"quests.confirm_leave" = "Êtes-vous sûr que vous voulez partir de la quête ? Tout votre progrès sera perdu.";
+"x_items_found" = "%d Objets en attente";
+"week_reminder_title" = "Où en êtes-vous dans vos tâches ?";
+"daily_tip_9" = "Si vous avez des difficultés, essayez de séparer vos tâches en plus petites parties.";
+"daily_tip_0" = "Vous voulez tenter quelque chose de nouveau ? Rejoignez donc un Challenge afin d'étendre votre liste de tâches et gagner des Gemmes !";
+"daily_tip_7" = "Essayez d'épingler des objets depuis le marché dans vos récompenses pour vous aider à vous motiver à les obtenir !";
+"seasonal_potions_available" = "Objets saisonniers disponibles";
+"new" = "Nouveau";
+"week_reminder_body" = "Les pauses sont bonnes pour la santé, mais vous pouvez toujours gagner des points pour les activités simples, afin de gagner des niveaux et recevoir de l'équipement !";
+"daily_tip_8" = "Vous pouvez changer la difficulté de votre tâche pour vous récompenser un peu plus pour les tâches difficiles !";
+"daily_tip_6" = "Réglez un chronomètre sur 10 minutes et regardez combien vous pouvez en faire dans ce temps !";
+"daily_tip_5" = "Respirez profondément pour vous aider à vous concentrer. Vous pouvez le faire !";
+"daily_tip_4" = "Refaire occasionnellement le point sur vos tâches vous aidera à rester sur le droit chemin.";
+"daily_tip_3" = "Vous pouvez également planifier des rappels pour vos tâches quotidiennes.";
+"daily_tip_2" = "Vous pouvez modifier la périodicité des tâches quotidiennes. Même les tâches les moins fréquentes peuvent être planifiées.";
+"daily_tip_1" = "Ajoutez des listes de vérifications à vos tâches à faire pour augmenter vos récompenses !";
+"is_open" = "Ouvrir";
+"inventory.available_for" = "Disponible pendant %@";
+"pending_items" = "Objets en cours";
+"tasks.form.completions" = "Achèvements";
+"tasks.form.negative" = "Négatif";
+"tasks.form.positive" = "Positif";
+"tasks.form.adjust_streak" = "Rétablir le combo";
+"open_for" = "Ouvert pendant %@";
+"survey.button" = "Aller à l'enquête";
+"survey.description" = "Remplissez cette enquête de 5 minutes pour nous aider à grandir, et recevez un succès !";
+"survey.title" = "Enquête des membres d'Adhder";
+"beginner_objectives" = "Objectif de démarrage";
+"quests.unlock_incentive_short" = "%d connexions";
+"quests.unlock_incentive" = "Débloquer et se connectant %d fois";
+"inventory.no_longer_available" = "Plus disponible";
+"inventory.hatched_sharing" = "Je viens de faire éclore un familier %@ %@ à Adhder en accomplissant mes tâches quotidiennes !";
+"update" = "Mettre à jour";
+"tasks.edit_details" = "Modifier les détails";
+"created_at" = "Créé le";
+"total_completions" = "Achèvement total";
+"streak" = "Combo";
+"skills.caused_damage" = "Vous avez infligé des dégâts au boss";
+"report" = "Signaler";
+"checkin_prize_earned" = "Vous avez mérité cette récompense : %@ pour votre dévotion à améliorer votre vie.";
+"year" = "année";
+"month" = "mois";
+"week" = "semaine";
+"day" = "jour";
+"tasks.form.last_scored" = "Dernière validation";
+"tasks.form.times_scored" = "Nombre de validations";
+"tasks.form.completion" = "Achèvement";
+"tasks.tasks" = "Tâches";
+"see_you_tomorrow" = "À demain";
+"tasks.form.reset_counter" = "Réinitialiser le Compteur";
+"tasks.form.adjust_counter" = "Ajuster le Compteur";
+"next_prize_in_x_checkins" = "Prochain prix dans %d enregistrements";
+"tasks.form.none" = "Aucun";
+"scheduled" = "Planifiées";
+"not_due" = "Non Échues";
+"completed" = "Complété";
+"settings.day_start_adjustment" = "Heure du Début de Journée";
+"settings.cleared_cache" = "Cache vidé";
+"settings.change" = "Changer";
+"settings.add_email" = "Ajouter une adresse courriel";
+"settings.updated_email" = "Adresse courriel mise à jour";
+"settings.password" = "Mot de Passe";
+"menu.group_plans" = "Groupes";
+"settings.reloaded_content" = "Contenu chargé à nouveau";
+"settings.updated_password" = "Mot de passe changé avec succès";
+"settings.email" = "Email";
+"settings.connect" = "Se connecter";
+"tasks.form.not_editable_disclaimer" = "Les options d'éditions des tâches de groupe et de challenges sont plus limitées que celle des tâches ordinaires";
+"settings.custom_day_start_description" = "Change l'heure de changement de jour. La valeur par défaut est minuit";
+"settings.resume_damage" = "Réactiver les dommages";
+"settings.pause_damage_subtitle" = "Les dommages sont actuellement activés. En savoir plus.";
+"settings.pause_damage" = "Mettre les dégâts en pause";
+"settings.resume_damage_subtitle" = "Les dommages sont actuellement en pause.";
+"settings.next_cron_run" = "Réinitialisation le lendemain : %@";
+"settings.adjustment" = "Ajustement";
+"settings.account_info" = "Informations du compte";
+"settings.public_profile" = "Profil public";
+"settings.not_set" = "Indéfini";
+"settings.no_email" = "Pas d'adresse mail";
+"settings.my_account" = "Mon compte";
+"settings.add_password" = "Ajouter un Mot de passe";
+"settings.manually_restart_day" = "Redémarrer la Journée manuellement";
+"settings.pauseDamage.pause_damage_title2" = "Vos séries et vos compteurs ne seront pas réinitialisés";
+"settings.pauseDamage.pause_damage_description2" = "Les combos quotidiens et les compteurs d'Habitudes ne pourront qu'augmenter tant que ce paramètre sera actif";
+"settings.pauseDamage.pause_damage_title3" = "Votre progression dans la quête restera en suspens";
+"settings.pauseDamage.resume_damage_description1" = "Les Boss infligeront également des dégâts supplémentaires aux membres de votre Équipe si vous n'effectuez pas vos tâches Quotidiennes";
+"settings.pauseDamage.resume_damage_title2" = "Vos combos et vos compteurs peuvent être remis à zéro";
+"inventory.avatar_beard_customization" = "Personnalisation de la barbe de l'avatar";
+"groups.group_plan_settings" = "Paramètres de l'Offre de Groupe";
+"groups.copy_shared_tasks" = "Copier les tâches partagées";
+"groups.group" = "Groupe";
+"unshadow_mute_user" = "Retirer la Mise en Soudirne";
+"mute_user" = "Mettre en sourdine l'Utilisateur";
+"limitations" = "Limitations";
+"day_x" = "Jour %d";
+"party_robe" = "Une Tenue de soirée";
+"x_gems" = "%d gemmes";
+"settings.pauseDamage.pause_damage_title1" = "Vos tâches Quotidiennes non effectuées ne vous feront pas de dégâts";
+"settings.pauseDamage.pause_damage_description1" = "Les Boss continueront de vous infliger des dégâts si d'autres membres de votre Équipe n'ont pas fait leurs tâches Quotidiennes";
+"settings.pauseDamage.pause_damage_description3" = "Les dégâts que vous infligerez à un Boss ou les objets de collection que vous trouverez seront mis de côté jusqu'à ce que vous réactiviez les dégâts";
+"settings.pauseDamage.resume_damage_description2" = "Le fait de manquer une tâche Quotidienne réinitialisera votre combo et vos compteurs d'Habitudes à zéro";
+"errors.enter_valid_email" = "Veuillez saisir une adresse e-mail valide";
+"faint.good_luck_text" = "Mais vous pouvez tous les récupérer avec un peu de travail ! Bonne chance — vous allez y arriver. ";
+"armoire.rate_experience_description" = "La quantité remportée varie de 10 à 50.";
+"settings.pauseDamage.resume_damage_title1" = "Vous subirez des dégâts si pour les tâches Quotidiennes non effectuées ";
+"settings.pauseDamage.resume_damage_title3" = "Votre progression dans la quête s'appliquera à nouveau";
+"settings.pauseDamage.resume_damage_description3" = "Tous les dégâts en attente ou objets de collection que vous aurez obtenus seront appliqués lors de votre réinitialisation le jour suivant";
+"guilds.joined_party" = "Vous avez rejoint le groupe";
+"guilds.left_party" = "Vous avez quitté l'Équipe";
+"social.x_leader" = "Responsable de %s";
+"social.x_members" = "Membres de %s";
+"social.x_bank" = "Banque de %s";
+"social.x_description" = "Description de %s";
+"sell_no_currency" = "Vendre pour %d";
+"inventory.avatar_skin_customization" = "Personnalisation de l'apparence de l'avatar";
+"inventory.avatar_shirt_customization" = "Personnalisation de la Tenue de l'Avatar";
+"inventory.avatar_mustache_customization" = "Personnalisation de la moustache de l'avatar";
+"inventory.avatar_bangs_customization" = "Personnalisation de la coiffure de l'avatar";
+"inventory.avatar_hair_color_customization" = "Personnalisation de la couleur de cheveux de l'avatar";
+"inventory.avatar_hair_style_customization" = "Personnalisation de la coupe de l'avatar";
+"equipped_x" = "Vous avez équipé %s";
+"purchase_for_without_currency" = "Acheter pour %d";
+"party.look_for_party" = "Rechercher une Équipe";
+"party.looking_for_party" = "Vous cherchez une Équipe !";
+"party.looking_for_party_subtitle" = "Gardez un œil pour de potentielles invitations, ou commencez votre propre Équipe quand vous le souhaitez";
+"party.leave" = "Quitter l'Équipe";
+"party.leave_looking_for_party_subtitle" = "Attendez de recevoir une invitation ou créez votre propre Équipe dès que vous le souhaitez";
+"groups.find_members" = "Trouver des Membres";
+"groups.list" = "Liste";
+"groups.by_invite" = "Par Invitation";
+"groups.send_invite" = "Envoyer une Invitation";
+"groups.cancel_invite" = "Annuler l'Invitation";
+"groups.invited" = "L'invitation a été envoyée !";
+"groups.invited_x" = "Vous avez invité @%@";
+"groups.invite_pending" = "Invitation en Attente";
+"groups.removed" = "Vous avez exclu %@";
+"groups.transferred_to" = "Vous avez cédé l'Équipe à %@";
+"groups.find_more_members" = "Trouver plus de membres";
+"groups.lfp.subtitle" = "Voici une liste de joueu·r·se·s qui cherchent à rejoindre une Équipe";
+"groups.lfp.subtitle_empty" = "Personne ne cherche d'Équipe pour le moment. Vous pourrez vérifier à nouveau plus tard !";
+"groups.groups" = "Groupes";
+"groups.copy_shared_tasks_description" = "Montrer les tâches assignées et ouvertes sur votre liste personnelle de tâches";
+"unsubscribe_google" = "Vous ne souhaitez plus être abonné·e ? Du fait de votre méthode de paiement, vous devrez vous désabonner depuis le Google Play Store. Tous mois d'abonnement restants seront recrédités sur votre forfait après annulation.";
+"open_google_play" = "Ouvrir le Google Play Store";
+"open_mystery_item" = "Vous ouvrez la boîte mystérieuse et trouvez…";
+"errors.password_length" = "Le mot de passe doit contenir au moins %d caractères";
+"errors.password_not_matching" = "Les mots de passe doivent être identiques";
+"faint.subtitle" = "Vous descendrez au **niveau %s, perdrez %s Or, et casserez un élément d'Équipement...* Vous pourrez récupérer tout cela en travaillant dur !";
+"faint.disclaimer" = "L'équipement endommagé peut être racheté depuis le Marché";
+"armoire.drop_rate" = "Taux de butin de l'armoire";
+"armoire.equipment" = "Vous avez trouvé une pièce d'équipement rare dans l'armoire !";
+"armoire.food" = "Vous fouillez dans l'Armoire et trouvez de la nourriture. Qu'est-ce que ça fait là ?";
+"armoire.experience" = "Vous luttez contre l'Armoire et gagnez de l'Expérience. Prends ça !";
+"armoire.enchanted_armoire_drop_rates" = "Taux de butin de l'armoire enchantée";
+"armoire.rate_equipment_description" = "De nouvelles pièces d'équipement sont ajoutées chaque mois. Si vous avez reçu toutes les pièces d'équipement, alors vous aurez de la nourriture ou de l'expérience, à chance égale.";
+"armoire.rate_equipment_title" = "60% des pièces d'équipement";
+"armoire.rate_food_title" = "20% morceau de nourriture";
+"armoire.rate_food_description" = "Vous recevrez l'un des dix types de nourriture. Durant les événements spéciaux, les collations normales se changeront en part de gâteau ou en bonbons.";
+"armoire.rate_experience_title" = "20%% de points d'expérience";
+"armoire.equipment_remaining" = "Équipement restant : %d";
+"sale_ends_in" = "La vente se termine dans %@";
+"next_checkin_prize_in_x_days" = "Votre prochaine récompense sera débloquée dans %d connexions";
+"next_prize_at_x_checkins" = "Prochaine récompense dans %d connexions";
+"one_item_found" = "1 objet en attente";
+"ban_user" = "Bannir l'Utilisateur";
+"unban_user" = "Débannir l'Utilisateur";
+"shadow_mute_user" = "Mettre l'utilisateur en silencieux discrètement";
+"unmute_user" = "Ne plus mettre l'utilisateur en sourdine";
+"ban_user_confirm" = "Voulez-vous bannir cet utilisateur ?";
+"unban_user_confirm" = "Voulez-vous débannir cet utilisateur ?";
+"shadow_mute_user_confirm" = "Voulez-vous mettre en sourdine cet utilisateur ?";
+"mute_user_confirm" = "Voulez-vous mettre cet utilisateur en sourdine ?";
+"unmute_user_confirm" = "Voulez-vous ne plus mettre cet utilisateur en sourdine ?";
+"birthday_header_description" = "Célébrez les 10 ans d'Adhder avec des cadeaux et des objets exclusifs ci-dessous !";
+"jubilant_gryphatrice" = "Gryphatrice jubilante";
+"limited_edition" = "Édition limitée";
+"gryphatrice_description" = "La rare Gryphatrice jubilante rejoint la fête d'anniversaire ! Ne manquez pas votre chance de posséder ce familier animé exclusif.";
+"buy_for" = "Acheter pour";
+"plenty_of_potions" = "Beaucoup de Potions";
+"plenty_of_potions_description" = "Nous vous ramenons 10 des potions d'éclosion magiques préférées de la communauté. Allez au marché pour compléter votre collection !";
+"four_for_free" = "Quatre gratuitement";
+"four_for_free_description" = "Pour faire durer la fête, nous allons faire don de robes festives, de 20 gemmes et d'un ensemble de cape limité ainsi que d'un arrière-plan exclusif !";
+"birthday_limitations_description" = "C'est un événement limité dans le temps qui commencera le %1$s et se finira le %2$s. Vous aurez la possibilité d'acheter la gryphatrice jubilante en édition limitée ainsi que dix potions d'éclosion magiques durant l'événement. Les autres cadeaux listés dans la section \"Quatre gratuits\" seront automatiquement envoyés à tous les comptes qui étaient actifs dans les 30 jours avant le moment d'envoi des cadeaux. Les comptes créés après l'envoi des cadeaux ne pourront pas les réclamer.";
+"thanks_for_your_support" = "Merci pour votre soutien !";
+"visit_the_market" = "Visiter le marché";
+"ends_in_x" = "se termine dans %s";
+"exclusive_items_await" = "Des cadeaux et objets exclusifs vous attendent";
+"purchase_gryphatrice_confirmation" = "Acheter la gryphatrice jubilante pour %d gemmes ?";
+"birthday_set" = "Ensemble d'anniversaire";
+"background" = "Arrière-plan";
+"failed" = "A échoué";
+"settings.reset_account_confirm" = "Êtes vous sûr de vouloir réinitialiser ?";
+"settings.reset_account_description_social" = "Vous perdrez tous nos niveaux, Or et Expérience. Toutes vos tâches et leur historique seront supprimés (les tâches liées au Défi apparaîtront toujours). Vous allez perdre tout votre équipement, sauf les objets d'Abonnement et les objets commémoratifs obtenus gratuitement, mais vous pourrez les acheter à nouveau. Vous devrez choisir la classe adaptée pour acheter des équipements spécifiques à celle-ci. Vous conserverez votre classe actuelle, vos Succès, et vos Familiers et Montures. Si vous en êtes absolument sûr·e, écrivez RESET dans le champ de texte ci-dessous.";
+"inventory.no_saddle_tile" = "Vous n'avez pas de Selles";
+"faint.subbed_footer" = "Votre abonnement vous permet d'avoir une deuxième chance chaque jour si vous n'avez plus de PV";
+"armoire.unsubbed_footer" = "Obtenez à chaque fois une chance supplémentaire d'ouvrir l'Armoire avec un abonnement";
+"subscription.info_armoire_description" = "Obtenez deux essais pour gagner de nouveaux équipement à chaque fois que vous ouvrez l'Armoire Enchantée !";
+"subscription.hourglasses_header" = "Les abonné·e·s obtiennent un Sablier Mystique chaque mois ainsi que ces avantages exclusifs !";
+"reporting_disclaimer" = "Vous ne devez signaler un %@ que si cela enfreint le Guide de la Communauté et/ou les Conditions d'Utilisation. Déposer un signalement fallacieux est une infraction au Guide de la Communauté d'Adhder.";
+"items.empty.egg_description" = "Accomplissez des tâches, des Quêtes de Familiers, ou rendez-vous au Marché pour faire le plein !";
+"items.empty.food_description" = "Accomplissez des tâches, achetez une Armoire, ou rendez-vous au Marché pour faire le plein !";
+"items.empty.special_description" = "Obtenez des objets de transformation pendant les Galas Saisonniers ou abonnez-vous pour obtenir une boîte d'équipement mystère tous les mois !";
+"quest_mechanics_collecting_description" = "Lorsque vous participez à une Quête de Collecte, accomplissez vos tâches pour avoir une chance aléatoire de trouver un objet de Quête. Les objets en attente seront comptabilisés lors de votre réinitialisation le jour suivant. La Perception augmente les chances de trouver des objets.";
+"quest_mechanics_pausing_description" = "Si vous rencontrez des difficultés pour accomplir vos tâches Quotidiennes, vous pouvez suspendre les Dégâts depuis les Paramètres pour prendre une pause. Cela empêchera l·e·a Boss de faire des dégâts à vous ou à vos coéquipi·er·ère·s, mais vous empêche également de faire des dégâts. Les Quotidiennes non effectuées par les autres membres vous feront toujours des dégâts, alors restez vigilant·e !";
+"settings.delete_account_confirm" = "Êtes-vous sûr·e de vouloir supprimer ?";
+"subscription.gem_for_gold_header" = "Abonnez-vous pour acheter des Gemmes avec de l'Or et recevoir ces autres avantages exclusifs !";
+"share_avatar" = "Partager l'Avatar";
+"settings.push_notifications.content_release" = "Sortie de Contenu + Évènements";
+"settings.disconnect" = "Déconnecter";
+"inventory.no_saddle_description" = "Les Selles élèvent automatiquement un Familier en Monture. Vous pouvez en acheter au Marché.";
+"inventory.visit_market" = "Visiter le Marché";
+"stable.use_saddle" = "Utiliser une Selle";
+"stable.evolved_pet" = "Vous avez dompté %s, en selle !";
+"avatar.animal_tails" = "Queues d'Animaux";
+"faint.unsubbed_button_prompt" = "Abonnez-vous pour survivre avec 1 PV !";
+"faint.unsubbed_footer" = "Obtenez une seconde chance chaque jour d'éviter de manquer de points de vie avec un abonnement";
+"faint.subbed_button_prompt" = "Deuxième chance : Accrochez-vous avec 1 PV !";
+"faint.subbed_used" = "Vous avez déjà utilisé votre deuxième chance aujourd'hui. Elle sera de nouveau disponible dans %s.";
+"faint.perk_success" = "Vous avez une deuxième chance avec 1 PV !";
+"sub_perk" = "avantages d'abo";
+"armoire.unsubbed_button_prompt" = "Abonnez-vous pour ouvrir gratuitement de nouveau !";
+"armoire.subbed_button_prompt" = "Ouvrez à nouveau gratuitement !";
+"armoire.subbed_footer" = "Votre abonnement vous permet d'ouvrir l'Armoire une nouvelle fois !";
+"subscription.info_armoire_title" = "Récompenses d'Armoire Double";
+"subscription.info_faint_title" = "Obtenez une Deuxième Chance";
+"subscription.info_faint_description" = "Ne perdez plus votre progression grâce à un soin instantané quand vous n'avez plus de PV une fois par jour !";
+"subscription.armore_header" = "Les abonné·e·s ont une chance supplémentaire d'ouvrir l'Armoire et ces autres avantages !";
+"subscription.faint_header" = "Les abonné·e·s ont une seconde chance de survie par jour et ces autres avantages !";
+"report_x" = "Signaler %@";
+"report_x_question" = "Pourquoi signalez-vous ceci %@ ?";
+"reason_for_report" = "Raison du signalement";
+"this_will_also_block_x" = "Cela bloquera aussi %@";
+"open_profile" = "Ouvrir le Profil";
+"message" = "Message";
+"player" = "Joueu·r·se";
+"challenge" = "Défi";
+"no_x" = "Pas de %@";
+"items.empty.potion_description" = "Accomplissez des tâches, des Quêtes de Potion, ou rendez-vous au Marché pour faire le plein !";
+"items.empty.quest_description" = "Obtenez des Quêtes en gagnant des niveaux, grâce aux bonus de connexion, ou dans la Boutique de Quêtes !";
+"you_raised_pet" = "Vous avez élevé votre Familier %@ en Monture !";
+"x_gems_month" = "%d gemmes par mois";
+"hourglass_in_x_months" = "Sablier dans %d mois";
+"1_hourglass" = "1 Sablier";
+"x_hourglasses" = "%d Sabliers";
+"quest_mechanics" = "Mécaniques de Quête";
+"quest_mechanics_boss_title" = "Faire des dégâts à un·e Boss";
+"quest_mechanics_boss_description" = "Accomplissez n'importe quel type de tâche ou utilisez vos compétences pour accumuler les dégâts en attente ! Les dégâts seront appliqués lors de votre réinitialisation le jour suivant. La compétence Force affecte la quantité de dégâts que vous infligez.";
+"quest_mechanics_collecting_title" = "Objets de Quête de Collecte";
+"quest_mechanics_damage_title" = "Les Boss attaquent pour chaque Quotidienne non effectuée";
+"quest_mechanics_damage_description" = "Les dégâts du Boss sont calculés à chaque fois qu'un·e membre de l'Équipe se connecte durant la journée. Ces dégâts sont vous sont infligés lorsque vous vous effectuez une action qui vous synchronise avec le serveur. Les dégâts de Boss sont affichés dans la discussion de votre Équipe.";
+"quest_mechanics_pausing_title" = "Dégâts mis en pause";
+"quest_mechanics_rage_title" = "Compteurs de Rage";
+"quest_mechanics_rage_description" = "Certain·e·s Boss difficiles ont un compteur de Rage sous leurs PV. Ce compteur se remplit quand les participant·e·s n'effectuent pas leurs tâches Quotidiennes. Quand elle se remplit complètement, l·e·a Boss lancera une attaque redoutable qui fera des dégâts supplémentaires !";
+"challenge_category.adhder_official" = "Adhder Officiel";
+"challenge_category.advocacy_causes" = "Sensibilisation + Causes";
+"challenge_category.creativity" = "Créativité";
+"challenge_category.entertainment" = "Divertissement";
+"challenge_category.academics" = "Scolaires";
+"challenge_category.finance" = "Finance";
+"challenge_category.health_fitness" = "Santé + Sport";
+"challenge_category.hobbies_occupations" = "Hobby + Occupations";
+"challenge_category.location_based" = "Basé sur l'emplacement";
+"challenge_category.mental_health" = "Santé mentale + Prendre soin de Soi";
+"challenge_category.getting_organized" = "S'Organiser";
+"challenge_category.recovery_support_groups" = "Rétablissement + Groupes de Soutien";
+"challenge_category.self_improvement" = "Auto-Amélioration";
+"challenge_category.spirituality" = "Spiritualité";
+"challenge_category.time_management" = "Gestion du Temps + Responsabilisation";
+"groups.rescinded" = "Annulé";
+"event_backgrounds" = "Arrière-plans Évènementiels";
+"unshadow_mute_user_confirm" = "Voulez-vous annuler le bannissement de cet·te utilisat·eur·rice ?";
+"own_today_for" = "Obtenez-le dès aujourd'hui pour %s ou %d Gemmes";
+"avatar.skin_colors" = "Couleurs de Peaux";
+"avatar.hairColors" = "Couleurs de Cheveux";
+"avatar.hair_styles" = "Coupes de Cheveux";
+"avatar.mustaches" = "Moustaches";
+"avatar.beards" = "Barbes";
+"avatar.wheelchairs" = "Chaises Roulantes";
+"avatar.backgrounds" = "Arrière-plans";
+"avatar.skins" = "Peaux";
+"shops.customization_notes" = "Vous souhaitez changer votre look ? Vous êtes au bon endroit ! Nous avons fréquemment de nouveaux modèles.";
+"x_days" = "%d Jours";
+"1_day" = "1 Jour";
+"x_hours" = "%d Heures";
+"1_hour" = "1 Heure";
+"x_minutes" = "%d Minutes";
+"1_minute" = "1 Minute";
+"swaps_in_x" = "Change dans %@";
+"refresh_for_items" = "Rafraîchir pour de nouveaux Objets";
+"avatar.shirts" = "Tenues";
+"locations.customizations" = "Personnalisations";
+"menu.quest_shop" = "Quêtes";
+"empty.want_more_items" = "Vous cherchez autre chose ?";
+"empty.want_more_items_description" = "Allez voir la Boutique de Personnalisation pour encore plus de façons de personnaliser votre avatar !";
+"spring" = "Printemps";
+"summer" = "Été";
+"fall" = "Automne";
+"winter" = "Hiver";
+"empty.no_items" = "Vous ne possédez aucun de ces objets";
+"empty.no_items_description" = "Dirigez-vous vers la Boutique de Personnalisation pour découvrir les nombreuses façons de personnaliser votre avatar !";
+"customization_shop" = "Boutique de Personnalisation";
+"monthly_backgrounds" = "Arrière-Plans Mensuels";
+"shops.try_on_customize_avatar_return_next_month" = "Vous pouvez les essayer en personnalisant votre avatar. Revenez plus tard pour voir les nouveautés du mois prochain !";
+"shops.try_on_customize_avatar_return_next_season" = "Vous pouvez les essayer en personnalisant votre avatar. Revenez plus tard pour voir les nouveautés de la prochaine saison !";
+"shops.try_on_equipment" = "Vous pouvez les essayer depuis les Équipements. Un nouvel achalandage est effectué au début de chaque mois !";
+"shops.try_on_customize_avatar" = "Vous pouvez les essayer en personnalisant votre avatar.";
+"shops.purchased_all_gear_armoire_empty" = "De nouveaux équipements seront déployés durant les Grands Galas. L'Armoire Enchantée est également réapprovisionnée tous les mois !";
+"shops.own_all_items" = "Vous possédez tous ces objets";
+"class_equipment_shop_dialog" = "Cet objet n'est disponible que pour la classe %s.\nOuvrez les Paramètres pour changer de classe.";
+"insufficient_level_equipment_dialog_new" = "Cet objet n'est disponible que pour la classe %s.\nVous pourrez choisir votre classe après le niveau 10.";
+"shops.purchased_all_gear_title" = "Vous possédez tous les Équipements %@";
+"classes.warriors" = "Guerri·er·ère·s";
+"classes.mages" = "Mages";
+"classes.healers" = "Guérisseu·r·se·s";
+"classes.rogues" = "Voleu·r·se·s";
+"shops.customizing_your_avatar" = "personnaliser votre avatar";
+"is_closed" = "Fermé";
+"items.footer_title" = "Vous n'obtenez pas les objets que vous recherchez en effectuant vos tâches ?";
+"items.footer_description" = "Allez visiter les Marché pour acheter ce dont vous avez besoins !";
+"items.footer_quests_title" = "Vous voulez plus de Quêtes ?";
+"items.footer_food_title" = "Vous n'obtenez pas la nourriture pour familier espérée en effectuant vos tâches ?";
+"items.footer_quests_descriptions" = "Allez visiter la Boutique de Quête pour voir ce qui est disponible !";
+"items.footer_food_description" = "Allez visiter le Marché pour acheter de la nourriture ou une Selle pour instantanément élever votre Familier !";
+"yes" = "Oui";
+"no" = "Non";
+"community_guidelines" = "Guide de la Communauté";
+"terms_of_service" = "Conditions d'Utilisation";
+"unlock_x_gear_and_skills" = "Débloque les équipements et compétences %@";
+"change_class_to" = "Changer de classe pour %@";
+"class_change_confirm" = "Changer de classe pour devenir %s pour 3 Gemmes ?";
+"class_change_success_title" = "Vous êtes un·e %@ !";
+"got_it" = "Ok !";
+"open_stats" = "Voir les Attributs";
+"class_change_confirm_description" = "Cela changera les types d'équipements achetables dans les boutiques, les différentes compétences que vous pourrez utiliser, et réinitialisera vos points d'attributs.";
+"class_change_success_description" = "Vous pouvez désormais utiliser les compétences %@ et acheter des équipements dans les boutiques. Gagnez des niveaux pour obtenir des points d'attributs que vous pourrez utiliser pour booster vos compétences.";
+"subscription.stay_motivated_with_more_rewards" = "Restez motivé·e grâce à toujours plus de récompense en vous abonnant";
+"two_gems_per_month" = "+2 Gemmes chaque mois";
+"max_gem_cap" = "Limite de Gemme Maximum";
+"subscription.next_hourglass_delivery" = "Prochaine livraison de Sablier";
+"continue_benefits" = "Continuez de profiter des Avantages";
+"x_x_gem_cap" = "%d / %d Limite de Gemme";
+"resubscribe_to_pick_up" = "Abonnez-vous à nouveau pour reprendre votre progression !";
+"subscription.thanks_for_subscribing" = "Merci pour votre abonnement";
+"subscription.subscribers_receive" = "Les personnes abonnées reçoivent un Sablier Mystique, un Ensemble d'Équipement Mystère, et des Gemmes disponibles au Marché dans les deux premiers jours du mois";
+"subscription.gifted" = "Offert";
+"subscription.enjoy_these_benefits" = "Profitez de tous ces avantages exclusifs grâce à votre abonnement";
+"subscription.payment_method" = "Méthode de Paiement";
+"subscription.months_subscribed" = "Mois Abonnés";
+"subscription.monthly_gems" = "Gemmes Mensuelles";
+"subscription.subscribe_again_hourglasses" = "Abonnez-vous à nouveau pour continuer à recevoir des Sabliers Mystiques";
+"restore_purchase" = "Restaurer l'Achat";
+"gift_one_get_one_description_date" = "Offrez un abonnement et recevez un abonnement gratuitement jusqu'au %@";
+"subscription_info_3_description_gear" = "Restez à la page en arborant les derniers équipements exclusifs. Abonnez vous dès maintenant pour obtenir %@ %@ !";
+"no_active_subscription_to_restore" = "Impossible de trouver un précédent abonnement à réactiver";
+"subscriber_benefit" = "Avantage d'Abonnement";
+"buy_gems_with_gold" = "Acheter des Gemmes avec de l'Or";
+"see_more_sub_options" = "Voir plus d'options d'abonnement";
+"edit_cancel_subscription" = "Modifier ou annuler l'abonnement";
+"gift_one_get_one_screen_banner" = "Pendant la durée de cette promotion, vous recevrez un abonnement identique dès que vous aurez envoyé votre cadeau.";
+"subscription_credit_title" = "Vos*%d mois** d'abonnement s'activeront après annulation";
+"next_payment_x" = "Prochain Paiement le %@";
+"birthday" = "Anniversaire";
+"valentines" = "Valentin·e·s";
+"turkey_day" = "Jour de la Dinde";
+"nye" = "Nouvel An";
+"party.quest_participant_one" = "1 Participant·e";
+"next_switch_in_x" = "Prochaine sélection dans %@";
+"change_password_helper" = "Votre mot de passe doit contenir au minimum 8 caractères. En changeant votre mot de passe, vous serez déconnecté·e des autres plateformes et add-ons.";
+"api_token_title" = "Clé API";
+"api_token_reset_title" = "Si vous avez besoin d'une nouvelle Clé API";
+"copy_token" = "Copier Clé";
+"api_token_is_password" = "Votre Clé API est comme un mot de passe";
+"api_token_password_description" = "Ne le partagez pas. Il est possible que votre ID d'Utilisat·eur·rice vous soit demandé, mais ne postez jamais votre Clé API sur des pages publiques, pas même sur Github.";
+"api_token_reset_desc" = "Vous pouvez changer votre mot de passe pour la réinitialiser. Une fois réinitialisée, vous devrez vous reconnecter sur toutes les plateformes sur lesquelles vous étiez connecté·e à Adhder et renseigner votre nouvelle Clé API aux applications tierces que utilisez.";
+"settings.user_data" = "Données Utilisat·eur·rice";
+"settings.privacy_preferences" = "Préférences de Confidentialité";
+"settings.manage_privacy_preferences" = "Changer vos paramètres de confidentialité";
+"your_privacy_preferences" = "Vos Préférences de Confidentialité";
+"privacy_preferences_sheet_description" = "Adhder utilise des données de votre appareil pour une analyse des performances, la gestion des requêtes sur le support, et pour vous proposer la meilleure expérience de jeu possible. Pour cela, nous avons besoin de quelques autorisations.\n\nVous pouvez changer vos paramètres à tout moment. Pour en savoir plus, consultez notre [Politique de Confidentialité](https://adhder.com/static/privacy).";
+"performance_analytics" = "Performance et Analyses";
+"strictly_necessary" = "Strict nécessaire";
+"strictly_necessary_description" = "Ce sont les données nécessaires requises pour le bon fonctionnement de notre application. Ces données sont celles liées à vos préférences enregistrées dans vos paramètres, ainsi que des informations en cas d'arrêt inopiné de l'application.";
+"login.tagline" = "Joignez l'utile à l'agréable";
+"login.continue_with_google" = "Continuer avec Google";
+"login.continue_with_apple" = "Continuer avec Apple";
+"login.continue_with_email" = "Continuer avec votre mail";
+"login.already_have_account" = "Vous avez déjà un compte ?";
+"login.need_account" = "Vous souhaitez créer un compte ?";
+"login.what_call_you" = "Comment souhaitez-vous que nous vous appelions ?";
+"login.terms_text" = "Vous confirmez avoir plus de 18 ans, et avoir lu et accepté nos **[Conditions d'Utilisation](https://adhder.com/static/terms)** ainsi que notre **[Politique de Confidentialité](https://adhder.com/static/privacy)**.";
+"join_adhder" = "Rejoindre Adhder";
+"accept_all" = "Tout Accepter";
+"performance_analytics_description" = "C'est informations sont utilisées pour améliorer l'expérience de jeu, ainsi que les performances et services proposés par Adhder. L'équipe du support pourront également utiliser ces données durant la résolution de ticket et de rapport de bug.";
+"login.password_length_error" = "Le mot de passe doit faire au moins 8 caractères.";
+"login.username_description" = "C'est votre pseudo unique que vous pourrez changer quand vous le souhaitez !";
+"privacy_preferences_full_description" = "Adhder utilise des données de votre appareil pour une analyse des performances, la gestion des requêtes sur le support, et pour vous proposer la meilleure expérience de jeu possible. Pour cela, nous devons vous demander quelques autorisations.\n\nVous pouvez changer ces options depuis vos paramètres de compte.";
+"save_preferences" = "Enregistrer les Préférences";
+"settings.daily_reminder_permission_needed" = "Veuillez autoriser l'affichage de notifications dans vos Paramètres pour utiliser les rappels quotidiens";
+"privacy_policy" = "Politique de Confidentialité";
+"errors.username_already_taken" = "Non d'utilisateur déjà pris.";
+"quest_items_found" = "Vous avez trouvé %d articles de quête";
+"one_quest_item_found" = "Vous avez trouvé 1 article de quête";

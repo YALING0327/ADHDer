@@ -1,0 +1,441 @@
+package com.adhderapp.android.adhder.ui.activities
+
+import android.annotation.SuppressLint
+import android.os.Bundle
+import android.view.Gravity
+import android.view.View
+import android.view.animation.AccelerateInterpolator
+import android.widget.FrameLayout
+import android.widget.RelativeLayout
+import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.isVisible
+import androidx.core.view.updatePadding
+import androidx.lifecycle.lifecycleScope
+import com.adhderapp.android.adhder.R
+import com.adhderapp.android.adhder.data.InventoryRepository
+import com.adhderapp.android.adhder.databinding.ActivityArmoireBinding
+import com.adhderapp.android.adhder.extensions.consumeWindowInsetsAbove30
+import com.adhderapp.android.adhder.helpers.AdHandler
+import com.adhderapp.android.adhder.helpers.AdType
+import com.adhderapp.android.adhder.helpers.Analytics
+import com.adhderapp.android.adhder.helpers.AppConfigManager
+import com.adhderapp.android.adhder.helpers.EventCategory
+import com.adhderapp.android.adhder.helpers.HitType
+import com.adhderapp.android.adhder.helpers.ReviewManager
+import com.adhderapp.android.adhder.ui.fragments.purchases.EventOutcomeSubscriptionBottomSheetFragment
+import com.adhderapp.android.adhder.ui.fragments.purchases.EventOutcomeSubscriptionBottomSheetFragment.Companion.EVENT_ARMOIRE_OPENED
+import com.adhderapp.android.adhder.ui.viewmodels.MainUserViewModel
+import com.adhderapp.android.adhder.ui.views.ads.AdButton
+import com.adhderapp.android.adhder.ui.views.dialogs.AdhderBottomSheetDialog
+import com.adhderapp.common.adhder.extensions.dpToPx
+import com.adhderapp.common.adhder.extensions.loadImage
+import com.adhderapp.common.adhder.extensions.observeOnce
+import com.adhderapp.common.adhder.helpers.Animations
+import com.adhderapp.common.adhder.helpers.ExceptionHandler
+import com.adhderapp.common.adhder.helpers.launchCatching
+import com.adhderapp.common.adhder.views.AdhderCircularProgressView
+import com.plattysoft.leonids.ParticleSystem
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.MainScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.launch
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class ArmoireActivity : BaseActivity() {
+    private var gold: Double? = null
+    private var hasAnimatedChanges: Boolean = false
+    private lateinit var binding: ActivityArmoireBinding
+
+    @Inject
+    internal lateinit var inventoryRepository: InventoryRepository
+
+    @Inject
+    internal lateinit var appConfigManager: AppConfigManager
+
+    @Inject
+    lateinit var userViewModel: MainUserViewModel
+
+    @Inject
+    lateinit var reviewManager: ReviewManager
+
+    override fun getLayoutResId(): Int = R.layout.activity_armoire
+
+    private var hasUsedExtraArmoire = false
+    private var lastType: String? = null
+    private var lastKey: String? = null
+    private var lastText: String? = null
+    private var lastValue: String? = null
+
+    override fun getContentView(layoutResId: Int?): View {
+        binding = ActivityArmoireBinding.inflate(layoutInflater)
+        return binding.root
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putBoolean("hasUsedExtraArmoire", hasUsedExtraArmoire)
+        outState.putString("lastType", lastType)
+        outState.putString("lastKey", lastKey)
+        outState.putString("lastText", lastText)
+        outState.putString("lastValue", lastValue)
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        hasUsedExtraArmoire = savedInstanceState.getBoolean("hasUsedExtraArmoire")
+        lastType = savedInstanceState.getString("lastType")
+        lastKey = savedInstanceState.getString("lastKey")
+        lastText = savedInstanceState.getString("lastText")
+        lastValue = savedInstanceState.getString("lastValue")
+        if (lastType != null) {
+            configure(lastType ?: "", lastKey ?: "", lastText ?: "", lastValue)
+        }
+        if (hasUsedExtraArmoire) {
+            if (binding.adButton.isVisible) {
+                binding.adButton.visibility = View.INVISIBLE
+            } else {
+                binding.openArmoireSubscriberWrapper.visibility = View.INVISIBLE
+            }
+        }
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding.goldView.currency = "gold"
+        binding.goldView.animationDuration = 1000
+        binding.goldView.animationDelay = 500
+        binding.goldView.minForAbbrevation = 1000000
+        binding.goldView.decimals = 0
+
+        userViewModel.user.observe(this) { user ->
+            if (gold == null) {
+                gold = user?.stats?.gp
+            }
+            lifecycleScope.launchCatching {
+                val remaining = inventoryRepository.getArmoireRemainingCount().firstOrNull() ?: 0
+                binding.equipmentCountView.text = getString(R.string.equipment_remaining, remaining)
+                binding.noEquipmentView.visibility = if (remaining > 0) View.GONE else View.VISIBLE
+            }
+        }
+
+        ViewCompat.setOnApplyWindowInsetsListener(binding.mainContent) { v, windowInsets ->
+            val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars()
+                or WindowInsetsCompat.Type.displayCutout())
+            v.updatePadding(top = insets.top)
+            binding.unsubbedWrapper.updatePadding(bottom = insets.bottom)
+            binding.dropRateButton.updatePadding(bottom = insets.bottom)
+            consumeWindowInsetsAbove30(windowInsets)
+        }
+
+        binding.progressView.setContent {
+            AdhderCircularProgressView(indicatorSize = 60.dp)
+        }
+
+        if (appConfigManager.enableArmoireAds()) {
+            val handler =
+                AdHandler(this, AdType.ARMOIRE) {
+                    if (!it) {
+                        return@AdHandler
+                    }
+                    giveUserArmoire()
+                }
+            handler.prepare {
+                if (it && binding.adButton.state == AdButton.State.LOADING) {
+                    binding.adButton.state = AdButton.State.READY
+                } else if (!it) {
+                    binding.adButton.visibility = View.INVISIBLE
+                }
+            }
+            binding.adButton.updateForAdType(AdType.ARMOIRE, lifecycleScope)
+            binding.adButton.setOnClickListener {
+                binding.adButton.state = AdButton.State.LOADING
+                handler.show()
+            }
+        } else {
+            binding.adButton.visibility = View.GONE
+        }
+
+        if (appConfigManager.enableArmoireSubs()) {
+            if (!hasUsedExtraArmoire) {
+                userViewModel.user.observe(this) {
+                    if (it?.isSubscribed == true && binding.openArmoireSubscriberWrapper.visibility != View.INVISIBLE) {
+                        binding.openArmoireSubscriberWrapper.visibility = View.VISIBLE
+                        binding.unsubbedWrapper.visibility = View.GONE
+                        binding.dropRateButton.visibility = View.VISIBLE
+                    } else if (it?.isSubscribed == false) {
+                        binding.openArmoireSubscriberWrapper.visibility = View.GONE
+                        binding.unsubbedWrapper.visibility = View.VISIBLE
+                        binding.dropRateButton.visibility = View.GONE
+                    }
+                }
+            }
+        } else {
+            binding.openArmoireSubscriberWrapper.visibility = View.GONE
+            binding.unsubbedWrapper.visibility = View.GONE
+            binding.dropRateButton.visibility = View.VISIBLE
+        }
+
+        binding.openArmoireSubscriberButton.setOnClickListener {
+            Analytics.sendEvent("Free armoire perk", EventCategory.BEHAVIOUR, HitType.EVENT)
+            giveUserArmoire()
+            lifecycleScope.launchCatching {
+                delay(400)
+                binding.openArmoireSubscriberWrapper.startAnimation(Animations.fadeOutAnimation())
+            }
+        }
+
+        binding.subscribeModalButton.setOnClickListener {
+            Analytics.sendEvent("View armoire sub CTA", EventCategory.BEHAVIOUR, HitType.EVENT)
+            val subscriptionBottomSheet =
+                EventOutcomeSubscriptionBottomSheetFragment().apply {
+                    eventType = EVENT_ARMOIRE_OPENED
+                }
+            subscriptionBottomSheet.show(
+                supportFragmentManager,
+                EventOutcomeSubscriptionBottomSheetFragment.TAG
+            )
+        }
+
+        binding.closeButton.setOnClickListener {
+            finish()
+        }
+        binding.equipButton.setOnClickListener {
+            lastKey?.let { it1 ->
+                MainScope().launchCatching { inventoryRepository.equip("equipped", it1) }
+            }
+            finish()
+        }
+        binding.dropRateButton.setOnClickListener {
+            showDropRateDialog()
+        }
+        binding.dropRateButtonUnsubbed.setOnClickListener {
+            showDropRateDialog()
+        }
+        intent.extras?.let {
+            val args = ArmoireActivityArgs.fromBundle(it)
+            configure(args.type, args.key, args.text, args.value)
+
+            if (args.type == "gear") {
+                userViewModel.user.observeOnce(this) { user ->
+                    user?.loginIncentives?.let { totalCheckins ->
+                        reviewManager.requestReview(this@ArmoireActivity, totalCheckins)
+                    }
+                }
+            }
+        }
+
+        ViewCompat.setOnApplyWindowInsetsListener(binding.dropRateButton) { v, windowInsets ->
+            val insets = windowInsets.getInsets(
+                WindowInsetsCompat.Type.systemBars()
+                    + WindowInsetsCompat.Type.displayCutout()
+            )
+            v.updatePadding(bottom = insets.bottom)
+            consumeWindowInsetsAbove30(windowInsets)
+        }
+    }
+
+    private fun giveUserArmoire(): Boolean {
+        if (hasUsedExtraArmoire) {
+            return false
+        }
+        hasUsedExtraArmoire = true
+        binding.iconWrapper.post {
+            binding.iconView.bitmap = null
+            Animations.circularHide(binding.iconWrapper)
+        }
+        binding.progressView.animate().apply {
+            alpha(1f)
+            startDelay = 0
+            start()
+        }
+        binding.titleView.animate().apply {
+            alpha(0f)
+            duration = 300
+            startDelay = 0
+            start()
+        }
+        binding.subtitleView.animate().apply {
+            alpha(0f)
+            duration = 300
+            startDelay = 0
+            start()
+        }
+
+        binding.goldView.animate().apply {
+            alpha(0f)
+            start()
+        }
+
+        val user = userViewModel.user.value ?: return true
+        val currentGold = user.stats?.gp ?: return true
+        if (binding.adButton.isVisible) {
+            binding.adButton.state = AdButton.State.UNAVAILABLE
+            binding.adButton.visibility = View.INVISIBLE
+        } else if (binding.openArmoireSubscriberWrapper.isVisible) {
+            binding.openArmoireSubscriberWrapper.visibility = View.INVISIBLE
+        }
+        lifecycleScope.launch(ExceptionHandler.coroutine()) {
+            userRepository.updateUser("stats.gp", currentGold + 100)
+            val buyResponse =
+                inventoryRepository.buyItem(user, "armoire", 0.0, 1) ?: return@launch
+            configure(
+                buyResponse.armoire["type"] ?: "",
+                buyResponse.armoire["dropKey"] ?: "",
+                buyResponse.armoire["dropText"] ?: "",
+                buyResponse.armoire["value"] ?: ""
+            )
+            hasAnimatedChanges = false
+            gold = null
+            startAnimation(false)
+        }
+        return false
+    }
+
+    override fun onResume() {
+        super.onResume()
+        lifecycleScope.launchCatching {
+            delay(500L)
+            startAnimation(true)
+        }
+    }
+
+    private fun startAnimation(decreaseGold: Boolean) {
+        val gold = gold?.toInt()
+        if (hasAnimatedChanges) return
+        if (gold != null && decreaseGold) {
+            /**
+             * We are adding 100 as the gold is already "deducted" before the animation starts,
+             * and animating to show the current user's gold amount.
+             */
+            binding.goldView.value = (gold + 100).toDouble()
+            binding.goldView.value = (gold).toDouble()
+        }
+
+        binding.progressView.animate().apply {
+            alpha(0f)
+            startDelay = 0
+            start()
+        }
+
+        val container = binding.confettiAnchor
+        container.postDelayed(
+            {
+                createParticles(container, R.drawable.confetti_blue)
+                createParticles(container, R.drawable.confetti_red)
+                createParticles(container, R.drawable.confetti_yellow)
+                createParticles(container, R.drawable.confetti_purple)
+            },
+            500
+        )
+
+        binding.iconView.startAnimation(Animations.bobbingAnimation())
+        binding.titleView.alpha = 0f
+        binding.subtitleView.alpha = 0f
+
+        binding.root.post {
+            if (binding.iconWrapper.isAttachedToWindow) {
+                Animations.circularReveal(binding.iconWrapper, 300)
+            } else {
+                binding.iconView.visibility = View.VISIBLE
+                binding.iconView.alpha = 1f
+            }
+        }
+
+        binding.leftSparkView.startAnimating()
+        binding.rightSparkView.startAnimating()
+
+        binding.titleView.animate().apply {
+            alpha(1f)
+            duration = 300
+            startDelay = 600
+            start()
+        }
+        binding.subtitleView.animate().apply {
+            alpha(1f)
+            duration = 300
+            startDelay = 900
+            start()
+        }
+
+        hasAnimatedChanges = true
+    }
+
+    private fun createParticles(
+        container: FrameLayout,
+        resource: Int
+    ) {
+        ParticleSystem(
+            container,
+            30,
+            ContextCompat.getDrawable(this, resource),
+            6000
+        )
+            .setRotationSpeed(144f)
+            .setScaleRange(1.0f, 1.6f)
+            .setSpeedByComponentsRange(-0.15f, 0.15f, 0.15f, 0.45f)
+            .setFadeOut(200, AccelerateInterpolator())
+            .emitWithGravity(binding.confettiAnchor, Gravity.TOP, 15, 2000)
+    }
+
+    fun configure(
+        type: String,
+        key: String,
+        text: String,
+        value: String? = ""
+    ) {
+        lastType = type
+        lastKey = key
+        lastText = text
+        lastValue = value
+
+        binding.titleView.text =
+            text.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+        binding.equipButton.visibility = if (type == "gear") View.VISIBLE else View.GONE
+        when (type) {
+            "gear" -> {
+                binding.subtitleView.text = getString(R.string.armoireEquipment_new)
+                binding.iconView.loadImage("shop_$key")
+            }
+
+            "food" -> {
+                binding.subtitleView.text = getString(R.string.armoireFood_new)
+                binding.iconView.loadImage("Pet_Food_$key")
+            }
+
+            else -> {
+                @SuppressLint("SetTextI18n")
+                binding.titleView.text = "+$value ${getString(R.string.XP_default)}"
+                binding.subtitleView.text = getString(R.string.armoireExp)
+                binding.iconView.setImageResource(R.drawable.armoire_experience)
+                val layoutParams = RelativeLayout.LayoutParams(108.dpToPx(this), 122.dpToPx(this))
+                layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT)
+                binding.iconView.layoutParams = layoutParams
+            }
+        }
+    }
+
+    private fun showDropRateDialog() {
+        val dialog = AdhderBottomSheetDialog(this)
+        dialog.setContentView(R.layout.armoire_drop_rate_dialog)
+        dialog.show()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        // Clear infinite animations on pause to make sure Context references aren't leaked.
+        stopInfiniteAnimations()
+    }
+
+    private fun stopInfiniteAnimations() {
+        binding.leftSparkView.stopAnimating()
+        binding.rightSparkView.stopAnimating()
+        binding.iconView.animation?.cancel()
+        binding.iconView.animation = null
+    }
+}

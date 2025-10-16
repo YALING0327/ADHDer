@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HabitDirectionPickerButton">
+        <attr name="drawable" format="integer" />
+        <attr name="drawFromTop" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircularProgressView">
+        <attr name="offset" format="dimension" />
+        <attr name="backgroundArcColor" format="color" />
+        <attr name="arcFillColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="EllipsizedTextView">
+        <attr name="ellipsis" format="string" />
+        <attr name="ellipsisColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TextActionChip">
+        <attr name="chipText" format="string" />
+        <attr name="chipImage" format="reference" />
+        <attr name="chipColor" format="color" />
+        <attr name="chipTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TimeText">
+        <attr name="android:titleTextColor" format="reference|color" />
+        <attr name="titleText" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,24 @@
+strings:
+  inputs: AdhderApp/Strings/Base.lproj/Mainstrings.strings
+  outputs:
+    - templatePath: swiftgen-templates/adhderstrings-swift4.stencil
+      output: AdhderApp/Generated/Strings.swift
+      params:
+          publicAccess: true
+xcassets:
+  inputs: AdhderApp/Images.xcassets
+  outputs:
+    - templateName: swift4
+      output: AdhderApp/Generated/Assets-Images.swift
+ib:
+  inputs: AdhderApp/Storyboards/Base.lproj/
+  outputs:
+    - templateName: scenes-swift4
+      output: AdhderApp/Generated/Storyboard Scenes.swift
+    - templateName: segues-swift4
+      output: AdhderApp/Generated/Storyboard Segues.swift
+yaml:
+  inputs: secrets.yml
+  outputs:
+    - templatePath: swiftgen-templates/secrets.stencil
+      output: AdhderApp/Generated/Secrets.swift

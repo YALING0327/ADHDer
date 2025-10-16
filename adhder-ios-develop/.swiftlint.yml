@@ -1,0 +1,63 @@
+disabled_rules:
+  - private_outlet
+opt_in_rules:
+  - overridden_super_call
+  - attributes
+  - conditional_returns_on_newline
+  - closure_spacing
+  - force_unwrapping
+  - private_outlet
+  - switch_case_on_newline
+  - contains_over_first_not_nil
+  - empty_count
+  - empty_string
+  - first_where
+  - last_where
+  - sorted_first_last
+included: # paths to include during linting. `--path` is ignored if present.
+  - AdhderApp
+  - Adhder Models
+  - Adhder Database
+  - Adhder API Client
+  - Adhder Intents
+  - Adhder Widgets
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - AdhderApp/Utilities/AdhderIcons.swift
+line_length: 200
+type_body_length:
+  - 350 # warning
+  - 450 # error
+file_length:
+  warning: 500
+  error: 1200
+large_tuple:
+  - 3
+  - 4
+force_unwrapping: error
+trailing_whitespace:
+  ignores_empty_lines: true
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 45
+    error: 50
+  excluded:
+    - iPhone
+    - id
+    - up
+    - Key
+identifier_name:
+  excluded:
+    - id
+    - up
+    - by
+    - to
+empty_string: error
+contains_over_first_not_nil: error
+first_where: error
+last_where: error
+sorted_first_last: error
+overridden_super_call:
+  severity: error
+reporter: "xcode"

@@ -1,0 +1,12 @@
+package com.adhderapp.common.adhder.models.auth
+
+data class UserAuthResponse(
+    val apiToken: String = "",
+    val id:       String = "",
+    val newUser:  Boolean = false
+) {
+
+    val token: String
+        get() = apiToken
+}
+

@@ -1,0 +1,125 @@
+package com.adhderapp.android.adhder.receivers
+
+import android.Manifest
+import android.app.Notification
+import android.app.PendingIntent
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.media.RingtoneManager
+import android.os.Build
+import androidx.core.app.ActivityCompat
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
+import com.adhderapp.android.adhder.R
+import com.adhderapp.android.adhder.data.TaskRepository
+import com.adhderapp.android.adhder.helpers.TaskAlarmManager
+import com.adhderapp.android.adhder.models.tasks.Task
+import com.adhderapp.android.adhder.ui.activities.MainActivity
+import com.adhderapp.common.adhder.helpers.ExceptionHandler
+import com.adhderapp.shared.adhder.HLogger
+import com.adhderapp.shared.adhder.LogLevel
+import com.adhderapp.shared.adhder.models.tasks.TaskType
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.MainScope
+import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.launch
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class TaskReceiver : BroadcastReceiver() {
+    @Inject
+    lateinit var taskAlarmManager: TaskAlarmManager
+
+    @Inject
+    lateinit var taskRepository: TaskRepository
+
+    override fun onReceive(
+        context: Context,
+        intent: Intent
+    ) {
+        HLogger.log(LogLevel.INFO, this::javaClass.name, "onReceive")
+        val extras = intent.extras
+        if (extras != null) {
+            val taskId = extras.getString(TaskAlarmManager.TASK_ID_INTENT_KEY)
+            // This will set up the next reminders for dailies
+            if (taskId != null) {
+                taskAlarmManager.addAlarmForTaskId(taskId)
+            }
+
+            MainScope().launch(ExceptionHandler.coroutine()) {
+                val task = taskRepository.getTask(taskId ?: "").firstOrNull() ?: return@launch
+                if (task.isUpdatedToday && task.completed) {
+                    return@launch
+                }
+                createNotification(context, task)
+            }
+        }
+    }
+
+    private fun createNotification(
+        context: Context,
+        task: Task
+    ) {
+        val intent = Intent(context, MainActivity::class.java)
+        HLogger.log(LogLevel.INFO, this::javaClass.name, "Create Notification")
+
+        intent.putExtra("notificationIdentifier", "task_reminder")
+        val pendingIntent =
+            PendingIntent.getActivity(
+                context,
+                System.currentTimeMillis().toInt(),
+                intent,
+                PendingIntent.FLAG_IMMUTABLE
+            )
+        val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+
+        var notificationBuilder =
+            NotificationCompat.Builder(context, "default")
+                .setSmallIcon(R.drawable.ic_gryphon_white)
+                .setColor(ContextCompat.getColor(context, R.color.brand_300))
+                .setContentTitle(task.text)
+                .setStyle(
+                    NotificationCompat.BigTextStyle()
+                        .bigText(task.notes)
+                )
+                .setPriority(NotificationCompat.PRIORITY_MAX)
+                .setSound(soundUri)
+                .setAutoCancel(true)
+                .setContentIntent(pendingIntent)
+
+        notificationBuilder = notificationBuilder.setCategory(Notification.CATEGORY_REMINDER)
+
+        if (task.type == TaskType.DAILY || task.type == TaskType.TODO) {
+            val completeIntent =
+                Intent(context, LocalNotificationActionReceiver::class.java).apply {
+                    action = context.getString(R.string.complete_task_action)
+                    putExtra("taskID", task.id)
+                    putExtra("NOTIFICATION_ID", task.id.hashCode())
+                }
+            val pendingIntentComplete =
+                PendingIntent.getBroadcast(
+                    context,
+                    task.id.hashCode(),
+                    completeIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT + PendingIntent.FLAG_IMMUTABLE
+                )
+            notificationBuilder.addAction(
+                0,
+                context.getString(R.string.complete),
+                pendingIntentComplete
+            )
+        }
+        val notificationManager = NotificationManagerCompat.from(context)
+        notificationManager.safeNotify(context, task.id.hashCode(), notificationBuilder.build())
+    }
+}
+
+fun NotificationManagerCompat.safeNotify(context: Context, code: Int, notification: Notification) {
+    if (ActivityCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+        return
+    }
+    notify(code, notification)
+}

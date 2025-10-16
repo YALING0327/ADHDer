@@ -1,0 +1,28 @@
+<FrameLayout
+        android:id="@+id/root_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adhderapp.android.adhder.ui.activities.MainActivity"
+    android:background="?attr/colorContentBackground">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+        <include layout="@layout/activity_main_content" android:id="@+id/content" />
+
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navigation_drawer"
+        class="com.adhderapp.android.adhder.ui.fragments.NavigationDrawerFragment"
+        android:layout_width="@dimen/drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:layout="@layout/drawer_main"/>
+</androidx.drawerlayout.widget.DrawerLayout>
+</FrameLayout>

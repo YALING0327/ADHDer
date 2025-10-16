@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thousand_abbrev">千</string>
+    <string name="million_abbrev">百萬</string>
+    <string name="billion_abbrev">十億</string>
+    <string name="trillion_abbrev">兆</string>
+    <string name="mystic_hourglasses">神秘沙漏</string>
+    <string name="repeat_daily">每日任務</string>
+    <string name="monthly">每月任務</string>
+    <string name="weekly">每週任務</string>
+    <string name="daily">每日任務</string>
+    <string name="settings">設定</string>
+    <string name="user_level_long">%d級</string>
+    <string name="action_edit">編輯</string>
+    <string name="action_cancel">取消</string>
+    <string name="about_title">關於</string>
+    <string name="are_you_sure">你確定嗎？</string>
+    <string name="gold_plural">金幣</string>
+    <string name="stats">統計</string>
+    <string name="habits">習慣</string>
+    <plurals name="x_habits">
+        <item quantity="other">%d 個習慣</item>
+    </plurals>
+    <string name="hard">困難</string>
+    <string name="dailies">每日任務</string>
+    <string name="quadrillion_abbrev">千兆</string>
+    <string name="trivial_sentence">瑣事</string>
+    <plurals name="x_dailies">
+        <item quantity="other">%d 個每日任務</item>
+    </plurals>
+    <string name="hard_sentence">困難</string>
+    <string name="todos">待辦事項</string>
+    <string name="easy_sentence">簡單</string>
+    <string name="medium_sentence">中等</string>
+    <string name="rewards">獎勵</string>
+    <string name="habit">習慣</string>
+    <string name="todo">待辦事項</string>
+    <string name="user_level">%d 級</string>
+    <plurals name="x_todos">
+        <item quantity="other">%d 個待辦事項</item>
+    </plurals>
+    <plurals name="x_rewards">
+        <item quantity="other">%d 個獎勵</item>
+    </plurals>
+    <string name="new_task_x">新的 %s</string>
+    <string name="username">使用者名稱</string>
+    <string name="email_username">信箱/使用者名稱</string>
+    <string name="password">密碼</string>
+    <string name="logout">登出</string>
+    <string name="logout_description">登出你的帳號</string>
+    <string name="LoginActivityName">歡迎</string>
+    <string name="login_validation_error_title">驗證錯誤</string>
+    <string name="login_validation_error_fieldsmissing">你必須填寫所有欄位。</string>
+    <plurals name="flagged_count">
+        <item quantity="other">被舉報 %d 次，已被隱藏</item>
+    </plurals>
+    <string name="create_task_title">建立一個任務</string>
+    <string name="complete_task_title">完成一個任務</string>
+    <string name="create_task">建立 %s</string>
+    <string name="save_task_x">儲存 %s</string>
+    <string name="easy">簡單</string>
+    <string name="medium">中等</string>
+    <string name="reward">獎勵</string>
+    <string name="gems">寶石</string>
+    <string name="gold_capitalized">金幣</string>
+    <string name="trivial">瑣事</string>
+    <string name="login_btn">登入</string>
+    <string name="register_btn">註冊</string>
+    <string name="task">任務</string>
+    <string name="failed">載入失敗</string>
+    <string name="retry">重試</string>
+    <string name="new_task">新的任務</string>
+    <string name="avatar">角色</string>
+    <string name="emailAddress">電子郵件地址</string>
+    <string name="confirmpassword">重複密碼</string>
+    <string name="login_btn_google">使用 Google 登入</string>
+</resources>

@@ -1,0 +1,16 @@
+//
+//  ScoreTaskCall.swift
+//  Adhder API Client
+//
+//  Created by Phillip Thelen on 07.03.18.
+//  Copyright © 2018 AdhderApp Inc. All rights reserved.
+//
+
+import Foundation
+import Adhder_Models
+
+public class ScoreTaskCall: ResponseObjectCall<TaskResponseProtocol, TaskResponse> {
+    public init(task: TaskProtocol, direction: TaskScoringDirection) {
+        super.init(httpMethod: .POST, endpoint: "tasks/\(task.id ?? "")/score/\(direction.rawValue)")
+    }
+}

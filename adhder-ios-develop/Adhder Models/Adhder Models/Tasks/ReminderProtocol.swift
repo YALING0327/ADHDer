@@ -1,0 +1,19 @@
+//
+//  ReminderProtocol.swift
+//  Adhder Models
+//
+//  Created by Phillip Thelen on 06.03.18.
+//  Copyright © 2018 AdhderApp Inc. All rights reserved.
+//
+
+import Foundation
+
+@objc
+public protocol ReminderProtocol: BaseModelProtocol {
+    var id: String? { get set }
+    var startDate: Date? { get set }
+    var time: Date? { get set }
+    var task: TaskProtocol? { get }
+    
+    func detached() -> ReminderProtocol
+}

@@ -1,0 +1,136 @@
+//
+//  RealmPreferences.swift
+//  Adhder Database
+//
+//  Created by Phillip Thelen on 09.03.18.
+//  Copyright © 2018 AdhderApp Inc. All rights reserved.
+//
+
+import Foundation
+import RealmSwift
+import Adhder_Models
+
+@objc
+class RealmPreferences: BaseModel, PreferencesProtocol {
+    @objc dynamic var id: String?
+    @objc dynamic var skin: String?
+    @objc dynamic var language: String?
+    @objc dynamic var automaticAllocation: Bool = false
+    @objc dynamic var dayStart: Int = 0
+    @objc dynamic var allocationMode: String?
+    @objc dynamic var background: String?
+    @objc dynamic var useCostume: Bool = false
+    @objc dynamic var dailyDueDefaultView: Bool = false
+    @objc dynamic var shirt: String?
+    @objc dynamic var size: String?
+    @objc dynamic var disableClasses: Bool = false
+    @objc dynamic var chair: String?
+    @objc dynamic var sleep: Bool = false
+    @objc dynamic var timezoneOffset: Int = 0
+    @objc dynamic var sound: String?
+    @objc dynamic var autoEquip: Bool = false
+    @objc dynamic var searchableUsername: Bool = false
+    @objc dynamic var dateFormat: String?
+    @objc dynamic var analyticsConsent: Bool = false
+    @objc dynamic var analyticsConsentGiven: Bool = false
+    var pushNotifications: PushNotificationsProtocol? {
+        get {
+            return realmPushNotifications
+        }
+        set {
+            if let newItems = newValue as? RealmPushNotifications {
+                realmPushNotifications = newItems
+                return
+            }
+            if let newItems = newValue {
+                realmPushNotifications = RealmPushNotifications(id: id, pnProtocol: newItems)
+            }
+        }
+    }
+    @objc dynamic var realmPushNotifications: RealmPushNotifications?
+    
+    var emailNotifications: EmailNotificationsProtocol? {
+        get {
+            return realmEmailNotifications
+        }
+        set {
+            if let newItems = newValue as? RealmEmailNotifications {
+                realmEmailNotifications = newItems
+                return
+            }
+            if let newItems = newValue {
+                realmEmailNotifications = RealmEmailNotifications(id: id, pnProtocol: newItems)
+            }
+        }
+    }
+    @objc dynamic var realmEmailNotifications: RealmEmailNotifications?
+    
+    var hair: HairProtocol? {
+        get {
+            return realmHair
+        }
+        set {
+            if let newHair = newValue as? RealmHair {
+                realmHair = newHair
+                return
+            }
+            if let newHair = newValue {
+                realmHair = RealmHair(userID: id, protocolObject: newHair)
+            }
+        }
+    }
+    @objc dynamic var realmHair: RealmHair?
+    
+    var tasks: TaskPreferencesProtocol? {
+        get {
+            return realmTasks
+        }
+        set {
+            if let newPreferences = newValue as? RealmTaskPreferences {
+                realmTasks = newPreferences
+                return
+            }
+            if let newPreferences = newValue {
+                realmTasks = RealmTaskPreferences(id: id, protocolObject: newPreferences)
+            }
+        }
+    }
+    @objc dynamic var realmTasks: RealmTaskPreferences?
+    
+    override static func primaryKey() -> String {
+        return "id"
+    }
+    
+    override static func ignoredProperties() -> [String] {
+        return ["pushNotifications", "emailNotifications", "tasks"]
+    }
+    
+    convenience init(id: String?, preferences: PreferencesProtocol) {
+        self.init()
+        self.id = id
+        skin = preferences.skin
+        language = preferences.language
+        automaticAllocation = preferences.automaticAllocation
+        dayStart = preferences.dayStart
+        allocationMode = preferences.allocationMode
+        background = preferences.background
+        useCostume = preferences.useCostume
+        dailyDueDefaultView = preferences.dailyDueDefaultView
+        shirt = preferences.shirt
+        size = preferences.size
+        disableClasses = preferences.disableClasses
+        chair = preferences.chair
+        sleep = preferences.sleep
+        timezoneOffset = preferences.timezoneOffset
+        sound = preferences.sound
+        autoEquip = preferences.autoEquip
+        pushNotifications = preferences.pushNotifications
+        emailNotifications = preferences.emailNotifications
+        hair = preferences.hair
+        searchableUsername = preferences.searchableUsername
+        dateFormat = preferences.dateFormat
+        tasks = preferences.tasks
+        analyticsConsent = preferences.analyticsConsent
+        analyticsConsentGiven = preferences.analyticsConsentGiven
+    }
+}

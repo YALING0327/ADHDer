@@ -1,0 +1,126 @@
+# ========================================
+# ADHDER .gitignore
+# ========================================
+
+# 敏感配置文件（重要！）
+.env
+.env.*
+env.production.ready
+config-ready.txt
+*.pem
+*.p12
+*.key
+firebase-adminsdk.json
+secrets.yml
+adhder.properties
+adhder.resources
+
+# 依赖目录
+node_modules/
+bower_components/
+jspm_packages/
+
+# 构建产物
+build/
+dist/
+coverage/
+.nyc_output/
+website/client/dist/
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.settings/
+
+# 数据库文件
+data/db/*
+mongodb-data/
+*.sqlite
+*.db
+
+# 上传文件
+uploads/*
+!uploads/.gitkeep
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+.cache/
+
+# 备份文件
+*.backup
+.habitica-backup/
+backup/
+
+# 本地配置
+.cursor/
+quick-config.sh
+
+# PM2
+.pm2/
+
+# 证书和密钥
+config/wechat/*.pem
+config/alipay/*.pem
+keys/
+
+# 其他
+.eslintcache
+
+# ========================================
+# Android 构建产物和依赖
+# ========================================
+adhder-android-main/**/build/
+adhder-android-main/**/.gradle/
+adhder-android-main/**/local.properties
+adhder-android-main/**/*.apk
+adhder-android-main/**/*.aab
+adhder-android-main/**/*.dex
+adhder-android-main/**/captures/
+adhder-android-main/.idea/
+adhder-android-main/.cxx/
+
+# ========================================
+# iOS 构建产物和依赖
+# ========================================
+adhder-ios-develop/**/build/
+adhder-ios-develop/**/DerivedData/
+adhder-ios-develop/**/Pods/
+adhder-ios-develop/**/*.ipa
+adhder-ios-develop/**/*.dSYM.zip
+adhder-ios-develop/**/*.dSYM
+adhder-ios-develop/**/xcuserdata/
+adhder-ios-develop/.DS_Store
+
+# ========================================
+# 后端构建产物
+# ========================================
+website/client/dist/
+website/client/node_modules/
+website/server/node_modules/
+
+# ========================================
+# 大文件和非必要文件
+# ========================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+reports/
+

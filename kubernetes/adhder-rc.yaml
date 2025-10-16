@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: adhder
+  labels:
+    name: adhder
+spec:
+  replicas: 4
+  selector:
+    name: adhder
+  template:
+    metadata:
+      labels:
+        name: adhder
+    spec:
+      containers:
+      - name: adhder
+        image: ksonney/adhderapp:latest
+        env:
+          - name: NODE_DB_URI
+            value: mongodb://mongosvc/adhderapp
+        ports:
+          - containerPort: 3000
+            hostPort: 3000
+            name: adhder

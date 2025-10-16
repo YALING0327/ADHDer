@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        style="@style/FlatCardView"
+        android:id="@+id/party_invitation_wrapper"
+    android:padding="4dp"
+    android:layout_margin="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.adhderapp.android.adhder.ui.RoundedFrameLayout
+                android:layout_width="@dimen/avatar_chat_size"
+                android:layout_height="@dimen/avatar_chat_size"
+                android:clipChildren="true"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:background="@drawable/rounded_avatar_bg">
+                <com.adhderapp.common.adhder.views.AvatarView
+                    android:id="@+id/groupleader_avatar_view"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    app:showMount="false"
+                    app:showPet="false" />
+            </com.adhderapp.android.adhder.ui.RoundedFrameLayout>
+
+            <TextView
+                android:id="@+id/groupleader_text_view"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/party_invite_separator"
+                android:text="@string/invitation_title_no_leader" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="@dimen/party_invite_separator">
+                <ImageButton
+                    android:id="@+id/reject_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/party_accept_button_start_margin"
+                    android:src="@drawable/party_invite_reject"
+                    android:layout_marginEnd="@dimen/party_accept_button_start_margin"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/reject" />
+                <ImageButton
+                    android:id="@+id/accept_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/party_invite_accept"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/accept"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>

@@ -1,0 +1,43 @@
+/Pods/
+.DS_Store
+*.log
+
+# Private API keys
+private/*.key
+
+# Environemnt Config Files
+debug.xcconfig
+
+# Created by https://www.gitignore.io
+### Xcode ###
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.xcuserstate
+fastlane/screenshots
+translations
+fastlane/Preview.html
+.idea
+/fastlane/report.xml
+/Habitica.ipa
+/Habitica.app.dSYM.zip
+/HabiticaTests/FailureDiffs
+/fastlane/Fastfile
+/fastlane/Snapfile
+/fastlane/Appfile
+/HabitRPG/Generated/Secrets.swift
+/secrets.yml
+/Habitica-Staff
+*.zip
+*.ipa
+/packages

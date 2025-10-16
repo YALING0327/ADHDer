@@ -1,0 +1,1587 @@
+/* (No Comment) */
+"active" = "Активные";
+/* (No Comment) */
+"animal_ears" = "Звериные уши";
+/* (No Comment) */
+"avatar.background" = "Фон";
+/* (No Comment) */
+"avatar.bangs" = "Чёлка";
+/* (No Comment) */
+"avatar.beard" = "Борода";
+/* (No Comment) */
+"avatar.flower" = "Цветок";
+/* (No Comment) */
+"avatar.glasses" = "Очки";
+/* (No Comment) */
+"avatar.hair_style" = "Стиль волос";
+/* (No Comment) */
+"avatar.hairColor" = "Цвет волос";
+/* (No Comment) */
+"avatar.head" = "Голова";
+/* (No Comment) */
+"avatar.mustache" = "Усы";
+/* (No Comment) */
+"avatar.shirt" = "Рубашка";
+/* (No Comment) */
+"avatar.skin" = "Цвет кожи";
+/* (No Comment) */
+"avatar.wheelchair" = "Кресло-каталка";
+/* (No Comment) */
+"cancel" = "Отмена";
+/* (No Comment) */
+"chat" = "Чат";
+/* (No Comment) */
+"classes.become_a_class" = "Стать %@";
+/* (No Comment) */
+"classes.class_header" = "%@ Класс";
+/* (No Comment) */
+"classes.healer" = "Целитель";
+/* (No Comment) */
+"classes.healer_description" = "Целители неуязвимы перед уроном и распространяют защиту на других. Пропущенные ежедневные задания и вредные привычки несильно их беспокоят, а после неудачи они могут восстановить здоровье. Играйте за целителя, если вам нравится помогать другим членам команды или если вас вдохновляет мысль о возможности усердным трудом обмануть смерть!";
+/* (No Comment) */
+"classes.mage" = "Маг";
+/* (No Comment) */
+"classes.rogue" = "Разбойник";
+/* (No Comment) */
+"classes.rogue_description" = "Разбойники накапливают богатства, получая больше золота, чем кто бы там ни было. Они также эксперты по поиску различных предметов. Их культовая способность «Хитрость» позволяет им уклониться от последствий невыполненных ежедневных заданий. Играйте за разбойника, если хорошей мотивацией для вас являются награды и достижения и вы жаждете трофеев и значков!";
+/* (No Comment) */
+"classes.warrior" = "Воин";
+/* (No Comment) */
+"close" = "Закрыть";
+/* (No Comment) */
+"confirm" = "Подтвердить";
+/* (No Comment) */
+"controls" = "Управление";
+/* (No Comment) */
+"create" = "Добавить";
+/* (No Comment) */
+"daily" = "Ежедневно";
+/* (No Comment) */
+"delete" = "Удалить";
+/* (No Comment) */
+"description" = "Описание";
+/* (No Comment) */
+"details" = "Подробности";
+/* (No Comment) */
+"difficulty" = "Сложность";
+/* (No Comment) */
+"discover" = "Найти";
+/* (No Comment) */
+"edit" = "Изменить";
+/* (No Comment) */
+"eggs" = "Яйца";
+/* (No Comment) */
+"equip" = "Надеть";
+/* (No Comment) */
+"equipment.armor" = "Броня";
+/* (No Comment) */
+"equipment.auto_equip" = "Авто-надевание нового";
+/* (No Comment) */
+"equipment.back" = "Аксессуар на спину";
+/* (No Comment) */
+"equipment.battle_gear" = "Боевая экипировка";
+/* (No Comment) */
+"equipment.body" = "Аксессуар на тело";
+/* (No Comment) */
+"equipment.costume" = "Костюм";
+/* (No Comment) */
+"equipment.eyewear" = "Очки";
+/* (No Comment) */
+"equipment.head" = "Экипировка на голову";
+/* (No Comment) */
+"equipment.head_accessory" = "Аксессуар на голову";
+/* (No Comment) */
+"equipment.nothing_equipped" = "Ничего не надето";
+/* (No Comment) */
+"equipment.off_hand" = "Защита";
+/* (No Comment) */
+"equipment.use_costume" = "Использовать костюм";
+/* (No Comment) */
+"equipment.weapon" = "Оружие";
+/* (No Comment) */
+"experience" = "Опыт";
+/* (No Comment) */
+"food" = "Корм";
+/* (No Comment) */
+"glasses" = "Очки";
+/* (No Comment) */
+"groups.assign_new_leader" = "Назначить нового предводителя";
+/* (No Comment) */
+"groups.leader_challenges" = "Только предводитель может создавать Испытания";
+/* (No Comment) */
+"guilds.keep_challenges" = "Оставить испытания";
+/* (No Comment) */
+"guilds.leave_challenges" = "Покинуть Испытание";
+/* (No Comment) */
+"guilds.leave_guild_description" = "Хотели бы вы оставить или удалить испытания после выхода из гильдии?";
+/* (No Comment) */
+"guilds.leave_guild_title" = "Покинуть гильдию?";
+/* (No Comment) */
+"hatch_egg" = "Применить к Яйцу";
+/* (No Comment) */
+"hatch_potion" = "Полить эликсиром";
+/* (No Comment) */
+"hatching_potions" = "Инкубационные эликсиры";
+/* (No Comment) */
+"headband" = "Повязка на голове";
+/* (No Comment) */
+"health" = "Здоровье";
+/* (No Comment) */
+"inactive" = "Неактивный";
+/* (No Comment) */
+"inventory.available_until" = "Доступно до %@";
+/* (No Comment) */
+"inventory.hatched" = "У вас вылупился новый питомец!";
+/* (No Comment) */
+"inventory.no_gems_left" = "Вы купили все доступные самоцветы в этом месяце. Больше самоцветов станет доступно в течение первых 3 дней каждого месяца. Благодарим за подписку!";
+/* (No Comment) */
+"inventory.wrong_class" = "Доступно только для %@s. Вы можете сменить класс в Настройках";
+/* (No Comment) */
+"invite_party" = "Пригласить команду";
+/* (No Comment) */
+"last_activity" = "Последняя активность %@";
+/* (No Comment) */
+"leader" = "Предводитель";
+/* (No Comment) */
+"leave" = "Покинуть";
+/* (No Comment) */
+"level_number" = "Уровень %d";
+/* (No Comment) */
+"levelup_description" = "За выполнение ваших целей в реальной жизни у вас повысился уровень и вы полностью исцелены!";
+/* (No Comment) */
+"levelup_share" = "Я получил %ld уровень в Adhder, улучшая привычки в реальной жизни!";
+/* (No Comment) */
+"levelup_title" = "Вы достигли %ld уровня!";
+/* (No Comment) */
+"mana" = "Мана";
+/* (No Comment) */
+"member.last_logged_in" = "Последний вход";
+/* (No Comment) */
+"member.member_since" = "Участник с";
+/* (No Comment) */
+"menu.customize_avatar" = "Изменить аватар";
+/* (No Comment) */
+"menu.help_faq" = "Помощь и ЧаВо";
+/* (No Comment) */
+"menu.inventory" = "Инвентарь";
+/* (No Comment) */
+"menu.select_class" = "Выбрать класс";
+/* (No Comment) */
+"menu.shops" = "Рынки";
+/* (No Comment) */
+"menu.social" = "Общение";
+/* (No Comment) */
+"monthly" = "Ежемесячно";
+/* (No Comment) */
+"mounts" = "Скакуны";
+/* (No Comment) */
+"my_challenges" = "Мои испытания";
+/* (No Comment) */
+"my_guilds" = "Мои гильдии";
+/* (No Comment) */
+"name" = "Имя";
+/* (No Comment) */
+"notes" = "Заметки";
+/* (No Comment) */
+"ok" = "ОК";
+/* (No Comment) */
+"one_month" = "1 Месяц";
+/* (No Comment) */
+"open" = "Открыта";
+/* (No Comment) */
+"open_itunes" = "Открыть подписки Apple ID";
+/* (No Comment) */
+"open_website" = "Открыть веб-сайт Adhder";
+/* (No Comment) */
+"party.invited_to_quest" = "%@ пригласил(а) вас принять участие в квесте";
+/* (No Comment) */
+"party.quest_number_responded" = "%d/%d откликнулось Участников";
+/* (No Comment) */
+"party.quest_participant_count" = "%d участников";
+/* (No Comment) */
+"pending_damage" = "Ожидаемый урон";
+/* (No Comment) */
+"pets" = "Питомцы";
+/* (No Comment) */
+"plain_backgrounds" = "Стандартные фоны";
+/* (No Comment) */
+"purchase_for_gems" = "Купить за %d самоцветов";
+/* (No Comment) */
+"quests" = "Квесты";
+/* (No Comment) */
+"quests.accepted" = "Принято";
+/* (No Comment) */
+"quests.boss_battle" = "Бой с Боссом";
+/* (No Comment) */
+"quests.collection_quest" = "Собираемый квест";
+/* (No Comment) */
+"quests.confirm_abort" = "Вы уверены, что хотите отменить эту миссию? Она отменится для всех членов группы, весь прогресс будет утерян. Свиток вернется к владельцу квеста.";
+/* (No Comment) */
+"quests.confirm_cancel_invitation" = "Вы уверены, что хотите отменить квест? Приглашение будет потеряно. Свиток сохранится у владельца квеста.";
+/* (No Comment) */
+"quests.invitations_header" = "Приглашения";
+/* (No Comment) */
+"quests.participants_header" = "Участники";
+/* (No Comment) */
+"quests.pending" = "В ожидании";
+/* (No Comment) */
+"quests.rejected" = "Отклонено";
+/* (No Comment) */
+"quests.started_by" = "Стартовал %@";
+/* (No Comment) */
+"reset_tips" = "Сбросить Подсказки Режима Обучения";
+/* (No Comment) */
+"resetStreak" = "Сбросить серию";
+/* (No Comment) */
+"resync" = "Синхронизировать";
+/* (No Comment) */
+"resync_all" = "Синхронизировать все";
+/* (No Comment) */
+"resync_task" = "Синхронизировать задачу";
+/* (No Comment) */
+"save" = "Сохранить";
+/* (No Comment) */
+"search" = "Поиск";
+/* (No Comment) */
+"sell" = "Продать за %d золота";
+/* (No Comment) */
+"settings.api" = "API";
+/* (No Comment) */
+"settings.are_you_sure" = "Вы уверены?";
+/* (No Comment) */
+"settings.authentication" = "Аутентификация";
+/* (No Comment) */
+"settings.change_class" = "Сменить класс";
+/* (No Comment) */
+"settings.change_class_disclaimer" = "После сброса потребуется заново выбрать класс персонажа и перераспределить очки характеристик (будут доступны все ранее полученные очки). Цена — 3 самоцвета.";
+/* (No Comment) */
+"settings.clear_cache" = "Очистить кэш";
+/* (No Comment) */
+"settings.custom_day_start" = "Персональное начало суток";
+/* (No Comment) */
+"settings.daily_reminder" = "Ежедневное напоминание";
+/* (No Comment) */
+"settings.day_start" = "Начало суток";
+/* (No Comment) */
+"settings.disable_all_notifications" = "Включить все push-уведомления";
+/* (No Comment) */
+"settings.disable_pm" = "Заблокировать получение личных сообщений";
+/* (No Comment) */
+"settings.display_notification_badge" = "Показать уведомления";
+/* (No Comment) */
+"settings.enable_class_system" = "Включить систему классов";
+/* (No Comment) */
+"settings.every_day" = "Каждый день в";
+/* (No Comment) */
+"settings.fix_characterValues" = "Исправить данные персонажа";
+/* (No Comment) */
+"settings.log_out" = "Выйти";
+/* (No Comment) */
+"settings.maintenance" = "Техническое обслуживание";
+/* (No Comment) */
+"settings.notification_badge" = "Уведомление";
+/* (No Comment) */
+"settings.preferences" = "Настройки";
+/* (No Comment) */
+"settings.profile" = "Профиль";
+/* (No Comment) */
+"settings.reload_content" = "Обновить содержимое";
+/* (No Comment) */
+"settings.reminder" = "Напоминание";
+/* (No Comment) */
+"settings.select_class" = "Выбрать класс";
+/* (No Comment) */
+"settings.social" = "Общение";
+/* (No Comment) */
+"settings.sound_theme" = "Звуковая тема";
+/* (No Comment) */
+"settings.theme_color" = "Цветовая схема";
+/* (No Comment) */
+"settings.user" = "Пользователь";
+/* (No Comment) */
+"settings.wrong_password" = "Неверный пароль";
+/* (No Comment) */
+"share" = "Поделиться";
+/* (No Comment) */
+"skills.cant_cast_on_challenge_tasks" = "Нельзя накладывать заклинания на задания испытания";
+/* (No Comment) */
+"skills.unlocks_at" = "Открывается на уровне %d";
+/* (No Comment) */
+"skills.use_skill" = "Вы используете %@";
+/* (No Comment) */
+"skills.used_transformation_item" = "Вы использовали %@";
+/* (No Comment) */
+"specialItems" = "Особые предметы";
+/* (No Comment) */
+"stable.feed" = "Покормить";
+/* (No Comment) */
+"stable.premium" = "Из Волшебного эликсира";
+/* (No Comment) */
+"stable.quest_mounts" = "Квестовые скакуны";
+/* (No Comment) */
+"stable.quest_pets" = "Квестовые питомцы";
+/* (No Comment) */
+"stable.special_mounts" = "Особые скакуны";
+/* (No Comment) */
+"stable.special_pets" = "Особые питомцы";
+/* (No Comment) */
+"stable.standard" = "Обычные";
+/* (No Comment) */
+"stable.standard_mounts" = "Обычные скакуны";
+/* (No Comment) */
+"stable.standard_pets" = "Обычные питомцы";
+/* (No Comment) */
+"stats.allocated" = "Распределено очков";
+/* (No Comment) */
+"stats.battle_gear" = "Боевая экипировка";
+/* (No Comment) */
+"stats.buffs" = "Бафы";
+/* (No Comment) */
+"stats.class_bonus" = "Бонус класса";
+/* (No Comment) */
+"stats.level" = "Уровень";
+/* (No Comment) */
+"stats.no_points_to_allocate" = "0 очков для распределения";
+/* (No Comment) */
+"stats.one_point_to_allocate" = "1 очко для распределения";
+/* (No Comment) */
+"summary" = "Сводка о гильдии";
+/* (No Comment) */
+"tags" = "Теги";
+/* (No Comment) */
+"tasks.daily" = "Ежедневно";
+/* (No Comment) */
+"tasks.form.checklist" = "Список";
+/* (No Comment) */
+"tasks.form.clear" = "Очистить";
+/* (No Comment) */
+"tasks.form.confirm_delete" = "Вы уверены, что хотите удалить эту задачу?";
+/* (No Comment) */
+"tasks.form.controls" = "Управление";
+/* (No Comment) */
+"tasks.form.cost" = "цене";
+/* (No Comment) */
+"tasks.form.create" = "Новый %@";
+/* (No Comment) */
+"tasks.form.dailies_title_placeholder" = "Что вы хотите делать регулярно?";
+/* (No Comment) */
+"tasks.form.day_of_month" = "Число месяца";
+/* (No Comment) */
+"tasks.form.day_of_week" = "День недели";
+/* (No Comment) */
+"tasks.form.difficulty" = "Сложность";
+/* (No Comment) */
+"tasks.form.due_date" = "Выполнить до";
+/* (No Comment) */
+"tasks.form.easy" = "Легко";
+/* (No Comment) */
+"tasks.form.edit" = "Изменить %@";
+/* (No Comment) */
+"tasks.form.every" = "Каждый";
+/* (No Comment) */
+"tasks.form.hard" = "Сложно";
+/* (No Comment) */
+"tasks.form.medium" = "Средне";
+/* (No Comment) */
+"tasks.form.new_checklist_item" = "Новый пункт списка";
+/* (No Comment) */
+"tasks.form.new_reminder" = "Новое напоминание";
+/* (No Comment) */
+"tasks.form.notes_placeholder" = "Добавьте любые заметки для справки";
+/* (No Comment) */
+"tasks.form.remind_me" = "Напомнить мне";
+/* (No Comment) */
+"tasks.form.reminders" = "Напоминания";
+/* (No Comment) */
+"tasks.form.repeats" = "Повторения";
+/* (No Comment) */
+"tasks.form.reset_streak" = "Сбросить серию";
+/* (No Comment) */
+"tasks.form.rewards_title_placeholder" = "Как вы хотите себя наградить?";
+/* (No Comment) */
+"tasks.form.tags" = "Теги";
+/* (No Comment) */
+"tasks.form.todos_title_placeholder" = "Что вы хотите выполнить один раз?";
+/* (No Comment) */
+"tasks.form.trivial" = "Пустяк";
+/* (No Comment) */
+"tasks.habit" = "Привычка";
+/* (No Comment) */
+"tasks.reward" = "Награда";
+/* (No Comment) */
+"tasks.todo" = "Задача";
+/* (No Comment) */
+"theme.blue" = "Синий";
+/* (No Comment) */
+"theme.default_theme" = "По умолчанию";
+/* (No Comment) */
+"theme.green" = "Зеленый";
+/* (No Comment) */
+"theme.orange" = "Оранжевый";
+/* (No Comment) */
+"theme.red" = "Красный";
+/* (No Comment) */
+"theme.yellow" = "Желтый";
+/* (No Comment) */
+"title" = "Заголовок";
+/* (No Comment) */
+"unequip" = "Снять";
+/* (No Comment) */
+"weekly" = "Еженедельно";
+/* (No Comment) */
+"yearly" = "Ежегодно";
+"back" = "Назад";
+"all" = "Все";
+"weak" = "Слабые";
+"strong" = "Сильный";
+"due" = "Текущие";
+"dated" = "С датой";
+"done" = "Готово";
+"change" = "Изменить";
+"clear" = "Очистить";
+"use" = "Использовать";
+"titles.settings" = "Настройки";
+"titles.authentication" = "Аутентификация";
+"titles.profile" = "Профиль";
+"titles.api" = "API";
+"titles.fix_values" = "Исправить данные";
+"titles.select_class" = "Выбрать класс";
+"titles.stats" = "Характеристики";
+"titles.equipment" = "Снаряжение";
+"titles.items" = "Предметы";
+"titles.faq" = "ЧаВо";
+"titles.about" = "О проекте";
+"titles.news" = "Новости";
+"titles.pets" = "Питомцы";
+"titles.mounts" = "Скакуны";
+"titles.party" = "Команда";
+"titles.guilds" = "Гильдии";
+"titles.guild" = "Гильдия";
+"titles.challenges" = "Испытания";
+"titles.shops" = "Лавки";
+"titles.choose_user" = "Выбрать члена команды";
+"titles.choose_recipient" = "Выберите участника";
+"titles.feed_pet" = "Покормить";
+"titles.guidelines" = "Правила";
+"titles.invite_members" = "Пригласить участников";
+"titles.spells" = "Заклинания";
+"stats.points_to_allocate" = "%d очков для распределения";
+"stats.auto_allocate_points" = "Распределять автоматически";
+"stats.distribute_evenly" = "Распределять равномерно";
+"stats.distribute_evenly_help" = "Распределять одинаковое количество очков на каждую характеристику.";
+"stats.distribute_class" = "Распределять на основе класса";
+"stats.distribute_class_help" = "Направлять больше очков на улучшение характеристик, важных для вашего класса.";
+"stats.distribute_tasks" = "Распределять на основе вида заданий";
+"stats.distribute_tasks_help" = "Распределить очки на Силу, Интеллект, Телосложение и Восприятие в соответствии с выполняемыми задачами.";
+"stats.character_build_title" = "Развитие персонажа";
+"stats.character_build_text" = "За каждый уровень вы получается одно очко для улучшения характеристик. Вы можете сделать это вручную или позволить игре решить за вас, используя одну из опций автоматического распределения.";
+"stats.stat_guide" = "Руководство по характеристикам";
+"stats.strength_title" = "Сила";
+"stats.intelligence_title" = "Интеллект";
+"stats.intelligence_text" = "Увеличивает опыт полученный от выполнения задач. Также увеличивает максимальное число маны и скорость ее восстановления.";
+"stats.constitution_title" = "Телосложение";
+"stats.constitution_text" = "Снижает урон от задач. Не снижает урон полученный от боссов.";
+"stats.perception_title" = "Восприятие";
+"stats.perception_text" = "Увеличивает вероятность дропа при выполнении Заданий, ежедневного дропа, бонусов за серию и количество золота за Задачи.";
+"tasks.habits" = "Привычки";
+"tasks.dailies" = "Ежедневные задания";
+"tasks.rewards" = "Награды";
+"tasks.todos" = "Задачи";
+"tasks.form.habit_title_placeholder" = "Какие привычки вы хотите улучшить или победить?";
+"tasks.form.scheduling" = "На сегодня";
+"tasks.form.start_date" = "Дата начала";
+"tasks.form.accessibility.positive_and_negative_enabled" = "Установлена привычка с плюсом и минусом.";
+"tasks.form.accessibility.positive_enabled" = "Установлена привычка с плюсом.";
+"tasks.form.accessibility.negative_enabled" = "Установлена привычка с минусом.";
+"tasks.form.accessibility.enable_positive" = "Включить положительный эффект.";
+"tasks.form.accessibility.disable_positive" = "Выключить положительный эффект.";
+"tasks.form.accessibility.enable_negative" = "Включить негативный эффект.";
+"tasks.form.accessibility.disable_negative" = "Выключить отрицательный эффект.";
+"tasks.form.accessibility.task_difficulty" = "Сложность %@";
+"tasks.form.accessibility.set_task_difficulty" = "Изменить сложность на %@";
+"tasks.form.accessibility.enable" = "Включить %@";
+"tasks.form.accessibility.disable" = "Отключить %@";
+"tasks.work" = "Работа";
+"tasks.exercise" = "Упражнение";
+"tasks.health" = "Здоровье";
+"tasks.school" = "Учеба";
+"tasks.chores" = "Домашние дела";
+"tasks.creativity" = "Творчество";
+"tasks.add_x" = "Добавить %@";
+"tasks.repeats.daily" = "ежедневно";
+"tasks.repeats.weekly" = "ежемесячно";
+"tasks.repeats.monthly" = "ежемесячно";
+"tasks.repeats.yearly" = "ежегодно";
+"tasks.repeats.every_day" = "каждый день";
+"tasks.repeats.weekdays" = "дни недели";
+"tasks.repeats.weekends" = "выходные";
+"tasks.quality.worst" = "Хуже всего";
+"tasks.quality.worse" = "Хуже";
+"tasks.quality.bad" = "Плохо";
+"tasks.quality.neutral" = "Нейтрально";
+"tasks.quality.good" = "Хорошо";
+"tasks.quality.better" = "Лучше";
+"tasks.quality.best" = "Лучший";
+"tasks.examples.habit_text" = "Нажмите здесь, чтобы изменить данные о плохой привычки, которую вы хотели бы бросить";
+"tasks.examples.habit_notes" = "Или удалите это, сдвинув влево";
+"tasks.examples.todo_text" = "Присоединиться к Adhder (отметить выполненным!)";
+"tasks.examples.todo_notes" = "Вы можете завершить эту задачу, отредактировать ее или удалить.";
+"tasks.examples.reward_text" = "Наградите себя";
+"tasks.examples.reward_notes" = "Смотрите телевизор, играйте в игру, ешьте в удовольствие, это зависит от вас!";
+"tasks.examples.work_habit" = "Обработать email";
+"tasks.examples.work_daily_text" = "Работать сегодня над самым важным заданием";
+"tasks.examples.work_daily_notes" = "Нажмите, чтобы указать вашу наиважнейшую задачу";
+"tasks.examples.work_todo_text" = "Завершить рабочий проект";
+"tasks.examples.work_todo_notes" = "Нажмите, чтобы указать имя вашего текущего проекта + установить срок выполнения!";
+"tasks.examples.exercise_habit" = "10 минут кардио";
+"tasks.examples.exercise_daily_text" = "Ежедневная тренировка";
+"tasks.examples.exercise_daily_notes" = "Нажмите, чтобы выбрать расписание и указать упражнения!";
+"tasks.examples.exercise_todo_text" = "Составить график тренировок";
+"tasks.examples.exercise_todo_notes" = "Нажмите, чтобы добавить список!";
+"tasks.examples.health_habit" = "Есть здоровую/вредную еду";
+"tasks.examples.health_daily_text" = "Использовать зубную нить";
+"tasks.examples.health_daily_notes" = "Нажмите, чтобы внести какие-либо изменения!";
+"tasks.examples.health_todo_text" = "Мозговой штурм - здоровое изменение";
+"tasks.examples.health_todo_notes" = "Нажмите, чтобы добавить списки!";
+"tasks.examples.school_habit" = "Учиться/прокрастинировать";
+"tasks.examples.school_daily_text" = "Сделать домашнюю работу";
+"tasks.examples.school_daily_notes" = "Нажмите, чтобы указать вашу наиважнейшую задачу";
+"tasks.examples.school_todo_text" = "Завершить задание к уроку";
+"tasks.examples.school_todo_notes" = "Нажмите, чтобы указать вашу наиважнейшую задачу";
+"tasks.examples.team_daily_notes" = "Нажмите, чтобы указать вашу наиважнейшую задачу";
+"tasks.examples.team_todo_notes" = "Нажмите, чтобы указать вашу наиважнейшую задачу";
+"tasks.examples.chores_habit" = "10 минут уборки";
+"tasks.examples.chores_daily_text" = "Помыть посуду";
+"tasks.examples.chores_daily_notes" = "Нажмите, чтобы выбрать расписание!";
+"tasks.examples.chores_todo_text" = "Организовать беспорядок";
+"tasks.examples.chores_todo_notes" = "Нажмите, чтобы указать область беспорядка!";
+"tasks.examples.creativity_habit" = "Практикуйте новую творческую технику";
+"tasks.examples.creativity_daily_text" = "Работать над креативным проектом";
+"tasks.examples.creativity_daily_notes" = "Нажмите, чтобы указать имя вашего текущего проекта + установить расписание!";
+"tasks.examples.creativity_todo_text" = "Завершить креативный проект";
+"tasks.examples.creativity_todo_notes" = "Нажмите, чтобы указать название вашего проекта";
+"menu" = "Меню";
+"filter" = "Фильтр";
+"one_filter" = "1 фильтр";
+"x_filters" = "%ld фильтров";
+"skills.transformation_items" = "Косметические предметы";
+"settings.fix_values_description" = "Если вы столкнулись с ошибкой или совершили ошибку, которая несправедливо изменила ваш персонаж, вы можете вручную исправить эти значения здесь.";
+"settings.change_display_name" = "Изменить отображаемое имя";
+"settings.change_photo_url" = "Изменить ссылку на фото";
+"settings.danger_zone" = "Опасная зона";
+"settings.login_methods" = "Способы авторизации";
+"settings.reset_account" = "Сброс учетной записи";
+"settings.delete_account" = "Удаление учетной записи";
+"settings.delete_account_description" = "Ваш аккаунт будет удален навсегда без возможности восстановления! Стоимость потраченных и находящихся в банке самоцветов не будет компенсирована. Если вы абсолютно уверены, напишите ваш пароль в текстовое поле.";
+"settings.change_email" = "Изменить адрес электронной почты";
+"settings.new_email" = "Новая электронная почта";
+"settings.change_username" = "Сменить Имя Пользователя";
+"settings.new_username" = "Новое Имя Пользователя";
+"settings.change_password" = "Изменить пароль";
+"settings.new_password" = "Новый пароль";
+"settings.old_password" = "Старый пароль";
+"settings.local" = "Локальное";
+"theme.teal" = "Бирюзовый";
+"theme.maroon" = "Каштановый";
+"guilds.guild_challenges" = "Испытания гильдии";
+"guilds.invite_to_guild" = "Пригласить в гильдию";
+"join" = "Присоединиться";
+"equipment.equipment" = "Снаряжение";
+"equipment.costume_explanation" = "Выбор этой опции позволяет надеть на аватар вашего персонажа любые, понравившиеся вам вещи, не влияя на характеристики боевой экипировки.";
+"equipment.class_equipment" = "Снаряжение класса";
+"avatar.skin_color" = "Цвет кожи";
+"purchase_gems" = "Купить самоцветы";
+"level" = "Уровень";
+"party.invitation_no_invitername" = "Кто-то пригласил вас в Команду **%@**";
+"party.invitation_invitername" = "%@ пригласил вас присоединиться к команде **%@**";
+"party.create_party_title" = "Играйте в Adhder с командой";
+"party.create_party_button" = "Создать новую команду";
+"party.join_party_title" = "Ищите команду?";
+"party.party_challenges" = "Испытания команды";
+"party.start_quest" = "Начать квест";
+"quests.confirm_force_start" = "Вы уверены? Не все участники команды присоединились к этому квесту! Квест начнется автоматически, когда все игроки к нему присоединяются или отклонят.";
+"groups.guild_invitation_no_invitername" = "Кто-то пригласил вас в Гильдию: **%@**";
+"groups.guild_invitation_invitername" = "**@%@** пригласил вас присоединиться к Гильдии: **%@**";
+"inventory.number_gems_left" = "Ежемесячные самоцветы: %d/%d в наличии";
+"x_months" = "%d Месяцев";
+"unsubscribe_itunes" = "Больше не хотите иметь подписку? Вы можете управлять своей подпиской через Apple ID в настройках вашего устройства.";
+"unsubscribe_website" = "Больше не хотите иметь подписку? Ваш способ оплаты позволяет отказаться от подписки только через сам веб-сайт.";
+"size" = "Размер";
+"shirt" = "Рубашка";
+"bangs" = "Чёлка";
+"ponytail" = "Хвостик";
+"color" = "Цвет";
+"flower" = "Цветок";
+"wheelchair" = "Кресло-каталка";
+"copied_to_clipboard" = "Скопировано в буфер обмена";
+"monday" = "Понедельник";
+"tuesday" = "Вторник";
+"wednesday" = "Среда";
+"thursday" = "Четверг";
+"friday" = "Пятница";
+"saturday" = "Суббота";
+"sunday" = "Воскресенье";
+"active_on" = "Активен %@";
+"no_days" = "не осталось дней";
+"groups.invite.invitation_type" = "Тип приглашения";
+"userID" = "ID пользователя";
+"api_key" = "Ключ API";
+"email" = "Email";
+"groups.invite.add_userid" = "Добавить ID пользователя";
+"groups.invite.add_email" = "Добавить Email";
+"users_invited" = "Приглашение отправлено пользователям.";
+"username" = "Имя пользователя";
+"password" = "Пароль";
+"username_prompt_title" = "Время выбрать свое имя пользователя!";
+"confirm_username" = "Подтвердите свое имя пользователя";
+"settings.confirm_username_prompt" = "Вы уверены, что хотите выбрать такое Имя пользователя?";
+"username_confirmed_toast" = "Имя пользователя подтверждено";
+"settings.username_not_confirmed" = "Имя пользователя не принято";
+"about.website" = "Сайт";
+"about.report_bug" = "Сообщить о проблеме";
+"about.view_source_code" = "Посмотреть исходный код";
+"about.acknowledgements" = "Благодарности";
+"about.version" = "Версия";
+"about.export_database" = "Экспорт данных";
+"about.no_email_title" = "Ваш адрес электронной почты не указан";
+"login.register" = "Регистрация";
+"login.login" = "Вход";
+"login.login_google" = "Авторизоваться через Google";
+"login.email_password_link" = "Отправьте мне письмо на сброс пароля";
+"login.enter_email" = "Введите адрес электронной почты, который вы использовали при регистрации.";
+"login.reset_password_response" = "Если ваш электронный адрес указан верно, то на него отправлена ссылка для установки нового пароля.";
+"intro.card1.title" = "Добро пожаловать в";
+"intro.card1.text" = "Время получать удовольствие от выполнения дел. Присоединитесь к 2 миллионам пользователей улучшающих свою жизнь, выполняя задачи.";
+"intro.card2.title" = "Прогресс в игре";
+"intro.card2.subtitle" = "Прогресс в жизни";
+"intro.card3.title" = "Становиться социальнее";
+"intro.card3.subtitle" = "Сражайтесь с монстрами";
+"intro.card3.text" = "Добивайтесь поставленнх целей с помощью друзей. Поддерживайте друг друга в реальной жизни и в сражении, делая свою жизнь лучше!";
+"intro.lets_go" = "Начнем!";
+"skip" = "Пропустить";
+"randomize" = "Случайно";
+"finish" = "Завершить";
+"next" = "Далее";
+"mana_points" = "Очки маны";
+"character_level" = "Уровень персонажа";
+"gold" = "Золото";
+"day_streaks" = "Серии в 21 день подряд";
+"aboutText" = "О проекте";
+"photo_url" = "Ссылка на фото";
+"group_by" = "Сгруппировать по";
+"twoHanded" = "Двуручный";
+"body_size" = "Размер тела";
+"slim" = "Стройное";
+"broad" = "Тучное";
+"buy_all" = "Купить все";
+"no_benefit" = "Нет выгоды";
+"errors.error" = "Ошибка";
+"errors.sync" = "Ошибка синхронизирования";
+"errors.sync_message" = "Произошла ошибка при синхронизировании некоторых изменений.";
+"errors.quest_invite_accept" = "Произошла ошибка при принятии приглашения на квест";
+"errors.quest_invite_reject" = "Произошла ошибка при отказе на приглашение на квест";
+"errors.reply" = "Ваше сообщение не может быть отправлено.";
+"errors.request" = "При запросе возникла ошибка: %@";
+"days" = "дней(-я)";
+"weeks" = "недели";
+"months" = "месяцы";
+"years" = "годы";
+"leave_challenge_title" = "Покинуть испытание?";
+"leave_challenge_prompt" = "Вы хотите покинуть испытание и оставить или удалить задания?";
+"locations.market" = "Рынок";
+"locations.quest_shop" = "Магазин квестов";
+"locations.seasonal_shop" = "Сезонная лавка";
+"locations.stable" = "Стойла";
+"NPCs.alex" = "Торговец Александр";
+"NPCs.daniel" = "Даниэль, хранитель гостиницы";
+"NPCs.ian" = "Яна квест-мастер";
+"NPCs.seasonalSorceress" = "Сезонная Чародейка";
+"NPCs.matt" = "Мэтт повелитель зверей";
+"unlocks_selecting_class" = "Открывается после выбора класса";
+"unlocks_level_ten" = "Открывается на 10 уровне";
+"copied_message" = "Сообщение скопировано";
+"write_message" = "Написать сообщение";
+"write_to" = "Написать %@";
+"resume_damage" = "Вернуться в игру";
+"pause_damage" = "Остановить урон";
+"world_boss_intro_header" = "Дорогая, не обращай внимания на монстра внизу — это убежище по-прежнему безопасно , чтобы поболтать на перерыве.";
+"tutorials.habits_1" = "Во-первых, это привычки. Они могут быть положительными привычками, которые вы хотите закрепить, или отрицательными привычками, которые вы хотите бросить.";
+"tutorials.habits_2" = "Каждый раз, когда вы выполняете положительную привычку, нажмите + чтобы получить опыт и золото!";
+"tutorials.habits_3" = "Если вы ошибетесь и сделаете отрицательную привычку, то нажатие на – уменьшит здоровье вашего аватара, что поможет вам оставаться ответственным.";
+"tutorials.habits_4" = "Дайте шанс! Вы можете исследовать другие типы задач через нижнюю навигацию.";
+"tutorials.dailies_1" = "Создавайте ежедневные дела для задач с учетом времени, которые необходимо выполнять по регулярному расписанию.";
+"tutorials.dailies_2" = "Будьте осторожны - если вы пропустите одну задачу, ваш аватар получит урон за ночь. Периодическая провека на выполнение приносит отличные награды!";
+"tutorials.todos_1" = "Используйте список задач для отслеживания дел, которые необходимо выполнить только один раз.";
+"tutorials.todos_2" = "Если ваша задача должна быть выполнена к определенному времени, установите срок. Похоже, вы можете одну отметить — вперед!";
+"tutorials.rewards_1" = "Покупайте снаряжение для вашего аватара за золото, которое вы получаете!";
+"tutorials.rewards_2" = "Вы также можете создавать реальные пользовательские вознаграждения на основе того, что мотивирует вас.";
+"tutorials.add_task" = "Нажмите, чтобы добавить новую задачу.";
+"tutorials.edit_task" = "Нажмите на задание, чтобы редактировать его или добавить напоминание. Смахните его влево для удаления.";
+"tutorials.filter_task" = "Нажмите, чтобы отфильтровать заданияю.";
+"tutorials.reorder_task" = "Удерживайте задачу, чтобы перемещать ее.";
+"tutorials.inbox" = "Здесь вы можете читать и отвечать на личные сообщения! Вы также можете отправлять сообщения из своих профилей.";
+"tutorials.stats" = "Нажмите серую кнопку, чтобы распределить очки на ваши характеристик сразу или коснитесь стрелок, чтобы добавлять в их по одному очку.";
+"world_boss.pending_strike" = "Ожидаемый урон";
+"world_boss.rage_strike_explanation_button" = "Что такое удар ярости?";
+"buffs" = "Бафы";
+"allocated" = "Распределено очков";
+"gems" = "Самоцветы";
+"teleporting_adhder" = "Телепортация в Adhder";
+"subscription" = "Подписка";
+"remember_check_off_dailies" = "Не забудьте отметить ежедневные задачи!";
+"complete" = "Сделанные";
+"accept" = "Принять";
+"reject" = "Отказать";
+"abort" = "Отменить";
+"reply" = "Ответить";
+"send" = "Отправить";
+"reminder" = "Напоминание";
+"buy" = "купить";
+"success" = "успех";
+"invitations" = "Приглашения";
+"accessibility.tap_hide_boss_art" = "Нажмите дважды, чтобы скрыть изображение босса";
+"accessibility.reply_to_message" = "Ответить на сообщение";
+"accessibility.copy_message" = "Скопировать сообщение";
+"accessibility.delete_message" = "Удалить сообщение";
+"accessibility.like_message" = "Нравится";
+"accessibility.report_message" = "Пожаловаться на сообщение";
+"accessibility.completed_x" = "Выполнено %@";
+"accessibility.double_tap_to_complete" = "Нажмите дважды, чтобы завершить";
+"accessibility.double_tap_to_edit" = "Нажмите дважды для правки";
+"accessibility.complete_task" = "Завершите задание";
+"accessibility.due" = "Текущие";
+"accessibility.completed" = "Завершено";
+"collect" = "Собрать";
+"mystery_sets" = "Таинственный набор";
+"edit_tag" = "Редактировать теги";
+"create_tag" = "Создать тэг";
+"unlockDropsTitle" = "Вы разблокировали систему трофеев!";
+"unlockDropsDescription" = "Вы открыли систему выпадения трофеев! Теперь, когда вы выполняете задания, у вас есть маленький шанс найти предмет, включая яйца, эликсиры и корм!";
+"subscription_info_1_title" = "Бесплатные месячный самоцветы.";
+"subscription_info_2_title" = "Мистические песочные часы";
+"subscription_info_3_title" = "Ежемесячные Таинственные Предметы";
+"subscription_info_3_description" = "Подпишитесь сейчас, чтобы обзавестись эксклюзивным костюмом и получать новые предметы ежемесячно!";
+"subscription_benefits_title" = "Станьте подписчиком, и вы получите эти преимущества";
+"gem_benefits_title" = "Самоцветы дают возможность купить веселые дополнения для аккаунта, в том числе:";
+"moderator" = "Модератор";
+"staff" = "Сотрудник";
+"report_x_violation" = "Сообщить о нарушении со стороны @%@?";
+"not_getting_drops" = "Не выпадают нужные трофеи? Зайдите на Рынок, чтобы купить то, что вам нужно!";
+"streak_achievement_title" = "Вы заработали достижение Серии!";
+"streak_achievement_description" = "Вы выполнили ежедневную задачу 21 день подряд! Отличная работа. Не прерывайте серию!";
+"next_checkin_prize_1_day" = "Ваш следующий приз разблокируется после следующего входа";
+"next_checkin_prize_x_days" = "Ваш следующий приз будет доступен после того, как вы войдете в игру ещё %d раз(а)";
+"recipient" = "Участник";
+"no_camera" = "Камера не доступна";
+"not_enough_gems" = "Недостаточно самоцветов";
+"not_enough_hourglasses" = "Недостаточно песочных часов";
+"subscribe_for_hourglasses" = "Подписаться на мистические песочные часы";
+"not_enough_gold" = "Недостаточно золота";
+"take_me_back" = "Верните меня обратно";
+"monthly_gem_cap_reached" = "Достигнут ежемесячный предел самоцветов";
+"your_balance" = "Ваш баланс:";
+"choose_task" = "Выбрать задание";
+"shops.other_class_disclaimer" = "Ты можешь купить экипировку только для твоего текущего класса";
+"shops.purchased_all_gear" = "Новое снаряжение выпускается во время сезонных Торжеств. А пока в Зачарованном сундуке можно найти %d предметов снаряжения!";
+"titles.skills" = "Навыки";
+"titles.avatar" = "Аватар";
+"titles.gift_subscription" = "Подписка в подарок";
+"stats.strength_text" = "Увеличивает бонус критических ударов и повышает их вероятность при выполнении заданий. Также увеличивает урон, наносимый боссам.";
+"tasks.team" = "Команда";
+"tasks.due_today" = "Истекает сегодня";
+"tasks.due_in_x_days" = "Через %d дн";
+"tasks.every_x" = "кажд. %d %@";
+"tasks.repeats.repeats_every_on" = "Повторять %@ по %@";
+"tasks.repeats.repeats_every" = "Повторять %@";
+"tasks.repeats.monthly_the" = "%@";
+"tasks.examples.team_habit" = "Задания с командой";
+"tasks.examples.team_daily_text" = "Узнать, как обстоят дела у команды";
+"tasks.examples.team_todo_text" = "Завершить командный проект";
+"settings.app_icon" = "Значок приложения";
+"settings.server" = "Сервер";
+"settings.confirm_new_password" = "Подтвердите новый пароль";
+"avatar.body" = "Тело";
+"avatar.hair" = "Прическа";
+"avatar.extras" = "Другое";
+"party.party_description" = "Описание команды";
+"groups.members" = "Участники";
+"groups.invite_member" = "Пригласить участника";
+"quests.reward_experience" = "%d опыта";
+"quests.reward_gold" = "%d золота";
+"quests.rage_attack" = "Атака при ярости: %@";
+"open_app_store" = "Открыть в App Store";
+"tap_to_show" = "Нажмите, чтобы показать";
+"groups.invite.add_username" = "Добавить имя пользователя";
+"display_name" = "Отображаемое имя";
+"repeat_password" = "Повторите пароль";
+"username_prompt_wiki" = "Если хотите более подробно узнать про изменения, то #<wk>посетите нашу вики.#";
+"settings.display_name_length_error" = "Ваше отображаемое имя должно быть от 1 до 30 символов.";
+"about.send_feedback" = "Отправить отзыв";
+"about.leave_review" = "Оставить отзыв";
+"login.password_confirm_error" = "Пароль и подтверждение пароля должны совпадать.";
+"login.authentication_error" = "Кажется, возникли технические проблемы на сервере. Повторите попытку позже";
+"login.forgot_password" = "Напомнить пароль";
+"groups.error_name_required" = "В приглашении нет текста.";
+"gift_recipient_title" = "Послать подарок";
+"gift_recipient_subtitle" = "Введите @ имя получателя";
+"continue" = "Продолжить";
+"gift_confirmation_title" = "Ваш подарок отправлен!";
+"gift_confirmation_body" = "Вы отправили %@ %@-мес. подписку Adhder.";
+"gift_subscription_prompt" = "Выберите подписку, которую хотите подарить ниже! Эта покупка не будет автоматически продлена.";
+"gem_cap" = "Открой %d самоцветов Возможность купить самоцветы золотом в месяц";
+"hourglass_count" = "+%d мистических песочных часов";
+"intro.welcome_prompt" = "Как к вам обращаться?";
+"intro.avatar_setup_speechbubble" = "Итак, как бы вы хотели выглядеть? Не беспокойтесь, вы сможете это изменить позже.";
+"intro.task_setup_speechbubble" = "Великолепно! Теперь, над чем вы хотите работать на протяжении всего этого путешествия?";
+"intro.card2.text" = "Разблокируйте возможности в игре, отмечая выполненные задания в реальной жизни. Получите доспехи, питомцев и многое другое в качестве наград за достижение целей.";
+"keep_tasks" = "Оставить задания";
+"delete_tasks" = "Удалить задания";
+"write_a_message" = "Написать сообщение";
+"whats_world_boss" = "Кто такой Мировой босс?";
+"tutorials.spells" = "Навыки — это специальные способности, которые имеют мощные эффекты! Нажмите на навык, чтобы использовать его. Это будет стоить вам очков маны (синяя шкала), которая пополняется при входе в игру каждый день и завершением задач в реальной жизни. Читайте ЧаВо в меню, чтобы узнать подробности!";
+"faint.title" = "У вас закончилось здоровье!";
+"faint.dont_despair" = "Не отчаивайтесь!";
+"faint.button" = "Восстановить здоровье и попробовать снова";
+"agree_guidelines_prompt" = "Я обязуюсь соблюдать Правила сообщества";
+"rage_meter" = "Шкала ярости";
+"world_boss.world_boss" = "Мировой босс";
+"world_boss.title" = "%@ атакует!";
+"world_boss.description" = "Мировой босс — особое событие, во время которого сообщество Adhder объединяет усилия, чтобы своими заданиями победить сильнейшего монстра!";
+"world_boss.first_bullet" = "Завершите задачи, чтобы нанести урон боссу";
+"world_boss.second_bullet" = "Мировой босс не тронет вас за пропущенные задания, но уровень его ярости будет расти. Когда шкала ярости заполнится, босс атакует одного из владельцев лавки!";
+"world_boss.third_bullet" = "Можно одновременно сражаться с обычным квестовым боссом, вы нанесёте урон обоим";
+"world_boss.fourth_bullet" = "Проверяйте Таверну, чтобы увидеть уровни здоровья и ярости мирового босса";
+"world_boss.rage_strike_title" = "%@ атакован(а)!";
+"start_my_day" = "Начать день";
+"accessibility.world_boss_pending_damage" = "%@, мировой босс, ожидаемый урон: %@";
+"accessibility.not_completed_x" = "Не выполнено %@";
+"accessibility.not_completed" = "Не выполнено";
+"accessibility.collapse_checklist" = "Скрыть список";
+"accessibility.expand_checklist" = "Показать список";
+"leave_challenge" = "Покинуть испытание";
+"join_challenge" = "Присоединиться";
+"publish_challenge" = "Опубликовать испытание";
+"view_participant_progress" = "Показать прогресс участника";
+"end_challenge" = "Закончить испытание";
+"subscription_gift_explanation" = "Хотите подарить подписку кому-то ещё?";
+"subscription_gift_button" = "Подписка в подарок";
+"subscription_support_developers" = "Подписка поддерживает нашу маленькую команду и помогает поддерживать Adhder постоянно развиваться, спасибо вам!";
+"subscribe" = "Подписаться";
+"send_gift" = "Отправить подарок";
+"buy_for_x" = "Купить за %@";
+"earned_achievement_share" = "Я получил новое достижение в Adhder!";
+"invalid_recipient_title" = "Неверное имя пользователя";
+"filter_by_tags" = "Фильтровать по тегам";
+"purchased" = "Вы купили %@";
+"stats.total" = "Общий";
+"tasks.due_tomorrow" = "Завтра";
+"settings.change_about_message" = "Редактировать информацию о себе";
+"settings.reset_account_description" = "Вы потеряете все свои уровни, золото и очки опыта. Все задачи (за исключением испытаний) будут удалены навсегда, и вы потеряете все свои записи. Вы также потеряете все свое снаряжение, но сможете выкупить его обратно, включая все снаряжение ограниченной серии или Тайные предметы подписчика, которые вы уже приобрели (вам нужно будет выбрать правильный класс, чтобы повторно купить специальное снаряжение). Вы сохраните ваш текущий класс, ваших питомцев и скакунов. Для подтверждения сброса введите пароль.";
+"settings.api_disclaimer" = "Пароль токен для разработчиков и расширений";
+"settings.mentions" = "Упоминания";
+"guilds.join_guild" = "Присоединиться к гильдии";
+"classes.warrior_description" = "Воины способны нанести больше «критических ударов», которые случайным образом дают бонусное золото, опыт и шанс выполнения задачи. Они также наносит значительный урон боссам. Играйте за воина, если вам нравятся непредсказуемые вознаграждения в стиле джекпот или вы хотите быть особенно эффективными против боссов в квестах!";
+"classes.mage_description" = "Маги стремительно обучаются, набираясь опыта и зарабатывая уровни быстрее, чем другие классы. Они также получают больше маны за использование специальных способностей. Играйте магом, если вам нравятся тактические игровые аспекты Adhder или вас интересует быстрое продвижение и открытие для себя продвинутых возможностей!";
+"party.create_party_description" = "Берите квесты с друзьями или самостоятельно. Сражайтесь с монстрами, создавайте испытания и оставайтесь ответственными в Командах.";
+"party.join_party_description" = "Хотите присоединиться к команде, но не знаете других игроков? Сообщите лидерам команд, что вы ищете приглашение!";
+"username_prompt_body" = "Ваше отображаемое имя не изменилось, но ваш старый логин теперь будет вашим именем пользователя, используемым для приглашений, упоминаний в чатах и сообщениях.";
+"username_prompt_disclaimer" = "Имена пользователей должны соответствовать # <ts>Лицензионному соглашению# и#<cg>Руководству Сообщества#. Если вы ранее не создали логин, ваше имя пользователя создалось автоматически.";
+"settings.confirm_username_description" = "Подтвердив имя пользователя, вы сможете получать приглашения, @упоминания и сообщения. Вы можете изменить свое имя пользователя в настройках в любой момент.";
+"settings.searchable_username" = "Введите имя пользователя";
+"about.no_email_message" = "Упс, похоже, вы еще не настроили свою электронную почту на этом телефоне. Настройте учетную запись в почтовом приложении iOS, чтобы использовать эту опцию, или просто напишите нам на %@";
+"damage_paused" = "Получение урона приостановлено";
+"login.email_username" = "Электронная почта / Имя пользователя";
+"gift_confirmation_body_g1g1" = "Вы отправили %@ %@-месячную подписку Adhder. Эта же подписка была применена к вашей учетной записи, благодаря участию в акции «Подарите подписку, получите подписку»!";
+"never" = "Никогда";
+"welcome_back" = "С возвращением!";
+"buy_reward" = "Вы купили '%@' за %@ золота";
+"settings.searchable_everywhere" = "Везде";
+"settings.searchable_private_spaces" = "Только приватные места";
+"about.love_open_source" = "Интернет обожает продукты с открытым исходным кодом.";
+"world_boss.action_prompt" = "Одолейте босса, чтобы заработать особые награды и спасти Adhder от террора %@!";
+"world_boss.rage_strike_warning" = "Быть осторожен...\nМировой босс набросится и нападет на одного из наших дружелюбных владельцев магазинов, как только его полоска ярости заполнится. Выполняйте свои ежедневные дела, чтобы не позволить ему сделать это!";
+"world_boss.rage_strike_damaged" = "%@ с разбитым сердцем!\nНаш любимый %@ был опустошен, когда %@ разбил %@. Быстро, решать свои задачи, чтобы победить монстра и помочь восстановить!";
+"world_boss.rage_strike_explanation" = "Есть 3 потенциальных удара ярости\nЭтот индикатор заполняется, когда жители Adhderns пропускают свои ежедневные газеты. Если он заполнится, DysHeartener начнет свою атаку Shattering Heartbreak на одного из владельцев магазинов Adhder, так что не забудьте выполнить свои задачи!";
+"checkin_yesterdays_dalies" = "Отметьте все ежедневные газеты, которые вы сделали вчера:";
+"force_start" = "Форсированный запуск";
+"accessibility.score_habit_up" = "Оценка Привычка";
+"accessibility.score_habit_down" = "Оценка привычки вниз";
+"accessibility.not_due" = "Не из-за";
+"great" = "Превосходно";
+"subscription_info_1_description" = "Вы сможете купить самоцветы на рынке по 20 золотых за штуку!";
+"subscription_info_2_description" = "Зарабатывайте Таинственные Песочные Часы чтобы покупать предметы в Магазине Путешественника во Времени!";
+"gift_one_get_one_title" = "Подарите подписку, получите подписку";
+"gift_one_get_one_description" = "Подарите подписку сейчас и получите такую же бесплатно!";
+"gems_support_developers" = "Покупка самоцветов поддерживает нашу маленькую группу разработчиков и помогает Adhder продолжать работать";
+"invalid_recipient_message" = "Вы должны указать действительное имя пользователя получателя в Adhder.";
+"titles.achievements" = "Достижения";
+"titles.notifications" = "Уведомления";
+"titles.messages" = "Сообщения";
+"decline" = "Отклонить";
+"login.login_apple" = "Войти через Apple";
+"theme.dark" = "Темный";
+"theme.light" = "Светлый";
+"stable.wacky_mounts" = "Дурацкие скакуны";
+"theme.followSystem" = "Согласно настройкам системы";
+"settings.push_notifications.gifted_gems" = "Самоцветы в подарок";
+"organize_by" = "Организовать по";
+"achievements.special" = "Особые достижения";
+"achievements.seasonal" = "Сезонные достижения";
+"achievements.basic" = "Основные достижения";
+"empty.notifications.title" = "Вы в курсе всех событий!";
+"empty.rewards.title" = "Это ваши награды";
+"empty.todos.title" = "Это ваши задачи";
+"empty.dailies.title" = "Это ваши ежедневные дела";
+"empty.habits.title" = "Это ваши привычки";
+"notifications.dismiss_all" = "Сбросить все уведомления";
+"notifications.quest_invite" = "Вас пригласили на квест **%@**";
+"notifications.party_invite" = "Вас пригласили в команду **%@**";
+"notifications.unread_party_message" = "В вашей команде, **%@**, есть новые сообщения.";
+"notifications.unread_guild_message" = "**%@** имеет новые сообщения.";
+"notifications.new_mystery_item" = "У вас новые **Таинственные Предметы**";
+"notifications.unallocated_stat_points" = "Вы не распределили **%d очков**";
+"defeat" = "Поражение";
+"never_lower_case" = "никогда";
+"about.whats_new" = "Посмотрите что нового";
+"about.new_version" = "Доступно обновление: %@";
+"party.leave_party_description" = "Выход из команды не приведет к удалению вас из командных испытаний, в которых вы участвуете.";
+"party.leave_party_title" = "Уверены что хотите покинуть команду?";
+"stable.type" = "Тип";
+"stable.color" = "Цвет";
+"stable.wacky_pets" = "Чокнутые питомцы";
+"guilds.left_guild" = "Вы покинули гильдию";
+"guilds.joined_guild" = "Вы присоединились к гильдии";
+"settings.push_notifications.important_announcement" = "Важные объявления";
+"settings.push_notifications.invited_quest" = "Приглашены в квест";
+//"settings.push_notifications.banned_group" = "Kicked from Group";
+"settings.push_notifications.quest_begun" = "Ваш квест начался";
+"settings.push_notifications.invited_guid" = "Приглашены в гильдию";
+"settings.push_notifications.invited_party" = "Приглашены в команду";
+"settings.push_notifications.gifted_subscription" = "Подписка в подарок";
+"settings.push_notifications.won_challenge" = "Вы выиграли испытание!";
+"settings.push_notifications.received_pm" = "Получено личное сообщение";
+"settings.push_notifications.title" = "Push-уведомления";
+"settings.language" = "Язык";
+"duration_12month" = "12 месяцев";
+"duration_6month" = "6 месяцев";
+"duration_3month" = "3 месяца";
+"duration_month" = "месяц";
+"renew_subscription_gifted_description" = "Нравятся преимущества подписки? Вы можете купить новую подписку до окончания подарочной, сохранив бонусы.";
+"transfer" = "Передать";
+"settings.theme_mode" = "Режим (Темный/Светлый)";
+"subscribe_for_task_history" = "Хотите получить данные за более ранний срок?";
+"subscription_promo_description" = "Станьте подписчиком, чтобы получать самоцветы за золото, ежемесячно получать таинственные предметы, больше добычи с монстров и многое другое!";
+"task_history" = "Журнал задач (Очень экспериментальный)";
+"empty.rewards.description" = "Награды - прекрасная грань Adhder, мотивирующая к завершению задач. Попробуйте добавить несколько наград сегодня!";
+"renew_subscription_description" = "Нравятся преимущества подписки? Вы можете купить новую подписку до того, как закончится текущая, сохранив бонусы.";
+"subscription_info_5_description" = "Находите ещё больше предметов в Adhder с удвоенным ежедневным пределом выпадения трофеев.";
+"subscription_promo_title" = "Нужны самоцветы?";
+"achievements.quests" = "Завершённые квесты";
+"empty.dailies.description" = "Ежедневные дела - это задачи, которые повторяются на регулярной основе. Подберите расписание, которое вам подходит!";
+"empty.habits.description" = "У Привычек нет строгих ограничений. Можно отмечать их несколько раз в день.";
+"cancel_subscription" = "Отменить Подписку";
+"cancelled" = "Отменена";
+"not_recurring" = "Без обновления";
+"ending_on" = "Заканчивается %@";
+"renew_subscription" = "Обновить Подписку";
+"resubscribe" = "Подписаться снова";
+"subscription_duration" = "Обновление с периодом в %@";
+"subscription_options_title" = "Выберите длину подписки, которая подходит Вам";
+"subscription_benefits_title_subscribed" = "Получите следующие преимущества, став Подписчиком";
+"subscription_info_5_title" = "Удвойте количество выпадающих предметов";
+"remove" = "Изгнать";
+"party.remove_from_party" = "Изгнать участника";
+"transfer_ownership" = "Изменить Лидера";
+"party.remove_member_title" = "Вы точно хотите изгнать %@ из команды?";
+"party.transfer_ownership_description" = "После этого %@ станет новым лидером Команды";
+"party.transfer_ownership_title" = "Изменить Лидера?";
+"theme.alwaysDark" = "Постоянно темный";
+"theme.alwaysLight" = "Постоянно светлый";
+"settings.push_notifications.mention_unjoined_guild" = "@Упоминания в остальных Гильдиях";
+"settings.push_notifications.mention_joined_guild" = "@Упоминания в моих Гильдиях";
+"settings.push_notifications.mention_party" = "@Упоминания в команде";
+"settings.push_notifications.party_activity" = "События в команде";
+"menu.subscription" = "Подписка";
+"menu.gems" = "Приобрести самоцветы";
+"notifications.new_bailey" = "Новости от Бейли!";
+"empty.notifications.description" = "Феи уведомлений бурно вам аплодируют! Отлично сработано!";
+"empty.todos.description" = "Общие задачи выполняются один раз. Добавьте контрольные списки в свои задачи, чтобы увеличить их ценность.";
+"notifications.private_guild_invite" = "Вас пригласили вступить в закрытую гильдию **%@**";
+"notifications.public_guild_invite" = "Вас пригласили присоединиться к публичной гильдии **%@**";
+"sale" = "Акция";
+"get_more_adhder" = "Получить больше от Adhder";
+"member_group_plan" = "Участник группового тарифа";
+"group_plan" = "Групповой тариф";
+"titles.pets_and_mounts" = "Питомцы и Скакуны";
+"gift_one_get_one" = "Сейчас активна акция подари подписку и получи ещё одну бесплатно!";
+"cancel_subscription_group_plan" = "У вас бесплатная подписка, потому что вы состоите в команде или гильдии с активным групповым тарифом. Если вы покинете группу, или владелец отменит групповой тариф, ваша подписка закончится. Все дополнительно оплаченные месяцы подписки будут добавлены по истечении группового тарифа.";
+"more_options" = "Дополнительные параметры";
+"go_shopping" = "Идти за покупками";
+"purchase_from_time_travelers_shop" = "Вы можете приобрести эту настройку в магазине путешественников во времени";
+"purchase_customization" = "Купить дополнительные настройки";
+"time_travel_backgrounds" = "Стимпанк фоны";
+"quests.unlock_level_short" = "Уровень %d";
+"party.quest_not_participating" = "Вы не принимаете участие";
+"achievements.onboarding" = "Достижения освоения";
+"quests.unlock_invite_short" = "Пригласить друзей";
+"settings.disable_all_emails" = "Отключить всю электронную почту";
+"settings.email_notifications.title" = "Электронная почта";
+"accessibility.viewX" = "Посмотреть %@";
+"accessibility.notOwned" = "Еще нет";
+"accessibility.owned" = "Уже есть";
+"accessibility.unknown_mount" = "Неизвестный скакун";
+"accessibility.unknown_pet" = "Неизвестный питомец";
+"accessibility.xofx" = "%d из %d";
+"quest_completed_title" = "Квест завершён!";
+"quests.unlock_previous_short" = "Завершите квест %d";
+"settings.email_notifications.subscription_reminders" = "Напоминания о подписке";
+"settings.email_notifications.banned_group" = "Исключен из группы";
+"settings.delete_account_description_social" = "Ваш аккаунт будет удален навсегда без возможности восстановления! Стоимость потраченных и находящихся в банке самоцветов не будет компенсирована. Если вы абсолютно уверены, напишите DELETE в текстовое поле.";
+"show_details" = "Подробнее";
+"new_message" = "Новое сообщение";
+"add" = "Добавить";
+"onwards" = "Дальше";
+"pin" = "Прикрепить";
+"unpin" = "Открепить";
+"locations.time_travelers_shop" = "Путешественники во времени";
+"errors.user_not_found" = "Пользователь не найден.";
+"quest" = "Квест";
+"food_singular" = "Корм";
+"hatching_potion" = "Инкубационный эликсир";
+"egg" = "Яйцо";
+"quests.unlock_invite" = "Разблокировать, пригласив друзей в команду";
+"login.email_invalid" = "Пожалуйста, введите действительный адрес электронной почты.";
+"quests.unlock_previous" = "Разблокировать, завершив квест %d";
+"quests.unlock_level" = "Разблокировать, завершив уровень %d";
+"learn_more" = "Подробнее";
+"more_gems_message" = "Для покупки этого предмета вам нужно больше самоцветов!";
+"complete_more_tasks" = "Вам нужно выполнить больше задач, прежде чем вы сможете позволить себе этот предмет!";
+"gift_sent_to" = "Вы отправили %@:";
+"gift_sent_confirmation" = "Ваш подарок отправлен!";
+"gift_gems_disclaimer" = "Adhder никогда не требует от вас дарить самоцветы другим игрокам. Выпрашивание у игроков самоцветов является нарушением правил сообщества, и о всех подобных случаях следует сообщать на admin@adhder.com.";
+"gift_gems_alert_prompt" = "Введите @имя получателя";
+"gift_gems_alert_title" = "Кому бы вы хотели отправить подарок?";
+"login.social_login" = "Войти через %@";
+"login.social_register" = "Регистрация через %@";
+"copied_x_to_clipboard" = "Скопировано в буфер обмена: %@";
+"settings.added_local_auth" = "Адрес электронной почты и пароль успешно добавлены";
+"settings.add_email_and_password" = "Добавьте адрес электронной почты и пароль";
+"challengeJoinedTitle" = "Присоединился(-ась) к испытанию";
+"guildJoinedDescription" = "Отважился(-ась) зайти на социальную сторону страны Adhder, присоединившись к Гильдии!";
+"guildJoinedTitle" = "Присоединился(-ась) к гильдии";
+"triadBingoDescription" = "Вы заработали достижение «Тройное Бинго» за нахождение всех питомцев, приручение всех скакунов и повторное нахождение всех питомцев!";
+"triadBingoTitle" = "Тройное бинго";
+"mountMasterDescription" = "Вы заработали достижение «Повелитель скакунов» за приручение всех скакунов!";
+"mountMasterTitle" = "Повелитель скакунов";
+"beastMasterDescription" = "Вы заработали достижение «Повелитель зверей» за то, что собрали всех питомцев!";
+"beastMasterTitle" = "Повелитель зверей";
+"partyOnDescription" = "Ваша команда увеличилась до 4 участников!";
+"partyUpDescription" = "Вы объединились с членом команды!";
+"partyUpTitle" = "Зажигаем";
+"onboardingComplete_achievement_title" = "Вы выполнили свои первые задания!";
+"onboardingCompleteTitle" = "Вы получили 5 достижений и 100 золота за ваши усилия.";
+"view_onboarding_tasks" = "Посмотреть первые задания";
+"first_drop_title" = "Вы нашли новыйе предметы!";
+"first_drop_explanation2" = "Посмотрите в своих предметах и попробуйте объединить ваш новый инкубационный эликсир и яйцо!";
+"view_achievements" = "Посмотреть достижения";
+"you_got_achievement" = "Вы получили достижение!";
+"purchasedEquipmentTitle" = "Купил(-а) снаряжение";
+"fedPetTitle" = "Покормил(-а) питомца";
+"hatchedPetTitle" = "Вырастил(-а) питомца";
+"completedTaskTitle" = "Выполни(-а) задачу";
+"createdTaskTitle" = "Создал(-а) свою первую задачу";
+"purchase_equipment_description" = "Снаряжение - это способ персонализировать свой аватар и улучшить свои характеристики";
+"feedPet_description" = "Выполнайте ваши задачи чтобы получить корм! Им можно кормить своего питомца в разделе «Питомцы и Скакуны»";
+"hatch_pet_description" = "Выполнайте ваши задачи чтобы получить инкубационный эликсир и яйцо и потом вылупить питомца!";
+"complete_task_description" = "Отметить любую из своих задач, чтобы заработать награды";
+"create_task_description" = "Добавить задачу для чего-то, что вы хотели бы выполнить на этой неделе";
+"purchase_equipment_title" = "Купить снаряжение";
+"percent_complete" = "%d%% завершено";
+"complete_to_earn_gold" = "Выполните, чтобы получить 100 золота!";
+"onboarding_tasks" = "Первые задания";
+"purchase_x" = "Купить: %d";
+"invitedFriendTitle" = "Пригласил(а) друга";
+"onboardingCompleteDescription" = "Хотите больше? Посмотрите список Достижений и начинайте собирать!";
+"gift_subscription" = "Подарить подписку";
+"gift_gems" = "Подарить самоцветы";
+"user_was_unblocked" = "Вы разблокировали %@.";
+"user_was_blocked" = "Вы заблокировали %@.";
+"block_username" = "Заблокировать %@?";
+"unblock_user" = "Разблокировать";
+"block_user" = "Заблокировать";
+"block" = "Заблокировать";
+"support.suggestions_button" = "Отправить отзыв";
+"game_mechanics" = "Механика игры";
+"support.bug_fixes_button" = "Получить помощь";
+"support.questions_button" = "Подробнее";
+"common_questions" = "Частые вопросы";
+"support.questions_title" = "Вопросы о Adhder";
+"backer_tier" = "Ранг спонсора: %d";
+"menu.support" = "Техподдержка";
+"titles.basics" = "Основное";
+"titles.hall_of_patrons" = "Зал покровителей";
+"titles.hall_of_contributors" = "Зал участников";
+"titles.hall_of_heroes" = "Зал героев";
+"more_help_button" = "Сообщить о проблеме";
+"more_help_title" = "Нужна помощь?";
+"known_issues" = "Известные проблемы";
+"more_questions_text" = "Вы можете [связаться с нами](mailto:admin@adhder.com?subject=%%5BiOS%%5D%%20Question) и наша команда постарается вам помочь!";
+"more_questions_title" = "Все еще есть вопросы?";
+"clear_cache_title" = "Очистить кэш & обновить содержимое";
+"update_app_title" = "Обновить приложение";
+"stat_allocation" = "Распределение очков характеристик";
+"experience_points" = "Очки опыта";
+"left_challenge" = "Покинул(-а) испытание";
+"joined_challenge" = "Присоединился(-ась) к испытанию";
+"mystic_hourglasses" = "Мистические песочные часы";
+"subscriber_currency" = "Средство оплаты подписчиков";
+"premium_currency" = "Премиальное средство оплаты";
+"currency" = "Средство оплаты";
+"health_points" = "Очки здоровья";
+"leave_and_delete_tasks" = "Покинуть & удалить задания";
+"leave_and_keep_tasks" = "Покинуть & оставить задания";
+"promo_info_limitations_title" = "Ограничения";
+"promo_info_instructions_title" = "Как это делается";
+"usually_x_gems" = "Обычно %d самоцветов";
+"x_to_y" = "%@ до %@";
+"limited_event" = "Временная акция";
+"use_immediately_disclaimer" = "Это вступит в силу немедленно после покупки!";
+"partyOnTitle" = "Время вечеринок";
+"go_to_items" = "Перейти к предметам";
+"first_drop_explanation1" = "За выполнение заданий вы можете получить яйца, инкубационные эликсиры или корм для питомцев.";
+"excess_x_items_left" = "Вам всего лишь нужно %d %@s, чтобы вывести всех возможных питомцев. Вы уверены, что хотите приобрести %d?";
+"excess_no_items_left" = "У вас уже есть всё что нужно для всех %@ питомцев. Вы уверены, что хотите приобрести %d %@s?";
+"excess_items" = "Лишние предметы";
+"insufficient_hourglasses_message_subscriber" = "Чтобы купить этот предмет, вам понадобится больше Мистических Песочных Часов! Оставайтесь подписанными, чтобы продолжать получать их.";
+"insufficient_hourglasses_message" = "Чтобы купить этот предмет, вам понадобится больше Мистических Песочных Часов! «Песочными Часами» награждают за подписку сразу на несколько месяцев.";
+"gift_gems_explanation_balance" = "Укажите, сколько самоцветов вы хотели бы подарить, или переключите вкладку, чтобы купить самоцветы в подарок";
+"gift_gems_explanation_purchase" = "Выберите ниже, сколько самоцветов подарить, или переключите вкладки, чтобы подарить самоцветы с вашего текущего баланса";
+"edit_challenge_tasks" = "Задачи испытания предлагают только ограниченное редактирование.";
+"empty.inbox.description" = "Начать общаться можно ниже! Не забывайте проявлять дружелюбие и соблюдать правила сообщества.";
+"accessibility.unknown" = "Неизвестный";
+"gift_gems_prompt" = "Хотите подарить блестящую коллекцию самоцветов кому-то еще?";
+"login.register_error" = "При выполнении этого запроса возникли проблемы. Пожалуйста, проверьте всю информацию внимательно.";
+"tasks.form.accessibility.attribute" = "Это %@";
+"tasks.form.accessibility.set_attribute" = "Поменять на %@";
+"invitedFriendDescription" = "Вы пригласили друга (или друзей), который присоединился к вам в вашем приключении!";
+"health_description" = "Это показывает жизнь вашего аватара. Отсутствие ежедневного занятия или негативная привычка ** снижает ваш HP **\n\n** Восстанавливайте HP **, повышая уровень, используя зелье здоровья или классовый навык с лечебной способностью\n\nЕсли ваш ** HP достигнет 0 **, вы потеряете уровень, все золото и одно из ваших снаряжений. Утерянное снаряжение можно выкупить повторно.";
+"update_app_description" = "Мы постоянно выпускаем новые исправления, поэтому обязательно загляните в App Store, чтобы узнать, доступны ли какие-либо обновления";
+"manual_sync_description" = "Иногда приложение не синхронизирует контент автоматически или застревает ведя себя странно. Потяните, чтобы обновить, или принудительно закройте приложение и снова откройте его, чтобы проверить, помогает ли это";
+"manual_sync_title" = "Ручная Синхронизация и Принудительный Перезапуск";
+"clear_cache_description" = "Для этого откройте Меню > Настройки, затем прокрутите вниз, чтобы найти кнопки";
+"more_help_description" = "Отправьте нам отчет, и мы свяжемся с вами!";
+"common_fixes" = "Общие исправления";
+"support.suggestions_description" = "Знаете, как функции могут работать лучше, или есть идея для чего-то нового? Расскажите нам!";
+"support.suggestions_title" = "Предложения и отзывы";
+"support.bug_fixes_description" = "Что-то пошло не так? Найдите ответы здесь или обратитесь к нам за помощью";
+"support.bug_fixes_title" = "Ошибки и исправления";
+"support.questions_description" = "Мы объясним основы и ответим на распространенные вопросы, чтобы ввести вас в курс дела";
+"leave_and_delete_x_tasks" = "Покинуть & удалить %d задания";
+"leave_and_delete_task" = "Покинуть и удалить задание";
+"delete_challenge_task_description" = "Это одна из %d задач, которая является частью испытания «%@». Что бы удалить эту задачу, вы должны покинуть это испытание.";
+"delete_challenge_task" = "Удалить Задачу Испытания?";
+"delete_x_tasks" = "Удалить %d задания";
+"keep_x_tasks" = "Оставить задания: %d";
+"broken_challenge_description" = "Это одна из %d задач, что является частью Испытания которого больше не существует. Что бы вы хотели сделать с этими оставшимися задачами?";
+"broken_challenge" = "Разорвана связь с испытанием";
+"block_description" = "Заблокированный пользователь не может отправлять вам личные сообщения, но вы все равно будете видеть их сообщения.";
+"adventure_guide_description" = "Выполните эти задания по адаптации, и вы получите 5 достижений и 100 золотых, как только закончите!";
+"five_achievements" = "5 Достижений";
+"hundred_gold" = "100 Золота";
+"feedPet_title" = "Покормить Питомца";
+"complete_task_title" = "Завершить Задачу";
+"create_task_title" = "Создать Задачу";
+"purchasedEquipmentDescription" = "Снаряжение может быть практичным или просто модным. Повышайте свою статистику, чтобы получить всевозможные преимущества для своего аватара";
+"fedPetDescription" = "У каждого питомца есть особая еда, которая ему нравится! Поэкспериментируйте, чтобы узнать, какой из ваших Питомцев вырастет быстрее всего";
+"hatchedPetDescription" = "Так много питомцев, которых нужно собрать, у вас обязательно будет любимый. Если их покормить, они могут просто вырасти …";
+"completedTaskDescription" = "Задание может быть в виде Привычки, Ежедневного Дела или Задачи. Продолжайте их выполнять, чтобы получать всевозможные награды!";
+"createdTaskDescription" = "Так держать! Если вам нужна помощь в планировании задач, попробуйте подумать о том, чем вы бы хотели заниматься в определенное время дня";
+"challengeJoinedDescription" = "Вы решаете опробовать свои силы, присоединившись к испытанию!";
+"magic_potion" = "Из Волшебного эликсира";
+"magic_potions" = "Волшебные эликсиры";
+"hatch" = "Вылупить";
+"hatch_pet" = "Вырастить питомца";
+"create_guild" = "Создать гильдию";
+"gift_confirmation_body_g1_g1" = "Вы отправили %@ %@-месячную подписку Adhder. Эта же подписка была применена к вашей учетной записи, благодаря участию в акции «Подарите подписку, получите подписку»!";
+"gift_one_get_one_event" = "Акция «Подарите подписку, получите подписку»";
+"create_challenge" = "Создать испытание";
+"achievements.challenges" = "Выигранные испытания";
+"menu.skills" = "Навыки";
+"is_open" = "Открыто";
+"inventory.available_for" = "Доступно для %@";
+"quests.confirm_leave" = "Вы уверены, что хотите покинуть квест? Весь прогресс будет потерян.";
+"tasks.form.negative" = "Вредная";
+"tasks.form.positive" = "Полезная";
+"x_items_found" = "%d предметов в ожидании";
+"hatch_pet_again" = "Вырастите питомца снова";
+"seasonal_potions_available" = "Доступные сезонные предметы";
+"gold_description" = "Золото - это **основная форма валюты** в Adhder, что позволяет вам покупать определенное снаряжение, квесты, предметы или даже пользовательские награды, которые вы можете создать для себя.\n\n**Заработать золото** можно через выполнение заданий или квестов, или же через использование некоторых классовых навыков. Чем выше **характеристика Восприятие**, тем большее количество золота вы получаете.\n\nЕсли вы являетесь подписчиком Adhder, вы даже можете использовать золото для покупки некоторого количества самоцветов, определяемого продолжительностью вашей подписки.";
+"stat_description" = "Все персонажи Adhder имеют четыре характеристики, которые влияют на игровые аспекты Adhder.\n\n**Сила (СИЛ)** влияет на критические удары и увеличивает урон, наносимый квестовому боссу. Воины и разбойники получают больше СИЛ из своего классового снаряжения.\n\n**Телосложение (ТЕЛ)** увеличивает очки здоровья и уменьшает получаемый урон. Целители и воины получают больше ТЕЛ из своего классового снаряжения.\n\n**Интеллект (ИНТ)** повышает количество получаемого опыта и дает больше маны. Маги и целители получают больше ИНТ из своего классового снаряжения.\n\n**Восприятие (ВОС)** увеличивает количество получаемого золота и шанс выпадения предметов. Разбойники и маги получают больше ВОС из своего классового снаряжения.\n\nПосле 10 уровня, вы получаете 1 очко характеристик за каждый новый уровень и можете распределить его в любую желаемую характеристику. Вы также можете надевать экипировку с различными комбинациями повышаемых характеристик.";
+"mana_description" = "Очки маны будут доступны вместе с классовой системой на 10 уровне и дают вам возможность **использовать навыки**, как только вы начнете их изучать на 11 уровне.\n\nНекоторое **количество очков восстанавливается** в начале каждого дня, но вы можете восполнить еще больше, выполняя задания или используя классовый навык Мага.";
+"experience_description" = "Очки опыта отражают ваш прогресс и дают возможность поднять уровень. В основном вы будете **получать опыт** от выполнения заданий или квестов, однако, его получить и при использовании некоторых классовых навыков.\n\nЗадания повышенной сложности или же красного цвета будут давать **больше опыта**. **Характеристика Интеллект** также увеличивает количество получаемого опыта.";
+"hatch_pet_title" = "Вырастить питомца";
+"quests.confirm_leave_nostart" = "Вы уверены, что хотите покинуть квест? У вас не будет возможности участвовать в нем.";
+"settings.launch_screen" = "Загрузочный экран";
+"tasks.form.adjust_streak" = "Восстановить серию";
+"daily_tip_2" = "Вы можете изменять частоту ежедневных заданий. Можно даже запланировать задания, выполняемые нечасто.";
+"daily_tip_0" = "Хотите попробовать что-то новое? Присоединяйтесь к испытаниям, чтобы расширить список ваших заданий и выиграть несколько самоцветов!";
+"daily_tip_1" = "Добавьте списки к вашим задачами, чтобы увеличить награду в разы!";
+"daily_tip_3" = "Вы можете также запланировать специальные напоминания для ежедневных дел.";
+"daily_tip_4" = "Время от времени переоценка ваших заданий может помочь вам оставаться правильного пути.";
+"daily_tip_5" = "Сделайте несколько глубоких вдохов, чтобы сосредоточиться. Вы сможете это сделать!";
+"daily_tip_6" = "Попробуйте поставить таймер на десять минут и узнать, сколько дел вы сможете выполнить!";
+"daily_tip_7" = "Попробуйте закрепить предметы из рынка в вашу колонку Награды, чтобы мотивировать себя на их получение!";
+"daily_tip_8" = "Вы можете изменить сложность своих заданий, чтобы за выполнение тяжелых получать большую награду!";
+"daily_tip_9" = "Если вам тяжело, попробуйте разбить ваши задания на несколько небольших частей.";
+"new" = "Новинка";
+"gift_one_get_one_data.infoPrompt" = "В честь сезона подарков возвращаем особую акцию. Теперь, когда вы дарите кому-нибудь подписку, вы получаете такую же для себя бесплатно!";
+"gift_one_get_one_data.info_instructions" = "Нажмите на «Подарить подписку» и введите имя пользователя другой учетной записи, которому вы хотите сделать подарок. Дальше, выберите длительность подписки и оплатите её. Ваша учетная запись будет автоматически вознаграждена тем же уровнем подписки.";
+"unhatched_pet" = "Невылупившийся Питомец";
+"can_hatch_pet" = "Соедините ваши %@ яйцо и %@ эликсир, чтобы вырастить этого питомца!";
+"suggest_pet_hatch_again_missing_both" = "Вам все еще нужны %@ и %@ эликсир, чтобы вырастить этого питомца снова";
+"suggest_pet_hatch_again_missing_potion" = "Вам все еще нужен %@ эликсир, чтобы вырастить этого питомца снова";
+"suggest_pet_hatch_again_missing_egg" = "Вам все еще нужно %@ яйцо, чтобы вырастить этого питомца снова";
+"suggest_pet_hatch_missing_both" = "Вам нужны %@ и %@ эликсир, чтобы вырастить питомца";
+"suggest_pet_hatch_missing_potion" = "Вам все еще нужен %@ эликсир, чтобы вырастить этого питомца";
+"suggest_pet_hatch_missing_egg" = "Вам все еще нужно %@ яйцо, чтобы вырастить питомца";
+"hourglasses_description" = "Мистические песочные часы - это чрезвычайно редкая формы валюты, которую вы можете получить за подписку на Adhder в течение трех или более месяцев подряд. Они используются в магазине Путешественников во времени для покупки прошлых наборов экипировки, питомцев, скакунов, анимированных фонов или даже специальных квестов.\n\nВы можете получить до четырех Мистических песочных часов в год. Время, в течение которого вы будете вознаграждены, зависит от вашего графика продления подписки. Песочные часы будут разосланы в первый день нового месяца после последнего платежа за подписку, что позволяет вам получить их. Более подробную информацию смотрите на странице [Подписка].";
+"gems_description" = "Самоцветы - это валюта, покупаемая через реальные деньги, что позволяет покупать дополнительный контент в Adhder и является одним из основных источников финансовой поддержки команды Adhder наряду с подписками.\n\nВесь контент, покупаемый через самоцветы - чисто косметический или может быть получен в бесплатно со временем.\n\nВы также можете получить самоцветы в качестве подарков от других игроков, призов за испытания, за вклад в развитие или подписку на Adhder.";
+"week_reminder_title" = "Как идут ваши дела?";
+"week_reminder_body" = "Отдых полезен, но вы все еще можете зарабатывать очки опыта за выполнение заданий, чтобы поднять уровень и получить крутой комплект брони!";
+"get_started" = "Начать";
+"unlocks_selecting_class_prompt" = "Теперь, когда вы достигли 10 уровня, вы можете выбрать класс!";
+"unlocks_selecting_class_description" = "Навыки будут доступны как только вы достигнете 10 уровня и выберете класс";
+"class_system_enable_instructions" = "Вы можете включить систему классов в настройках приложения.";
+"class_system_disabled" = "Система классов выключена.";
+"could_not_gift_gems" = "Невозможно подарить самоцветы. Позже попробуйте еще раз.";
+"end_challenge_description" = "Чтобы закончить испытание, зайдите на сайт Adhder и нажмите на кнопку «Закончить испытание» справа от экрана испытания.";
+"create_challenge_description" = "Чтобы создать испытание, зайти на сайт Adhder и, открыв страницу «Мои испытания», нажмите на кнопку «Создать».";
+"create_guild_description" = "Чтобы создать гильдию, зайдите на сайт Adhder и, открыв страницу «Мои гильдии», нажмите на кнопку «Создать».";
+"gift_one_get_one_data.purchase_banner_title" = "Подарите подписку и получите вторую бесплатно до %@";
+"gift_one_get_one_data.info_limitations" = "Это ограниченное по времени событие начнется в %@ (%@ UTC) и закончится в %@ (%@ UTC). Акция действует только когда вы делаете подарок другому пользователю. Если вы или получатель уже имеете подписку, то вам добавятся месяцы подаренной подписки, которой можно будет воспользоваться при условии отмены или окончания текущей.";
+"gems_promo.info_limitations" = "Данная акция действует во время ограниченного по времени события. Событие начинается в %@ (12:00 UTC) и закончится в %@ (00:00 UTC). Это предложение действительно только при покупке самоцветов для себя.";
+"spooky_promo.info_instructions" = "Между %@ и %@, выберете как обычно любой набор самоцветов, и на вашу учетную запись будет зачислена их акционная сумма. Больше самоцветов, чтобы потратить их, поделиться с кем-то или сохранить для любых будущих обновлений!";
+"spooky_promo.info_prompt" = "Распродажа самоцветов возвращается до конца Осеннего фестиваля этого года! Это последний шанс, чтобы получить больше самоцветов, чем когда-либо, так что запасайтесь пока не поздно!";
+"fall_promo.info_instructions" = "Между %@ и %@, выберете как обычно любой набор самоцветов, и на вашу учетную запись будет зачислена их акционная сумма. Больше самоцветов, чтобы потратить их, поделиться с кем-то или сохранить для любых будущих обновлений!";
+"fall_promo.info_prompt" = "Осенний фестиваль идет полным ходом, так что мы подумали, что это идеальное время, чтобы представить нашу первую в истории распродажу самоцветов! Теперь вы можете получить больше самоцветов с каждой покупки, чем когда-либо прежде.";
+"view_gem_bundles" = "Посмотреть наборы самоцветов";
+"pending_items" = "Ожидаемые предметы";
+"tasks.form.completions" = "Завершено";
+"survey.description" = "Заполните этот 5-минутный опрос, чтобы помочь нам развиваться, а также получить достижение!";
+"survey.button" = "Перейти к опросу";
+"survey.title" = "Опрос игроков Adhder";
+"beginner_objectives" = "Цели для начинающих";
+"inventory.no_longer_available" = "Больше недоступно";
+"inventory.hatched_sharing" = "Я вырастил %@ %@ питомца в Adhder, выполняя свои задания в реальной жизни!";
+"created_at" = "Создано в";
+"total_completions" = "Всего выполнено";
+"streak" = "Серия";
+"quests.unlock_incentive" = "Разблокируйте, заходя %d дней подряд";
+"update" = "Обновление";
+"quests.unlock_incentive_short" = "%d входов в игру";
+"pet_accessibility_label_raised" = "%@, Выращено %d%%";
+"open_for" = "Открыто на %@";
+"pet_accessibility_label_mount_owned" = "%@, Скакунов имеется";
+"tasks.edit_details" = "Подробно редактировать";
+"skills.caused_damage" = "Вы нанесли боссу урон";
+"tasks.form.last_scored" = "Последний результат";
+"report" = "Жалоба";
+"checkin_prize_earned" = "Вы заработали %@, как награду за преданность делу по улучшению вашей жизни.";
+"year" = "год";
+"month" = "месяц";
+"week" = "неделя";
+"day" = "день";
+"tasks.form.times_scored" = "Количество очков";
+"tasks.form.completion" = "Завершение";
+"tasks.tasks" = "Задания";
+"tasks.form.reset_counter" = "Сбросить счётчик";
+"tasks.form.adjust_counter" = "Настроить счётчик";
+"next_prize_in_x_checkins" = "Следующая награда через %d входов в игру";
+"see_you_tomorrow" = "Увидимся завтра";
+"scheduled" = "Запланировано";
+"completed" = "Завершено";
+"not_due" = "Не выполнено";
+"menu.group_plans" = "Группы";
+"settings.day_start_adjustment" = "Изменение начала суток";
+"settings.adjustment" = "Настройка";
+"settings.cleared_cache" = "Очищенный кэш";
+"settings.reloaded_content" = "Обновить содержимое";
+"settings.change" = "Изменить";
+"settings.add_email" = "Добавить электронную почту";
+"settings.updated_password" = "Пароль обновлён";
+"settings.email" = "Адрес электронной почты";
+"settings.not_set" = "Не установлено";
+"settings.no_email" = "Электронная почта отсутствует";
+"settings.my_account" = "Мой аккаунт";
+"settings.connect" = "Подключить";
+"settings.disconnect" = "Отключить";
+"settings.add_password" = "Добавить пароль";
+"settings.pause_damage" = "Приостановить урон";
+"settings.resume_damage" = "Продолжить урон";
+"settings.pauseDamage.resume_damage_title1" = "Ваши пропущенные ежедневные задачи нанесут вам урон ";
+"social.x_members" = "%s Участники";
+"social.x_bank" = "%s Банк";
+"social.x_description" = "%s описание";
+"sell_no_currency" = "Продать за %d";
+"inventory.avatar_skin_customization" = "Персонализация кожи аватара";
+"equipped_x" = "Вы экипировали %s";
+"purchase_for_without_currency" = "Купить за %d самоцветов";
+"groups.groups" = "Группы";
+"groups.group" = "Группа";
+"groups.copy_shared_tasks" = "Скопировать общие задачи";
+"open_google_play" = "Открыть Google Play Store";
+"event_backgrounds" = "Фоны мероприятий";
+"open_mystery_item" = "Вы открываете таинственную коробку и находите…";
+"faint.disclaimer" = "Сломанное снаряжение может быть выкуплено в рынке.";
+"sale_ends_in" = "Распродажа заканчивается через %@";
+"unban_user" = "Разблокировать пользователя";
+"unshadow_mute_user" = "Отменить приглушение";
+"mute_user" = "Заглушить пользователя";
+"unmute_user" = "Разглушить пользователя";
+"unban_user_confirm" = "Вы хотите снять бан с данного пользователя?";
+"shadow_mute_user_confirm" = "Вы хотите скрытно приглушить данного пользователя?";
+"buy_for" = "Купить за";
+"thanks_for_your_support" = "Спасибо за вашу поддержку!";
+"ends_in_x" = "Заканчивается через %s";
+"birthday_set" = "Набор именинника";
+"background" = "Задний фон";
+"tasks.form.not_editable_disclaimer" = "Испытания и групповые задачи имеют ограниченные возможности редактирования по сравнению с обычными задачами";
+"settings.updated_email" = "Электронная почта обновлена";
+"settings.pauseDamage.pause_damage_description1" = "Боссы по-прежнему будут наносить урон, вызванный пропущенными ежедневными заданиями других членов команды";
+"settings.pauseDamage.pause_damage_description3" = "Урон, нанесенный боссу или найденные коллекционные предметы, сохранятся до тех пор, пока вы не возобновите нанесение урона";
+"settings.pauseDamage.resume_damage_description1" = "Боссы также будут наносить урон членам команды за пропущенные вами ежедневные дела";
+"groups.copy_shared_tasks_description" = "Показать назначенные и открытые задачи в ваших личных списках задач";
+"settings.account_info" = "Информация об аккаунте";
+"social.x_leader" = "%s Лидер";
+"unsubscribe_google" = "Больше не хотите иметь подписку? Ваш способ оплаты позволяет отказаться от подписки только через Google Play Store.";
+"settings.public_profile" = "Публичный профиль";
+"groups.group_plan_settings" = "Настройки группового плана";
+"errors.enter_valid_email" = "Пожалуйста, введите корректный адрес электронной почты";
+"settings.password" = "Пароль";
+"errors.password_length" = "Пароль должен состоять из 8 или более символов";
+"errors.password_not_matching" = "Пароли должны совпадать";
+"faint.subtitle" = "Вы упадете до **уровня %s, потеряете %s золота и сломаете часть снаряжения**…\nВы можете вернуть всё это упорным трудом!";
+"faint.good_luck_text" = "Но вы можете вернуть все это упорным трудом! Удачи — у вас все получится. ";
+"armoire.rate_experience_description" = "Полученная сумма варьируется случайным образом от 10 до 50.";
+"ban_user" = "Заблокировать пользователя";
+"shadow_mute_user" = "Приглушить пользователя";
+"ban_user_confirm" = "Вы уверены что хотите заблокировать данного пользователя?";
+"mute_user_confirm" = "Вы хотите приглушить данного пользователя?";
+"unmute_user_confirm" = "Вы хотите разглушить данного пользователя?";
+"birthday_header_description" = "Отпразднуйте 10-й день рождения Adhder с подарками и эксклюзивными предметами, представленными ниже!";
+"limited_edition" = "Ограниченная серия";
+"four_for_free" = "Четыре бесплатно";
+"four_for_free_description" = "Чтобы вечеринка продолжалась, мы разыграем Праздничные мантии, 20 драгоценных камней, а также набор накидок и фона ограниченной серии!";
+"visit_the_market" = "Посетить магазин";
+"exclusive_items_await" = "Эксклюзивные предметы и подарки ждут";
+"settings.next_cron_run" = "Перезагрузка следующего дня: %@";
+"tasks.form.none" = "Нет";
+"settings.custom_day_start_description" = "Изменение времени переключения суток (по умолчанию 24:00)";
+"settings.reset_account_description_social" = "Вы потеряете все ваши Уровни, Золото и Опыт. Все ваши задания и данные о них будут удалены(Испытания останутся). Вы потеряете всё снаряжение за исключением предметов Подписчика и бесплатные предметы на память, но вы сможете их выкупить. Для выкупа предметов эксклюзивных для класса вам нужно будет выбрать соответствующий класс. Вы сохраните ваш текущий Класс, Достижения, Питомцев и Скакунов. Если вы абсолютно точно уверенны, напишите RESET в поле ниже.";
+"settings.reset_account_confirm" = "Вы уверенны, что хотите сброс?";
+"settings.delete_account_confirm" = "Вы уверены, что хотите удалить?";
+"settings.push_notifications.content_release" = "Новый контент + События";
+"settings.manually_restart_day" = "Начать День заново";
+"settings.pause_damage_subtitle" = "Сейчас Урон Включен. Узнать больше.";
+"settings.resume_damage_subtitle" = "Урон Приостановлен.";
+"settings.pauseDamage.pause_damage_title1" = "Ваши пропущенные Ежедневные дела не нанесут вам урона";
+"settings.pauseDamage.pause_damage_title2" = "Ваши серии и счетчики не обнулятся";
+"settings.pauseDamage.pause_damage_description2" = "Серии ежедневных дел и счетчики привычек будут засчитывать только когда это включено";
+"settings.pauseDamage.pause_damage_title3" = "Ваш результат Квеста останется в обработке";
+"settings.pauseDamage.resume_damage_title2" = "Ваши серии и счётчики могут обнулиться";
+"settings.pauseDamage.resume_damage_title3" = "Прогресс вашего Квеста снова применится";
+"guilds.joined_party" = "Вы присоединились к команде";
+"is_closed" = "Закрыто";
+"locations.customizations" = "Настройки";
+"menu.quest_shop" = "Квесты";
+"faint.subbed_footer" = "Подписка дает второй шанс каждый день, если у вас заканчивается HP";
+"faint.perk_success" = "Вы получили второй шанс с 1HP!";
+"sub_perk" = "дополнительный бонус";
+"armoire.unsubbed_footer" = "Получите дополнительный шанс в сундуке каждый раз, когда покупаете его по подписке";
+"armoire.subbed_button_prompt" = "Откройте снова бесплатно!";
+"subscription.info_armoire_title" = "Шансы на дополнительный сундук";
+"subscription.info_faint_title" = "Второй шанс на жизнь";
+"subscription.armore_header" = "Подписчики получают дополнительные возможности в сундуках и другие преимущества!";
+"subscription.gem_for_gold_header" = "Подпишитесь, чтобы покупать самоцветы за золото и получать другие эксклюзивные преимущества!";
+"inventory.no_saddle_tile" = "У вас нет Сёдел";
+"inventory.visit_market" = "Посетите Рынок";
+"stable.use_saddle" = "Используйте Седло";
+"stable.evolved_pet" = "Вы приручили %s, поехали кататься!";
+"avatar.animal_tails" = "Хвосты животных";
+"faint.unsubbed_button_prompt" = "Подпишитесь, чтобы продержаться с 1HP!";
+"subscription.info_armoire_description" = "Получите два шанса на новое снаряжение из сундука по цене одного";
+"classes.warriors" = "Воины";
+"classes.mages" = "Маги";
+"classes.healers" = "Целители";
+"classes.rogues" = "Разбойники";
+"faint.subbed_button_prompt" = "Второй шанс: Продержитесь с 1HP!";
+"inventory.no_saddle_description" = "Сёдла выращивают Скакуна из Питомца. Вы можете получить их на Рынке.";
+"faint.unsubbed_footer" = "Получайте второй шанс каждый день с подпиской, чтобы не исчерпать HP";
+"faint.subbed_used" = "Вы уже использовали второй шанс сегодня. Он будет доступен снова в %s.";
+"armoire.unsubbed_button_prompt" = "Подпишитесь чтобы открыть снова!";
+"armoire.subbed_footer" = "Ваша подписка даёт дополнительный шанс в сундуке!";
+"subscription.info_faint_description" = "Имейте возможность сохранить 1 HP, когда у вас заканчивается здоровье один раз в день";
+"subscription.faint_header" = "Подписчики получают второй шанс на жизнь каждый день и другие преимущества!";
+"avatar.hairColors" = "Цвета волос";
+"avatar.hair_styles" = "Причёски";
+"avatar.mustaches" = "Усы";
+"avatar.shirts" = "Рубашки";
+"avatar.skin_colors" = "Цвета кожи";
+"avatar.beards" = "Бороды";
+"avatar.wheelchairs" = "Инвалидные коляски";
+"avatar.backgrounds" = "Фоны";
+"avatar.skins" = "Кожа";
+"settings.pauseDamage.resume_damage_description2" = "Пропуск ежедневных заданий приведет к сбросу серии, а счетчики привычек будут сброшены как обычно";
+"settings.pauseDamage.resume_damage_description3" = "Любой ожидающий урон или предметы коллекции будут применены при сбросе настроек на следующий день";
+"armoire.rate_experience_title" = "20%% очков опыта";
+"monthly_backgrounds" = "Ежемесячные фоны";
+"subscription.hourglasses_header" = "Подписчики получают Мистические песочные часы для покупки предметов в магазине Путешественников во времени, а также другие эксклюзивные преимущества!";
+"report_x" = "Отчёт %@";
+"report_x_question" = "Почему вы сообщаете об этом %@?";
+"guilds.left_party" = "Вы покинули Команду";
+"inventory.avatar_shirt_customization" = "Персонализация рубашки аватара";
+"inventory.avatar_beard_customization" = "Персонализация бороды аватара";
+"inventory.avatar_mustache_customization" = "Персонализация усов аватара";
+"inventory.avatar_bangs_customization" = "Персонализация чёлки аватара";
+"inventory.avatar_hair_color_customization" = "Персонализация цвета волос аватара";
+"inventory.avatar_hair_style_customization" = "Персонализация прически аватара";
+"party.look_for_party" = "Найдите команду";
+"party.looking_for_party" = "Вы ищете команду!";
+"party.looking_for_party_subtitle" = "Следите за приглашениями или создайте свою команду в любой момент";
+"party.leave" = "Покинуть команду";
+"party.leave_looking_for_party_subtitle" = "Следите за приглашениями или создайте свою команду в любой момент";
+"groups.lfp.subtitle" = "Список участников, ищущих команду";
+"groups.find_members" = "Найти участников";
+"groups.list" = "Список";
+"groups.by_invite" = "По приглашению";
+"groups.send_invite" = "Отправить приглашение";
+"groups.cancel_invite" = "Отменить приглашение";
+"groups.invited" = "Приглашён!";
+"groups.invited_x" = "Приглашён @%@";
+"groups.invite_pending" = "Приглашение на рассмотрении";
+"groups.rescinded" = "Отменено";
+"groups.removed" = "Удалён %@";
+"groups.transferred_to" = "Передал полномочия %@";
+"groups.find_more_members" = "Найти больше участников";
+"groups.lfp.subtitle_empty" = "Сейчас никто не ищет команду. Вы можете зайти позже!";
+"armoire.drop_rate" = "Шанс выпадения сундука";
+"armoire.equipment" = "Вы нашли часть редкого снаряжения в сундуке!";
+"armoire.experience" = "Вы покопались в сундуке и получили опыт. Забирайте!";
+"armoire.enchanted_armoire_drop_rates" = "Шанс выпадения Зачарованного сундука";
+"armoire.rate_equipment_description" = "Новое снаряжение добавляется каждый месяц. Если у вас есть все предметы снаряжения, вы получите еду или опыт с вероятностью 50/50.";
+"armoire.rate_equipment_title" = "60%% часть снаряжения";
+"armoire.rate_food_title" = "20%% часть еды";
+"armoire.rate_food_description" = "Вы получили один из десяти типов еды. Во время особых событий обычные продукты меняются на их аналоги в виде тортов или конфет.";
+"armoire.equipment_remaining" = "Оставшееся снаряжение: %d";
+"armoire.food" = "Вы порылись в сундуке и нашли еду. Что она здесь делает?";
+"no_x" = "Не %@";
+"quest_mechanics_boss_title" = "Нанесение урона боссу";
+"challenge_category.getting_organized" = "Приводим в порядок";
+"challenge_category.recovery_support_groups" = "Восстановление + Группы поддержки";
+"challenge_category.self_improvement" = "Самосовершенствование";
+"swaps_in_x" = "Переключается в %@";
+"refresh_for_items" = "Обновите для поиска новых предметов";
+"1_minute" = "1 минута";
+"day_x" = "День %d";
+"reason_for_report" = "Причина отчёта";
+"this_will_also_block_x" = "Это также заблокирует %@";
+"reporting_disclaimer" = "Сообщайте только о %@, нарушающих правила сообщества и/или условия обслуживания. Отправка ложного отчета является нарушением принципов сообщества Adhder.";
+"shops.own_all_items" = "У вас есть все эти предметы";
+"shops.customizing_your_avatar" = "настройка вашего аватара";
+"empty.no_items" = "У вас нет ни одного из этих предметов";
+"empty.want_more_items" = "Ищете больше?";
+"empty.no_items_description" = "Посетите лавку и выберите множество способов персонализации своего аватара!";
+"quest_mechanics_boss_description" = "Выполняйте задания любого типа или используйте навыки, чтобы накопить ожидаемый урон! Урон будет применен при сбросе на следующий день. Сила влияет на то, сколько урона вы наносите.";
+"quest_mechanics_damage_title" = "Боссы наносят урон за пропущенные ежедневные задания";
+"challenge_category.creativity" = "Творчество";
+"1_day" = "1 День";
+"x_hours" = "%d часов";
+"1_hour" = "1 час";
+"x_minutes" = "%d минут";
+"1_hourglass" = "1 Песочные часы";
+"empty.want_more_items_description" = "Посетите лавку чтобы узнать еще больше способов персонализировать свой аватар!";
+"birthday_limitations_description" = "Это ограниченное по времени событие, которое начинается %s и заканчивается %s. В это время можно будет купить Ограниченное издание Ликующего Грифатриса и десять волшебных инкубационные эликсиров. Остальные подарки, перечисленные в разделе «Четыре бесплатно», будут автоматически доставлены на все учетные записи, активные в течение 30 дней, предшествовавших отправке подарка. Аккаунты, созданные после отправки подарков, не смогут претендовать на них.";
+"quest_mechanics_collecting_description" = "В квесте на сбор выполняйте задания для получения случайного шанса найти квестовый предмет. Ожидающие элементы будут применены при сбросе настроек на следующий день. Восприятие повышает рейтинг предметов.";
+"quest_mechanics_pausing_description" = "Если вам сложно выполнить ежедневные дела, вы можете приостановить нанесение урона в настройках. Это не позволит Боссу причинить вред вам или другим, но приостановит ваш урон. Другие участники, пропустившие ежедневные дела, все равно получат урон, так что будьте осторожны!";
+"quest_mechanics_rage_description" = "У некоторых сложных боссов под HP имеется оранжевый индикатор ярости. Этот счетчик заполняется, когда участники пропускают ежедневные дела. Когда он заполнится полностью, босс нанесет устрашающую атаку, наносящую дополнительный урон!";
+"challenge_category.adhder_official" = "Официальный сайт Adhder";
+"challenge_category.academics" = "Академики";
+"shops.customization_notes" = "Хотите изменить внешность? Вы в правильном месте! У нас постоянно появляются новые варианты.";
+"open_profile" = "Открыть профиль";
+"share_avatar" = "Поделиться аватаром";
+"message" = "Сообщение";
+"player" = "Игрок";
+"challenge" = "Испытание";
+"quest_mechanics_rage_title" = "Измерители ярости";
+"challenge_category.advocacy_causes" = "Поддержка + Причины";
+"quest_mechanics_damage_description" = "Урон босса рассчитывается каждый раз, когда член команды регистрируется в течение дня. Этот урон будет применен в следующий раз, когда вы синхронизируетесь с сервером. Урон босса указывается в чате команды.";
+"quest_mechanics_pausing_title" = "Приостановить урон";
+"shops.purchased_all_gear_armoire_empty" = "Новое снаряжение выпускается во время сезонных Торжеств. Товары в Зачарованном сундуке пополняются каждый месяц!";
+"shops.try_on_customize_avatar_return_next_month" = "Вы можете примерить их, настроив свой аватар. Обязательно зайдите позже, чтобы узнать о вариантах следующего месяца!";
+"shops.try_on_customize_avatar_return_next_season" = "Вы можете примерить их, настроив свой аватар. Обязательно зайдите позже, чтобы узнать о вариантах следующего сезона!";
+"shops.try_on_customize_avatar" = "Вы можете примерить их, настроив свой аватар.";
+"shops.try_on_equipment" = "Можете попробовать в разделе Снаряжение. Обязательно зайдите позже, чтобы узнать о вариантах следующего месяца!";
+"items.empty.egg_description" = "Выполняйте задания, квесты питомцев или отправляйтесь на Рынок, чтобы пополнить запасы!";
+"items.empty.potion_description" = "Выполняйте задания, квесты зелий или отправляйтесь на Рынок, чтобы пополнить запасы!";
+"items.empty.food_description" = "Выполняйте задания, покупайте сундуки или отправляйтесь на Рынок, чтобы пополнить запасы!";
+"items.empty.quest_description" = "Получайте квесты при повышении уровня, бонусах за вход или в магазине квестов!";
+"items.empty.special_description" = "Получайте предметы трансформации во время сезонных Торжеств или подписывайтесь на таинственную коробку снаряжения каждый месяц!";
+"you_raised_pet" = "Вы вырастили %@ питомца в скакуна!";
+"challenge_category.entertainment" = "Развлечение";
+"challenge_category.finance" = "Финансы";
+"challenge_category.health_fitness" = "Здоровье + Тренировки";
+"challenge_category.hobbies_occupations" = "Хобби + Работа";
+"challenge_category.location_based" = "Местоположение";
+"challenge_category.mental_health" = "Ментальное здоровье + Забота о себе";
+"challenge_category.spirituality" = "Духовность";
+"challenge_category.time_management" = "Тайм-менеджмент + Отчетность";
+"x_days" = "%d Дней (-я)";
+"summer" = "Лето";
+"fall" = "Осень";
+"winter" = "Зима";
+"customization_shop" = "Лавка пользователя";
+"spring" = "Весна";
+"class_equipment_shop_dialog" = "Этот предмет доступен для %s.\nЗайдите в Настройки чтобы сменить класс.";
+"insufficient_level_equipment_dialog_new" = "Этот предмет доступен для %s.\nВы можете выбрать класс при достижении 10 уровня.";
+"shops.purchased_all_gear_title" = "У вас уже есть %@ снаряжение";
+"x_gems_month" = "%d самоцветов в месяц";
+"hourglass_in_x_months" = "Песочные часы через %d месяцев (-а)";
+"x_hourglasses" = "%d Песочных часов";
+"quest_mechanics" = "Квестовая механика";
+"quest_mechanics_collecting_title" = "Сбор квестовых предметов";
+"next_checkin_prize_in_x_days" = "Ваш следующий приз откроется через %d входов";
+"next_prize_at_x_checkins" = "Следующий приз после %d входов";
+"one_item_found" = "1 предмет в ожидании";
+"unshadow_mute_user_confirm" = "Вы хотите снять теневой бан с этого пользователя?";
+"jubilant_gryphatrice" = "Ликующий Грифатрис";
+"gryphatrice_description" = "Редкий Ликующий Грифатрис присоединяется к дню рождения! Не упустите шанс получить эксклюзивного анимированного питомца.";
+"own_today_for" = "Получите сегодня за %s или %d самоцветов";
+"plenty_of_potions" = "Множество зелий";
+"plenty_of_potions_description" = "Мы возвращаем 10 любимых сообществом волшебных инкубационных эликсиров. Отправляйтесь на Рынок, чтобы пополнить свою коллекцию!";
+"limitations" = "Ограничения";
+"purchase_gryphatrice_confirmation" = "Купить Ликующиего Грифатриса за %d самоцветов?";
+"party_robe" = "Командный халат";
+"x_gems" = "%d самоцветов";
+"failed" = "Неуспешно";
+"two_gems_per_month" = "+2 самоцвета каждый месяц";
+"max_gem_cap" = "Максимальный предел самоцветов";
+"party.quest_participant_one" = "Один участник";
+"subscription_info_3_description_gear" = "Оставайтесь в безопасности в новейшем эксклюзивном снаряжении! Подпишитесь сейчас, чтобы получить %@’s %@!";
+"next_payment_x" = "Следующий платеж %@";
+"yes" = "Да";
+"no" = "Нет";
+"subscription_credit_title" = "Ваша **%d months** подписка будет активирована после отмены";
+"errors.username_already_taken" = "Имя уже занято.";
+"login.password_length_error" = "Пароль должен быть не мене 8 знаков.";
+"login.tagline" = "Наслаждайся при преуспевании дел.";
+"login.continue_with_email" = "Продолжить с почтой";
+"login.already_have_account" = "Уже зарегистрированы?";
+"login.need_account" = "Нужен аккаунт?";
+"settings.user_data" = "Данные пользователя";
+"settings.manage_privacy_preferences" = "Измените ваши предпочтения конфедециальности";
+"performance_analytics" = "Статистика и показатели";
+"strictly_necessary" = "Очень важно";
+"login.continue_with_apple" = "Продолжить с Apple";
+"login.continue_with_google" = "Продолжить с Google";
+"login.what_call_you" = "Напишите никнейм.";
+"join_adhder" = "Присоединяйся в Adhder";

@@ -1,0 +1,18 @@
+//
+//  LocalRegisterCall.swift
+//  Adhder API Client
+//
+//  Created by Phillip Thelen on 09.04.18.
+//  Copyright © 2018 AdhderApp Inc. All rights reserved.
+//
+
+import Foundation
+import Adhder_Models
+import ReactiveSwift
+
+public class LocalRegisterCall: ResponseObjectCall<LoginResponseProtocol, APILoginResponse> {
+    public init(username: String, password: String, confirmPassword: String, email: String) {
+        let json = try? JSONSerialization.data(withJSONObject: ["username": username, "password": password, "confirmPassword": confirmPassword, "email": email], options: .prettyPrinted)
+        super.init(httpMethod: .POST, endpoint: "user/auth/local/register", postData: json, needsAuthentication: false)
+    }
+}

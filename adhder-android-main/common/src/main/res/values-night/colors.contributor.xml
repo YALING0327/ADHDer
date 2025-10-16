@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="contributor_0">@color/gray_700</color>
+    <color name="contributor_1">#FFC0DE</color>
+    <color name="contributor_2">@color/maroon_500</color>
+    <color name="contributor_3">@color/red_500</color>
+    <color name="contributor_4">@color/orange_500</color>
+    <color name="contributor_5">@color/yellow_500</color>
+    <color name="contributor_6">@color/green_500</color>
+    <color name="contributor_7">@color/teal_500</color>
+    <color name="contributor_mod">@color/blue_500</color>
+    <color name="contributor_staff">@color/brand_600</color>
+</resources>

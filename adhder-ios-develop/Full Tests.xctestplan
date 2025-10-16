@@ -1,0 +1,73 @@
+{
+  "configurations" : [
+
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Adhder API Client\/Adhder API Client.xcodeproj",
+          "identifier" : "29B586F1204D92CF00301955",
+          "name" : "Adhder API Client"
+        },
+        {
+          "containerPath" : "container:Adhder.xcodeproj",
+          "identifier" : "D9EB4E8A18CB4A9400BB2094",
+          "name" : "Adhder"
+        },
+        {
+          "containerPath" : "container:Adhder Database\/Adhder Database.xcodeproj",
+          "identifier" : "298FB9AB204D9338004DDACC",
+          "name" : "Adhder Database"
+        },
+        {
+          "containerPath" : "container:Adhder Models\/Adhder Models.xcodeproj",
+          "identifier" : "298FB9CF204D9403004DDACC",
+          "name" : "Adhder Models"
+        }
+      ]
+    },
+    "language" : "en",
+    "region" : "US",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Adhder.xcodeproj",
+        "identifier" : "29706CA227D8B797006EC139",
+        "name" : "Adhder UI Tests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Adhder.xcodeproj",
+        "identifier" : "D94461821AB34F5C0015215E",
+        "name" : "AdhderTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Adhder API Client\/Adhder API Client.xcodeproj",
+        "identifier" : "29B586FA204D92CF00301955",
+        "name" : "Adhder API ClientTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Adhder Database\/Adhder Database.xcodeproj",
+        "identifier" : "298FB9B4204D9338004DDACC",
+        "name" : "Adhder DatabaseTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Adhder Models\/Adhder Models.xcodeproj",
+        "identifier" : "298FB9D8204D9404004DDACC",
+        "name" : "Adhder ModelsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,189 @@
+package com.adhderapp.android.adhder.ui.fragments
+
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Bundle
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.view.animation.AccelerateInterpolator
+import android.widget.Toast
+import androidx.core.net.toUri
+import com.adhderapp.android.adhder.R
+import com.adhderapp.android.adhder.databinding.FragmentAboutBinding
+import com.adhderapp.android.adhder.helpers.AppConfigManager
+import com.adhderapp.common.adhder.extensions.DataBindingUtils
+import com.adhderapp.common.adhder.helpers.MainNavigationController
+import com.plattysoft.leonids.ParticleSystem
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class AboutFragment : BaseMainFragment<FragmentAboutBinding>() {
+    @Inject
+    lateinit var appConfigManager: AppConfigManager
+
+    private val privacyPolicyLink = "https://adhder.com/static/privacy"
+    private val termsLink = "https://adhder.com/static/terms"
+    private val androidSourceCodeLink = "https://github.com/AdhderApp/adhderapp-android/"
+    private val twitterLink = "https://twitter.com/adhder"
+
+    private var versionNumberTappedCount = 0
+
+    private fun openGooglePlay() {
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = "market://details?id=com.adhderapp.android.adhder".toUri()
+        startActivity(intent)
+    }
+
+    override fun createBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ): FragmentAboutBinding {
+        return FragmentAboutBinding.inflate(layoutInflater, container, false)
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        this.hidesToolbar = true
+        return super.onCreateView(inflater, container, savedInstanceState)
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+
+        binding?.versionInfo?.setOnClickListener {
+            versionNumberTappedCount += 1
+            when (versionNumberTappedCount) {
+                1 ->
+                    context?.let { context ->
+                        Toast.makeText(context, "Oh! You tapped me!", Toast.LENGTH_SHORT).show()
+                    }
+
+                in 5..7 ->
+                    context?.let { context ->
+                        Toast.makeText(
+                            context,
+                            "Only ${8 - versionNumberTappedCount} taps left!",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }
+
+                8 -> {
+                    context?.let { context ->
+                        Toast.makeText(context, "You were blessed with cats!", Toast.LENGTH_SHORT)
+                            .show()
+                    }
+                    doTheThing()
+                }
+            }
+        }
+    }
+
+    private val versionName: String by lazy {
+        try {
+            @Suppress("DEPRECATION")
+            mainActivity?.packageManager?.getPackageInfo(
+                mainActivity?.packageName ?: "",
+                0
+            )?.versionName ?: ""
+        } catch (e: PackageManager.NameNotFoundException) {
+            ""
+        }
+    }
+
+    private val versionCode: Int by lazy {
+        try {
+            @Suppress("DEPRECATION")
+            mainActivity?.packageManager?.getPackageInfo(
+                mainActivity?.packageName ?: "",
+                0
+            )?.versionCode ?: 0
+        } catch (e: PackageManager.NameNotFoundException) {
+            0
+        }
+    }
+
+    override fun onViewCreated(
+        view: View,
+        savedInstanceState: Bundle?
+    ) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding?.versionInfo?.text = getString(R.string.version_info, versionName, versionCode)
+
+        if (appConfigManager.lastVersionCode() > versionCode) {
+            binding?.updateAvailableWrapper?.visibility = View.VISIBLE
+            binding?.updateAvailableTextview?.text =
+                getString(
+                    R.string.update_available,
+                    appConfigManager.lastVersionNumber(),
+                    appConfigManager.lastVersionCode()
+                )
+        } else {
+            binding?.updateAvailableWrapper?.visibility = View.GONE
+        }
+
+        binding?.privacyPolicyButton?.setOnClickListener { openBrowserLink(privacyPolicyLink) }
+        binding?.termsButton?.setOnClickListener { openBrowserLink(termsLink) }
+        binding?.guidelinesButton?.setOnClickListener { MainNavigationController.navigate(R.id.guidelinesActivity) }
+        binding?.sourceCodeLink?.setOnClickListener { openBrowserLink(androidSourceCodeLink) }
+        binding?.twitter?.setOnClickListener { openBrowserLink(twitterLink) }
+        binding?.sourceCodeButton?.setOnClickListener { openBrowserLink(androidSourceCodeLink) }
+        binding?.reportBug?.setOnClickListener { MainNavigationController.navigate(R.id.bugFixFragment) }
+        binding?.googlePlayStoreButton?.setOnClickListener { openGooglePlay() }
+        binding?.updateAvailableWrapper?.setOnClickListener { openGooglePlay() }
+    }
+
+    private fun openBrowserLink(url: String) {
+        val uriUrl = url.toUri()
+        val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
+        startActivity(launchBrowser)
+    }
+
+    private fun doTheThing() {
+        val context = context ?: return
+        DataBindingUtils.loadImage(context, "Pet-Sabretooth-Base") { bitmap ->
+            mainActivity?.runOnUiThread {
+                mainActivity?.let {
+                    ParticleSystem(it, 50, bitmap, 3000)
+                        .setAcceleration(0.00013f, 90)
+                        .setSpeedByComponentsRange(-0.08f, 0.08f, 0.05f, 0.1f)
+                        .setFadeOut(200, AccelerateInterpolator())
+                        .setRotationSpeed(100f)
+                        .emitWithGravity(binding?.anchor, Gravity.BOTTOM, 20, 10000)
+                }
+            }
+        }
+        DataBindingUtils.loadImage(context, "Pet-Sabretooth-Golden") { bitmap ->
+            mainActivity?.runOnUiThread {
+                mainActivity?.let {
+                    ParticleSystem(it, 50, bitmap, 3000)
+                        .setAcceleration(0.00013f, 90)
+                        .setSpeedByComponentsRange(-0.08f, 0.08f, 0.05f, 0.1f)
+                        .setFadeOut(200, AccelerateInterpolator())
+                        .setRotationSpeed(100f)
+                        .emitWithGravity(binding?.anchor, Gravity.BOTTOM, 20, 10000)
+                }
+            }
+        }
+        DataBindingUtils.loadImage(context, "Pet-Sabretooth-Red") { bitmap ->
+            mainActivity?.runOnUiThread {
+                mainActivity?.let {
+                    ParticleSystem(it, 50, bitmap, 3000)
+                        .setAcceleration(0.00013f, 90)
+                        .setSpeedByComponentsRange(-0.08f, 0.08f, 0.05f, 0.1f)
+                        .setFadeOut(200, AccelerateInterpolator())
+                        .setRotationSpeed(100f)
+                        .emitWithGravity(binding?.anchor, Gravity.BOTTOM, 20, 10000)
+                }
+            }
+        }
+    }
+
+    override var binding: FragmentAboutBinding? = null
+}

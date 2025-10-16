@@ -1,0 +1,15 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Adhder";
+
+/* Bundle name */
+"CFBundleName" = "AdhderApp";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Para poder escanear un Código QR, Adhder necesitará acceso a la cámara de tu dispositivo.";
+
+/* Privacy - Microphone Usage Description */
+"NSMicrophoneUsageDescription" = "Adhder requiere acceso al micrófono para poder fijar notas de voz";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "Para poder escanear un Código QR, Adhder necesitará acceso a la cámara de tu dispositivo.";
+

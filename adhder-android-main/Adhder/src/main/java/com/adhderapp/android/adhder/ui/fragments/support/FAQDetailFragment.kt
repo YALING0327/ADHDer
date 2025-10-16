@@ -1,0 +1,64 @@
+package com.adhderapp.android.adhder.ui.fragments.support
+
+import android.os.Bundle
+import android.text.method.LinkMovementMethod
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.lifecycle.lifecycleScope
+import com.adhderapp.android.adhder.data.FAQRepository
+import com.adhderapp.android.adhder.databinding.FragmentFaqDetailBinding
+import com.adhderapp.android.adhder.ui.fragments.BaseMainFragment
+import com.adhderapp.common.adhder.helpers.MarkdownParser
+import com.adhderapp.common.adhder.helpers.launchCatching
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class FAQDetailFragment : BaseMainFragment<FragmentFaqDetailBinding>() {
+    @Inject
+    lateinit var faqRepository: FAQRepository
+
+    override var binding: FragmentFaqDetailBinding? = null
+
+    override fun createBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ): FragmentFaqDetailBinding {
+        return FragmentFaqDetailBinding.inflate(inflater, container, false)
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        hidesToolbar = true
+        showsBackButton = true
+        return super.onCreateView(inflater, container, savedInstanceState)
+    }
+
+    override fun onViewCreated(
+        view: View,
+        savedInstanceState: Bundle?
+    ) {
+        super.onViewCreated(view, savedInstanceState)
+
+        arguments?.let {
+            val args = FAQDetailFragmentArgs.fromBundle(it)
+            if (args.question != null) {
+                binding?.questionTextView?.text = args.question
+                binding?.answerTextView?.text = MarkdownParser.parseMarkdown(args.answer)
+            } else {
+                lifecycleScope.launchCatching {
+                    faqRepository.getArticle(args.position).collect { faq ->
+                        binding?.questionTextView?.text = faq.question
+                        binding?.answerTextView?.text = MarkdownParser.parseMarkdown(faq.answer)
+                    }
+                }
+            }
+        }
+
+        binding?.answerTextView?.movementMethod = LinkMovementMethod.getInstance()
+    }
+}

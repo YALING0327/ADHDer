@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.adhderapp.android.adhder.ui.views.AdhderScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+                android:id="@+id/scroll_content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/FlatCardView"
+                android:id="@+id/party_invitation_wrapper">
+
+                <com.adhderapp.android.adhder.ui.views.social.InvitationsView
+                    android:id="@+id/invitations_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/title_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Title1"
+                tools:text="Awesome Party"
+                android:gravity="center"
+                android:layout_margin="@dimen/spacing_large" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="?attr/colorContentBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SegmentView">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quest"
+                        style="@style/SegmentTitle"/>
+                    <Button
+                        android:id="@+id/new_quest_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_quest"
+                        style="@style/AdhderButton.Gray"/>
+                    <LinearLayout
+                        android:id="@+id/quest_detail_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_rounded_bg_window"
+                        android:padding="@dimen/spacing_medium"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+                        <com.adhderapp.common.adhder.views.PixelArtView
+                            android:id="@+id/quest_scroll_image_view"
+                            android:layout_width="@dimen/gear_image_size"
+                            android:layout_height="@dimen/gear_image_size" />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingStart="@dimen/spacing_medium"
+                            android:paddingEnd="0dp">
+                            <TextView
+                                android:id="@+id/quest_title_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:text="The Wail of the Whale"
+                                style="@style/SubHeader1"
+                                android:textColor="@color/text_primary"
+                                />
+                            <TextView
+                                android:id="@+id/quest_participation_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:text="3 Participants"
+                                style="@style/Body1"
+                                android:textColor="@color/text_ternary" />
+                        </LinearLayout>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_keyboard_arrow_right_gray_24dp"
+                            android:importantForAccessibility="no" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:visibility="gone"
+                        tools:visibility="visible"
+                        android:id="@+id/quest_image_wrapper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_rounded_bg_window"
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:clipToPadding="true"
+                        android:clipChildren="true"
+                        android:clipToOutline="true"
+                        android:orientation="vertical">
+                        <com.adhderapp.common.adhder.views.PixelArtView
+                            android:id="@+id/quest_image_view"
+                            android:layout_width="@dimen/quest_image_width"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitCenter"
+                            android:padding="@dimen/spacing_medium"
+                            android:layout_gravity="center_horizontal"/>
+                        <com.adhderapp.android.adhder.ui.views.social.OldQuestProgressView
+                            android:visibility="gone"
+                            tools:visibility="visible"
+                            android:id="@+id/quest_progress_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/quest_pending_items_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            style="@style/Caption2"
+                            android:paddingVertical="3dp"
+                            android:gravity="center"
+                            android:textColor="@color/green_1"
+                            tools:text="Pending Items"
+                            android:background="@color/green_100"
+                            android:minHeight="28dp"
+                            android:visibility="gone"/>
+                        <TextView
+                            android:id="@+id/quest_pending_damage_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="28dp"
+                            android:textSize="13sp"
+                            style="@style/Caption2"
+                            android:paddingVertical="3dp"
+                            android:gravity="center"
+                            android:textColor="@color/yellow_1"
+                            tools:text="Pending Damage"
+                            android:background="@color/yellow_100"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/quest_mechanics_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:text="@string/quest_mechanics"
+                        android:textColor="@color/brand_button" />
+
+                    <LinearLayout
+                        android:id="@+id/quest_participant_response_wrapper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/quest_accept_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/quest_accept"
+                            style="@style/AdhderButton.Green"
+                            android:layout_marginEnd="16dp" />
+
+                        <Button
+                            android:id="@+id/quest_reject_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/quest_reject"
+                            style="@style/AdhderButton.Red"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/quest_leader_response_wrapper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+                        <Button
+                            android:id="@+id/quest_begin_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/quest_begin"
+                            style="@style/AdhderButton.Yellow"
+                            android:layout_marginEnd="16dp" />
+
+                        <Button
+                            android:id="@+id/quest_cancel_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/quest_cancel"
+                            style="@style/AdhderButton.Red" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/quest_participant_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SegmentView">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/party_description"
+                        style="@style/SegmentTitle"/>
+                    <TextView
+                        android:id="@+id/description_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:text="This is our super awesome party!"
+                        android:background="@drawable/layout_rounded_bg_window"
+                        android:padding="@dimen/spacing_large"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SegmentView">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/members"
+                        style="@style/SegmentTitle"/>
+                    <Button
+                        android:id="@+id/find_new_member"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/find_new_member"
+                        style="@style/AdhderButton.Gray"/>
+                    <LinearLayout
+                        android:id="@+id/members_wrapper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+                    <androidx.compose.ui.platform.ComposeView
+                        android:id="@+id/invites_wrapper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/leave_button"
+                style="@style/AdhderButton.Red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_large"
+                android:backgroundTint="@color/background_red"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/leave_party"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </com.adhderapp.android.adhder.ui.views.AdhderScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

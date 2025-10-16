@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sidebar_tasks">Aufgaben</string>
+    <string name="sidebar_skills">Fähigkeiten</string>
+    <string name="sidebar_section_social">Soziales</string>
+    <string name="sidebar_inbox">Nachrichten</string>
+    <string name="sidebar_party">Gruppe</string>
+    <string name="sidebar_challenges">Wettbewerbe</string>
+    <string name="sidebar_section_inventory">Inventar</string>
+    <string name="sidebar_avatar">Avatar anpassen</string>
+    <string name="sidebar_equipment">Ausrüstung</string>
+    <string name="sidebar_stable">Haus- &amp; Reittiere</string>
+    <string name="sidebar_news">Neuigkeiten</string>
+    <string name="sidebar_about">Über</string>
+    <string name="sidebar_shops">Märkte</string>
+    <string name="sidebar_stats">Statuswerte</string>
+    <string name="sidebar_subscription">Abonnement</string>
+    <string name="sidebar_gems">Kaufe Edelsteine</string>
+    <string name="sidebar_avatar_equipment">Avatar &amp; Austrüstung</string>
+</resources>

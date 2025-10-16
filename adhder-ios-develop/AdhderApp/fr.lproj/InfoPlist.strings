@@ -1,0 +1,12 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Adhder";
+
+/* Bundle name */
+"CFBundleName" = "Adhder";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Pour pouvoir scanner un QR code, Adhder va avoir besoin d'accéder à la caméra de l'appareil.";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "Pour pouvoir scanner un QR code, Adhder va avoir besoin d'accéder à la caméra de l'appareil.";
+

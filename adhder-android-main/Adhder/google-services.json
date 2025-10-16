@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040622738029",
+    "project_id": "adhder-4ab3c",
+    "storage_bucket": "adhder-4ab3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040622738029:android:27b629375be38a5e697d64",
+        "android_client_info": {
+          "package_name": "com.adhder.android.adhder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfPweCl6mfcmnDuGGX6XjWRzpTOyyyBa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

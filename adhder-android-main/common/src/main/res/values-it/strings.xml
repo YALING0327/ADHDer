@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thousand_abbrev">k</string>
+    <string name="million_abbrev">mln</string>
+    <string name="billion_abbrev">mld</string>
+    <string name="trillion_abbrev">t</string>
+    <string name="gems">Gemme</string>
+    <string name="gold_plural">oro</string>
+    <string name="gold_capitalized">Oro</string>
+    <string name="mystic_hourglasses">Clessidre Mistiche</string>
+    <string name="repeat_daily">Quotidiano</string>
+    <string name="monthly">Mensile</string>
+    <string name="weekly">Settimanale</string>
+    <string name="trivial">Facilissima</string>
+    <string name="easy">Facile</string>
+    <string name="medium">Media</string>
+    <string name="hard">Difficile</string>
+    <string name="habits">Abitudini</string>
+    <string name="dailies">Attività Giornaliere</string>
+    <string name="todos">Cose da Fare</string>
+    <string name="rewards">Ricompense</string>
+    <string name="daily">Quotidianamente</string>
+    <string name="habit">Abitudine</string>
+    <string name="reward">Ricompensa</string>
+    <string name="todo">Cosa da Fare</string>
+    <string name="stats">Statistiche</string>
+    <string name="settings">Impostazioni</string>
+    <string name="new_task">Nuova Attività</string>
+    <string name="avatar">Avatar</string>
+    <string name="user_level">LV %d</string>
+    <string name="user_level_long">Livello %d</string>
+    <string name="action_edit">Modifica</string>
+    <string name="action_cancel">Annulla invito</string>
+    <string name="login_btn">Accedi</string>
+    <string name="register_btn">Registrati</string>
+    <string name="username">Nome Utente</string>
+    <string name="email_username">E-mail o nome utente</string>
+    <string name="password">Password</string>
+    <string name="emailAddress">Indirizzo e-mail</string>
+    <string name="confirmpassword">Conferma password</string>
+    <string name="login_btn_google">Accedi con Google</string>
+    <string name="logout">Esci</string>
+    <string name="logout_description">Esci dal tuo account</string>
+    <string name="LoginActivityName">Benvenuto</string>
+    <string name="about_title">Info</string>
+    <string name="login_validation_error_title">Errore di validazione</string>
+    <string name="login_validation_error_fieldsmissing">Devi compilare tutti i campi.</string>
+    <plurals name="x_rewards">
+        <item quantity="one">%d Ricompensa</item>
+        <item quantity="many">%d Ricompense</item>
+        <item quantity="other">%d Ricompense</item>
+    </plurals>
+    <string name="create_task_title">Crea una Attività</string>
+    <string name="complete_task_title">Completa una Attività</string>
+    <string name="create_task">Crea %s</string>
+    <string name="new_task_x">Nuova %s</string>
+    <string name="are_you_sure">Sei sicuro/a\?</string>
+    <string name="task">Attività</string>
+    <string name="failed">Caricamento fallito</string>
+    <string name="retry">Riprova</string>
+    <string name="quadrillion_abbrev">q</string>
+    <string name="easy_sentence">facile</string>
+    <string name="medium_sentence">media</string>
+    <string name="hard_sentence">difficile</string>
+    <string name="trivial_sentence">facilissima</string>
+    <plurals name="flagged_count">
+        <item quantity="one">Segnalato %d volta</item>
+        <item quantity="many">Segnalato %d volte</item>
+        <item quantity="other">Segnalato %d volte</item>
+    </plurals>
+    <plurals name="x_todos">
+        <item quantity="one">Compito da svolgere</item>
+        <item quantity="many">Compiti da svolgere</item>
+        <item quantity="other">Compiti da svolgere</item>
+    </plurals>
+    <string name="save_task_x">Salvare %s</string>
+</resources>
