@@ -1,0 +1,58 @@
+name: adhder_flutter
+description: ADHD专注助手 - 帮助ADHD用户提升专注力和学习效率
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 网络请求
+  dio: ^5.4.0
+  pretty_dio_logger: ^1.3.1
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  
+  # 路由导航
+  go_router: ^13.0.1
+  
+  # UI组件
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  
+  # 图表
+  fl_chart: ^0.66.2
+  
+  # 日期时间
+  intl: ^0.18.1
+  
+  # 传感器
+  sensors_plus: ^4.0.2
+  
+  # 通知
+  flutter_local_notifications: ^16.3.2
+  
+  # 工具
+  uuid: ^4.3.3
+  logger: ^2.0.2+1
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
