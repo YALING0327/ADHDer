@@ -55,20 +55,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
-  # 资源文件
-  assets:
-    - assets/images/
-    - assets/icons/
-    - assets/sounds/
-  
-  # 字体
-  fonts:
-    - family: PingFang
-      fonts:
-        - asset: fonts/PingFang-Regular.ttf
-        - asset: fonts/PingFang-Medium.ttf
-          weight: 500
-        - asset: fonts/PingFang-Bold.ttf
-          weight: 700
 

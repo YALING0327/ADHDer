@@ -43,8 +43,6 @@ class AppTheme {
       onBackground: textPrimaryColor,
     ),
     
-    fontFamily: 'PingFang',
-    
     // 卡片主题
     cardTheme: CardThemeData(
       elevation: 2,
@@ -169,7 +167,6 @@ class AppTheme {
       background: const Color(0xFF121212),
       error: errorColor,
     ),
-    fontFamily: 'PingFang',
   );
 
   // 文字样式
