@@ -4,6 +4,7 @@ import '../../config/theme.dart';
 import '../../providers/auth_provider.dart';
 import '../home/home_screen.dart';
 import 'register_screen.dart';
+import 'phone_login_screen.dart';
 
 /// 登录页面
 class LoginScreen extends StatefulWidget {
@@ -177,6 +178,45 @@ class _LoginScreenState extends State<LoginScreen> {
                           : const Text('登录'),
                     );
                   },
+                ),
+                
+                const SizedBox(height: 24),
+                
+                // 分隔线
+                Row(
+                  children: [
+                    const Expanded(child: Divider()),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Text(
+                        '或',
+                        style: const TextStyle(
+                          color: AppTheme.textSecondaryColor,
+                        ),
+                      ),
+                    ),
+                    const Expanded(child: Divider()),
+                  ],
+                ),
+                
+                const SizedBox(height: 24),
+                
+                // 手机号登录按钮
+                OutlinedButton.icon(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => const PhoneLoginScreen(),
+                      ),
+                    );
+                  },
+                  icon: const Icon(Icons.phone_android),
+                  label: const Text('手机号验证码登录'),
+                  style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    side: const BorderSide(color: AppTheme.infoColor),
+                    foregroundColor: AppTheme.infoColor,
+                  ),
                 ),
                 
                 const SizedBox(height: 16),

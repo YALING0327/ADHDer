@@ -5,6 +5,9 @@ import 'api_client.dart';
 /// 认证服务
 class AuthService {
   final ApiClient _api = ApiClient();
+  
+  // 暴露API客户端用于其他服务
+  ApiClient get apiClient => _api;
 
   /// 登录
   Future<User> login(String email, String password) async {

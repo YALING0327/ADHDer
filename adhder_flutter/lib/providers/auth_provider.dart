@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import '../models/user.dart';
 import '../services/auth_service.dart';
+import '../services/sms_service.dart';
 
 /// 认证状态管理
 class AuthProvider with ChangeNotifier {
   final AuthService _authService = AuthService();
+  final SmsService _smsService = SmsService();
   
   User? _user;
   bool _isLoading = false;
@@ -101,6 +103,48 @@ class AuthProvider with ChangeNotifier {
   void clearError() {
     _error = null;
     notifyListeners();
+  }
+
+  /// 发送短信验证码
+  Future<bool> sendSmsCode(String phone) async {
+    _error = null;
+
+    try {
+      await _smsService.sendCode(phone);
+      return true;
+    } catch (e) {
+      _error = e.toString();
+      notifyListeners();
+      return false;
+    }
+  }
+
+  /// 手机号验证码登录
+  Future<bool> loginWithPhone(String phone, String code) async {
+    _isLoading = true;
+    _error = null;
+    notifyListeners();
+
+    try {
+      final data = await _smsService.verifyCodeAndLogin(phone, code);
+      
+      // 保存token
+      final token = data['apiToken'] ?? data['token'];
+      if (token != null) {
+        await _authService.apiClient.setAuthToken(token);
+      }
+
+      // 保存用户信息
+      _user = User.fromJson(data);
+      _isLoading = false;
+      notifyListeners();
+      return true;
+    } catch (e) {
+      _error = e.toString();
+      _isLoading = false;
+      notifyListeners();
+      return false;
+    }
   }
 }
 
